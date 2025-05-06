@@ -586,21 +586,121 @@
 }
 @media (max-width: 600px) {
   .main-header {
-    padding: 0.7rem 0.5rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.7rem 0.3rem;
+    border-radius: 0 0 14px 14px;
   }
   .logo {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
   }
-  .location-tabs button, .homestay-categories button {
+  .main-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: center;
+  }
+  .main-nav a {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 8px;
+  }
+  .main-nav a:hover,
+  .main-nav a.active {
+    background: #4fd1c5;
+    color: #234e52;
+    border-bottom: none;
+  }
+  .location-tabs-section {
+    width: 100vw;
+    padding: 0.2rem 0;
+    position: static;
+    border-radius: 0;
+  }
+  .location-tabs {
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 100vw;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 0 0.2rem;
+  }
+  .location-tabs button {
     font-size: 0.95rem;
-    padding: 0.5rem 0.8rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 12px;
+    min-width: 110px;
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+  .main-content {
+    margin-left: 0;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+  .location-info-tabs {
+    padding: 0.5rem 0.1rem 0.7rem 0.1rem;
+    min-height: 220px;
+    max-height: none;
+    border-radius: 10px;
+  }
+  .loc-tabs-bar {
+    gap: 0.2rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 0.2rem 0;
+    font-size: 0.95rem;
+  }
+  .loc-tabs-bar button {
+    font-size: 0.95rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 10px 10px 0 0;
+    min-width: 100px;
+    white-space: nowrap;
+  }
+  .loc-tab-content {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+    font-size: 1rem;
   }
   .card {
-    width: 95vw;
-    max-width: 340px;
+    width: 98vw;
+    max-width: 99vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.4rem 0.2rem 0.7rem 0.2rem;
+  }
+  .card-img-wrapper {
+    height: 160px;
+    border-radius: 12px 12px 0 0;
+  }
+  .card-content {
+    padding: 0.7rem 0.7rem 0.8rem 0.7rem;
+    font-size: 1rem;
+  }
+  .details-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+  }
+  .site-footer {
+    padding: 1rem 0 0.7rem 0;
+    border-radius: 12px 12px 0 0;
+    font-size: 0.98rem;
   }
   .site-footer .footer-links {
-    gap: 1.2rem;
+    gap: 0.7rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .site-footer .footer-social {
+    gap: 0.7rem;
   }
 }
 
