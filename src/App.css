@@ -1,0 +1,683 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Reset and base styles */
+.homepage {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background: #f6f6f1;
+  color: #2d3a2e;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3rem 1.5rem 2rem;
+  background: transparent;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-links li:hover {
+  color: #4e7c5b;
+}
+.search-btn {
+  background: #b7cbb2;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.search-btn:hover {
+  background: #4e7c5b;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('https://placehold.co/1600x600') center/cover no-repeat;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+.hero-content {
+  margin: 4rem 0 2rem 3rem;
+  color: #fff;
+  max-width: 600px;
+}
+.hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 16px rgba(0,0,0,0.25);
+}
+.hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+.primary-btn, .secondary-btn {
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.primary-btn {
+  background: #4e7c5b;
+  color: #fff;
+}
+.primary-btn:hover {
+  background: #355c3a;
+}
+.secondary-btn {
+  background: #f6f6f1;
+  color: #4e7c5b;
+  border: 2px solid #4e7c5b;
+}
+.secondary-btn:hover {
+  background: #e0e7de;
+}
+
+/* Remote Destinations */
+.remote-destinations {
+  padding: 3rem 2rem 2rem 2rem;
+  background: #fff;
+}
+.remote-destinations h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.destination-categories {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #4e7c5b;
+  font-weight: 500;
+}
+.destination-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.10);
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+  position: relative;
+  border: 1px solid #ececec;
+}
+.card:hover {
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.18);
+  transform: translateY(-4px) scale(1.02);
+}
+.card-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 18px 18px 0 0;
+}
+.card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s;
+}
+.card:hover .card-img-wrapper img {
+  transform: scale(1.04);
+}
+.card-fav {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.10);
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.2s;
+}
+.card-fav svg {
+  width: 22px;
+  height: 22px;
+  fill: #ff385c;
+}
+.card-fav:hover {
+  background: #ffe4ec;
+}
+.card-content {
+  padding: 1.1rem 1.2rem 1.2rem 1.2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.card-content h3 {
+  margin: 0 0 0.2rem 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.2;
+}
+.card-content p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  min-height: 38px;
+}
+.details-btn {
+  margin-top: auto;
+  background: #ff385c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 1px 4px rgba(44, 62, 80, 0.07);
+}
+.details-btn:hover {
+  background: #d21c3c;
+}
+
+/* Featured Destination */
+.featured-destination {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: #e0e7de;
+}
+.featured-bg img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  filter: brightness(0.85);
+}
+.featured-content {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  max-width: 600px;
+}
+.featured-content h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.7rem;
+}
+.featured-content p {
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Homestays */
+.homestays {
+  padding: 3rem 2rem 3rem 2rem;
+  background: #fff;
+}
+.homestays h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+.homestay-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Header Styles */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem 1.5rem 2rem;
+  background: linear-gradient(90deg, #234e52 60%, #4fd1c5 100%);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.10);
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.logo {
+  font-size: 2.1rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  color: #f6e05e;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.main-nav {
+  display: flex;
+  gap: 2.2rem;
+}
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.15rem;
+  transition: color 0.2s, border-bottom 0.2s;
+  position: relative;
+  padding-bottom: 2px;
+}
+.main-nav a:hover,
+.main-nav a.active {
+  color: #f6e05e;
+  border-bottom: 2px solid #f6e05e;
+}
+
+/* Sidebar Location Tabs */
+.location-tabs-section {
+  position: fixed;
+  top: 72px; /* height of header */
+  left: 0;
+  width: 210px;
+  height: calc(100vh - 72px);
+  background: #f7fafc;
+  border-right: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 0.5rem 0 0.5rem;
+  z-index: 90;
+}
+.location-tabs {
+  flex-direction: column;
+  gap: 0.7rem;
+  width: 100%;
+}
+.location-tabs button {
+  width: 100%;
+  text-align: left;
+  border-radius: 18px 0 0 18px;
+  padding: 0.7rem 1.2rem;
+  margin-bottom: 0;
+  border-bottom: none;
+  border-left: 4px solid transparent;
+}
+.location-tabs button.active {
+  background: #fff;
+  color: #2b6cb0;
+  border-left: 4px solid #2b6cb0;
+  border-bottom: none;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+}
+.location-tabs button:hover:not(.active) {
+  background: #e6fffa;
+  color: #234e52;
+}
+
+/* Main content margin for sidebar */
+.main-content {
+  margin-left: 230px;
+  transition: margin 0.2s;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+/* Story Section */
+.story-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 2rem 1.5rem 2rem;
+  background: #fff;
+}
+.story-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.story-images img {
+  width: 260px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.09);
+}
+.story-text {
+  max-width: 420px;
+}
+.story-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  color: #234e52;
+}
+.story-text p {
+  font-size: 1.1rem;
+  color: #2d3748;
+}
+
+/* Homestay Category Tabs */
+.homestay-categories {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin: 2rem 0 1.2rem 0;
+}
+.homestay-categories button {
+  background: #f7fafc;
+  border: 1.5px solid #b2f5ea;
+  color: #234e52;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.homestay-categories button.active {
+  background: #234e52;
+  color: #fff;
+  border: 1.5px solid #234e52;
+}
+.homestay-categories button:hover:not(.active) {
+  background: #b2f5ea;
+  color: #234e52;
+}
+
+/* Footer Styles */
+.site-footer {
+  background: linear-gradient(90deg, #234e52 60%, #4fd1c5 100%);
+  color: #fff;
+  padding: 2.5rem 0 1.5rem 0;
+  text-align: center;
+  margin-top: 3rem;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  box-shadow: 0 -2px 12px rgba(44, 62, 80, 0.08);
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.site-footer .footer-links {
+  margin-bottom: 1.2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+.site-footer a {
+  color: #f6e05e;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.08rem;
+  transition: color 0.2s;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-footer a:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+}
+.site-footer .footer-copy {
+  font-size: 1.05rem;
+  color: #e6fffa;
+  margin-bottom: 1.2rem;
+}
+.site-footer .footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.site-footer .footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  font-size: 1.3rem;
+  transition: background 0.2s, color 0.2s;
+}
+.site-footer .footer-social a:hover {
+  background: #f6e05e;
+  color: #234e52;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .story-section {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 0.5rem 1rem 0.5rem;
+  }
+  .story-images img {
+    width: 100vw;
+    max-width: 350px;
+    height: 120px;
+  }
+  .homestay-cards {
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+  }
+  .main-header {
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1rem 1rem;
+    border-radius: 0 0 18px 18px;
+  }
+  .main-nav {
+    gap: 1.2rem;
+  }
+  .location-tabs-section {
+    position: static;
+    width: 100vw;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #e2e8f0;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 0;
+    z-index: 90;
+  }
+  .location-tabs {
+    flex-direction: row;
+    gap: 1.2rem;
+    width: 100vw;
+    justify-content: center;
+  }
+  .location-tabs button {
+    width: auto;
+    text-align: center;
+    border-radius: 24px 24px 0 0;
+    padding: 0.7rem 1.5rem;
+    border-left: none;
+    border-bottom: 3px solid transparent;
+  }
+  .location-tabs button.active {
+    border-left: none;
+    border-bottom: 3px solid #2b6cb0;
+  }
+  .main-content {
+    margin-left: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .site-footer {
+    padding: 1.5rem 0 1rem 0;
+    border-radius: 18px 18px 0 0;
+  }
+}
+@media (max-width: 600px) {
+  .main-header {
+    padding: 0.7rem 0.5rem;
+  }
+  .logo {
+    font-size: 1.3rem;
+  }
+  .location-tabs button, .homestay-categories button {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.8rem;
+  }
+  .card {
+    width: 95vw;
+    max-width: 340px;
+  }
+  .site-footer .footer-links {
+    gap: 1.2rem;
+  }
+}
+
+/* Location Info Tabs */
+.location-info-tabs {
+  margin: 2.5rem 0 2rem 0;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.06);
+  padding: 1.2rem 1.5rem 1.5rem 1.5rem;
+  min-height: 420px;
+  max-height: 520px;
+  overflow-y: auto;
+  transition: min-height 0.2s, max-height 0.2s;
+  position: relative;
+}
+.loc-tabs-bar {
+  display: flex;
+  gap: 1.2rem;
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.loc-tabs-bar button {
+  background: none;
+  border: none;
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #234e52;
+  padding: 0.7rem 1.2rem 0.6rem 1.2rem;
+  border-radius: 12px 12px 0 0;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  border-bottom: 3px solid transparent;
+}
+.loc-tabs-bar button.active {
+  background: #e6fffa;
+  color: #2b6cb0;
+  border-bottom: 3px solid #2b6cb0;
+}
+.loc-tabs-bar button:hover:not(.active) {
+  background: #f7fafc;
+  color: #234e52;
+}
+.loc-tab-content {
+  max-height: 340px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+.loc-tab-content ul {
+  margin: 0.5rem 0 0.5rem 1.2rem;
+  padding: 0;
+}
+.loc-tab-content li {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+@media (max-width: 900px) {
+  .location-info-tabs {
+    padding: 0.7rem 0.5rem 1rem 0.5rem;
+    min-height: 320px;
+    max-height: 520px;
+  }
+  .loc-tabs-bar {
+    position: static;
+    top: unset;
+    z-index: unset;
+  }
+  .loc-tab-content {
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
+  }
+}
