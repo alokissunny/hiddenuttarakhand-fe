@@ -1,4 +1,11 @@
 import React, { useState } from 'react';
+import {
+  AppBar, Toolbar, Drawer, List, ListItem, ListItemText, ListItemButton, Tabs, Tab, Box, CssBaseline, ThemeProvider, createTheme, Typography, IconButton, BottomNavigation, BottomNavigationAction
+} from '@mui/material';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import MenuIcon from '@mui/icons-material/Menu';
 import './App.css';
 
 interface Homestay {
@@ -201,180 +208,261 @@ const LOCATION_TAB_CONTENT: Record<string, any> = {
   }
 };
 
+const drawerWidth = 220;
+
+const theme = createTheme({
+  palette: {
+    primary: { main: '#234e52' },
+    secondary: { main: '#4fd1c5' },
+    background: { default: '#f6f6f1' },
+  },
+  typography: {
+    fontFamily: [
+      'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'
+    ].join(','),
+    h1: { fontWeight: 800 },
+    h2: { fontWeight: 700 },
+    h3: { fontWeight: 700 },
+  },
+});
+
 function App() {
   const [selectedLocationIdx, setSelectedLocationIdx] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState<'Budgeted' | 'Luxury' | 'Treehouse'>('Budgeted');
   const [selectedLocTab, setSelectedLocTab] = useState('Overview');
+  const [mobileOpen, setMobileOpen] = useState(false);
   const location = LOCATIONS[selectedLocationIdx];
   const locTabData =
     LOCATION_TAB_CONTENT[location.name] && LOCATION_TAB_CONTENT[location.name][selectedLocTab]
       ? LOCATION_TAB_CONTENT[location.name][selectedLocTab]
       : null;
 
+  const handleDrawerToggle = () => setMobileOpen(!mobileOpen);
+
+  const drawer = (
+    <Box sx={{ width: { xs: '100vw', sm: drawerWidth }, bgcolor: 'background.paper', height: '100%', pt: 2 }}>
+      <Typography variant="h6" sx={{ textAlign: 'center', mb: 2, color: 'primary.main', fontWeight: 700 }}>
+        Locations
+      </Typography>
+      <List>
+        {LOCATIONS.map((loc, idx) => (
+          <ListItemButton
+            key={loc.name}
+            selected={selectedLocationIdx === idx}
+            onClick={() => {
+              setSelectedLocationIdx(idx);
+              setSelectedCategory('Budgeted');
+              setMobileOpen(false);
+            }}
+            sx={{
+              borderRadius: 2,
+              mb: 1,
+              bgcolor: selectedLocationIdx === idx ? 'secondary.light' : 'inherit',
+              color: selectedLocationIdx === idx ? 'primary.main' : 'inherit',
+              '&:hover': {
+                bgcolor: 'secondary.light',
+              }
+            }}
+          >
+            <ListItemText primary={loc.name} />
+          </ListItemButton>
+        ))}
+      </List>
+    </Box>
+  );
+
   return (
-    <div className="homepage">
-      {/* Header */}
-      <header className="main-header">
-        <div className="logo">HiddenUttarakhand.com</div>
-        <nav className="main-nav">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </nav>
-      </header>
-
-      {/* Location Tabs */}
-      <section className="location-tabs-section">
-        <div className="location-tabs">
-          {LOCATIONS.map((loc, idx) => (
-            <button
-              key={loc.name}
-              className={selectedLocationIdx === idx ? 'active' : ''}
-              onClick={() => {
-                setSelectedLocationIdx(idx);
-                setSelectedCategory('Budgeted');
-              }}
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <AppBar position="sticky" color="primary" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+        <Toolbar>
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            edge="start"
+            onClick={handleDrawerToggle}
+            sx={{ mr: 2, display: { sm: 'none' } }}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h5" sx={{ flexGrow: 1, fontWeight: 800, letterSpacing: 1.5, color: '#f6e05e', fontFamily: 'Playfair Display, Georgia, serif' }}>
+            HiddenUttarakhand.com
+          </Typography>
+          <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 3 }}>
+            <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#f6e05e' } }}>Home</Typography>
+            <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#f6e05e' } }}>About</Typography>
+            <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#f6e05e' } }}>Contact</Typography>
+          </Box>
+        </Toolbar>
+      </AppBar>
+      <Box sx={{ display: 'flex' }}>
+        {/* Sidebar Drawer */}
+        <Drawer
+          variant="permanent"
+          sx={{
+            display: { xs: 'none', sm: 'block' },
+            width: drawerWidth,
+            flexShrink: 0,
+            [`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box', bgcolor: 'background.paper', borderRight: '1px solid #e2e8f0' },
+          }}
+          open
+        >
+          {drawer}
+        </Drawer>
+        {/* Mobile Drawer */}
+        <Drawer
+          variant="temporary"
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{ keepMounted: true }}
+          sx={{
+            display: { xs: 'block', sm: 'none' },
+            [`& .MuiDrawer-paper`]: { width: '80vw', boxSizing: 'border-box', bgcolor: 'background.paper' },
+          }}
+        >
+          {drawer}
+        </Drawer>
+        {/* Main Content */}
+        <Box component="main" sx={{ flexGrow: 1, p: { xs: 1, sm: 3 }, ml: { sm: `${drawerWidth}px` }, minHeight: '100vh', bgcolor: 'background.default' }}>
+          {/* Location Info Tabs */}
+          <Box sx={{ bgcolor: '#fff', borderRadius: 2, boxShadow: 2, mb: 3, p: { xs: 1, sm: 3 } }}>
+            <Tabs
+              value={selectedLocTab}
+              onChange={(_, v) => setSelectedLocTab(v)}
+              variant="scrollable"
+              scrollButtons="auto"
+              textColor="primary"
+              indicatorColor="secondary"
+              sx={{ mb: 2 }}
             >
-              {loc.name}
-            </button>
-          ))}
-        </div>
-      </section>
-
-      <div className="main-content">
-        {/* Location Info Tabs */}
-        <section className="location-info-tabs">
-          <div className="loc-tabs-bar">
-            {LOCATION_TABS.map(tab => (
-              <button
-                key={tab}
-                className={selectedLocTab === tab ? 'active' : ''}
-                onClick={() => setSelectedLocTab(tab)}
-              >
-                {tab}
-              </button>
-            ))}
-          </div>
-          <div className="loc-tab-content">
-            {locTabData ? (
-              <>
-                {selectedLocTab === 'Overview' && (
-                  <div>
-                    {/* Placeholder images for Overview */}
-                    <div style={{ display: 'flex', gap: '1.2rem', marginBottom: '1.2rem', flexWrap: 'wrap' }}>
-                      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Himalaya" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
-                      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Temple" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
-                      <img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Forest" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
-                    </div>
-                    {locTabData.content.map((item: any, idx: number) =>
-                      Array.isArray(item) ? (
-                        <ul key={idx}>{item.map((li: string, i: number) => <li key={i}>{li}</li>)}</ul>
-                      ) : (
-                        // Special heading for Vridh Jageshwar
-                        item.replace(/<b>|<\/b>/g, '') === 'Vridh Jageshwar – The Hilltop Abode of Mahadev' ? (
-                          <h3 key={idx} style={{ fontWeight: 700, marginTop: '1.5rem', marginBottom: '0.7rem' }}>{item.replace(/<b>|<\/b>/g, '')}</h3>
+              {LOCATION_TABS.map(tab => (
+                <Tab label={tab} value={tab} key={tab} sx={{ fontWeight: 600, fontSize: { xs: '0.98rem', sm: '1.08rem' } }} />
+              ))}
+            </Tabs>
+            <Box className="loc-tab-content">
+              {locTabData ? (
+                <>
+                  {selectedLocTab === 'Overview' && (
+                    <Box>
+                      {/* Placeholder images for Overview */}
+                      {location.name === 'Dunagiri' && (
+                        <Box sx={{ display: 'flex', gap: 2, mb: 2, flexWrap: 'wrap' }}>
+                          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Himalaya" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
+                          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Temple" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
+                          <img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Forest" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
+                        </Box>
+                      )}
+                      {locTabData.content.map((item: any, idx: number) =>
+                        Array.isArray(item) ? (
+                          <ul key={idx}>{item.map((li: string, i: number) => <li key={i}>{li}</li>)}</ul>
                         ) : (
-                          <p key={idx} dangerouslySetInnerHTML={{ __html: item }} />
+                          // Special heading for Vridh Jageshwar
+                          item.replace(/<b>|<\/b>/g, '') === 'Vridh Jageshwar – The Hilltop Abode of Mahadev' ? (
+                            <Typography key={idx} variant="h6" sx={{ fontWeight: 700, mt: 3, mb: 1 }}>{item.replace(/<b>|<\/b>/g, '')}</Typography>
+                          ) : (
+                            <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
+                          )
                         )
-                      )
-                    )}
-                  </div>
-                )}
-                {selectedLocTab === 'How to Reach' && (
-                  <div>
-                    {locTabData.content.map((item: string, idx: number) =>
-                      <p key={idx} dangerouslySetInnerHTML={{ __html: item }} />
-                    )}
-                  </div>
-                )}
-                {selectedLocTab === 'Things to Do' && (
-                  <div>
-                    {locTabData.content.map((item: string, idx: number) =>
-                      <p key={idx} dangerouslySetInnerHTML={{ __html: item }} />
-                    )}
-                  </div>
-                )}
-                {selectedLocTab === 'Travel Tips' && (
-                  <div>
-                    <ul>
-                      {locTabData.content.map((item: string, idx: number) => <li key={idx}>{item}</li>)}
-                    </ul>
-                  </div>
-                )}
-                {selectedLocTab === 'Connectivity & Internet' && (
-                  <div>
-                    {locTabData.content.map((item: string, idx: number) =>
-                      <p key={idx} dangerouslySetInnerHTML={{ __html: item }} />
-                    )}
-                  </div>
-                )}
-                {selectedLocTab === 'Travel Stories / Experiences' && (
-                  <div>
-                    {locTabData.stories.map((story: any, idx: number) => (
-                      <div key={idx} style={{ whiteSpace: 'pre-line', marginBottom: '1.5rem' }}>{story.text}</div>
-                    ))}
-                  </div>
-                )}
-              </>
-            ) : (
-              <p>Information coming soon for this location.</p>
-            )}
-          </div>
-        </section>
+                      )}
+                    </Box>
+                  )}
+                  {selectedLocTab === 'How to Reach' && (
+                    <Box>
+                      {locTabData.content.map((item: string, idx: number) =>
+                        <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
+                      )}
+                    </Box>
+                  )}
+                  {selectedLocTab === 'Things to Do' && (
+                    <Box>
+                      {locTabData.content.map((item: string, idx: number) =>
+                        <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
+                      )}
+                    </Box>
+                  )}
+                  {selectedLocTab === 'Travel Tips' && (
+                    <Box component="ul" sx={{ pl: 3 }}>
+                      {locTabData.content.map((item: string, idx: number) => <li key={idx}><Typography component="span">{item}</Typography></li>)}
+                    </Box>
+                  )}
+                  {selectedLocTab === 'Connectivity & Internet' && (
+                    <Box>
+                      {locTabData.content.map((item: string, idx: number) =>
+                        <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
+                      )}
+                    </Box>
+                  )}
+                  {selectedLocTab === 'Travel Stories / Experiences' && (
+                    <Box>
+                      {locTabData.stories.map((story: any, idx: number) => (
+                        <Typography key={idx} sx={{ whiteSpace: 'pre-line', mb: 3 }}>{story.text}</Typography>
+                      ))}
+                    </Box>
+                  )}
+                </>
+              ) : (
+                <Typography>Information coming soon for this location.</Typography>
+              )}
+            </Box>
+          </Box>
 
-        {/* Homestay Categories */}
-        <section className="homestay-section">
-          <div className="homestay-categories">
-            {HOMESTAY_CATEGORIES.map(cat => (
-              <button
-                key={cat}
-                className={selectedCategory === cat ? 'active' : ''}
-                onClick={() => setSelectedCategory(cat as 'Budgeted' | 'Luxury' | 'Treehouse')}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
-          <div className="homestay-cards">
-            {location.homestays[selectedCategory as keyof typeof location.homestays].map((stay: Homestay, i: number) => (
-              <div className="card" key={i}>
-                <div className="card-img-wrapper">
-                  <img src={stay.img} alt={stay.name} />
-                  <div className="card-fav" title="Add to wishlist">
-                    <svg viewBox="0 0 32 32"><path d="M16 29s-9.3-7.1-12.4-11.1C1.2 15.5 0 13.6 0 11.5 0 7.9 2.9 5 6.5 5c2.1 0 4.1 1.1 5.2 2.9C13.4 6.1 15.4 5 17.5 5 21.1 5 24 7.9 24 11.5c0 2.1-1.2 4-3.6 6.4C25.3 21.9 16 29 16 29z"/></svg>
-                  </div>
-                </div>
-                <div className="card-content">
-                  <h3>{stay.name}</h3>
-                  <p>{stay.desc}</p>
-                  <button className="details-btn">View Details</button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-      </div>
-      <footer className="site-footer">
-        <div className="footer-social">
-          <a href="#" title="Facebook" aria-label="Facebook">
-            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0"/></svg>
-          </a>
-          <a href="#" title="Twitter" aria-label="Twitter">
-            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195a4.916 4.916 0 0 0-8.38 4.482C7.691 8.095 4.066 6.13 1.64 3.161c-.543.938-.856 2.021-.857 3.17 0 2.188 1.115 4.116 2.823 5.247a4.904 4.904 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 0 1-2.224.084c.627 1.956 2.444 3.377 4.6 3.417A9.867 9.867 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.209c9.058 0 14.009-7.496 14.009-13.986 0-.21 0-.423-.016-.634A9.936 9.936 0 0 0 24 4.557z"/></svg>
-          </a>
-          <a href="#" title="Instagram" aria-label="Instagram">
-            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.241 1.308 3.608.058 1.266.069 1.646.069 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.241 1.246-3.608 1.308-1.266.058-1.646.069-4.85.069s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.241-1.308-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608.974-.974 2.241-1.246 3.608-1.308C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.775.131 4.602.425 3.635 1.392 2.668 2.359 2.374 3.532 2.315 4.809 2.256 6.089 2.243 6.498 2.243 12c0 5.502.013 5.911.072 7.191.059 1.277.353 2.45 1.32 3.417.967.967 2.14 1.261 3.417 1.32C8.332 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.277-.059 2.45-.353 3.417-1.32.967-.967 1.261-2.14 1.32-3.417.059-1.28.072-1.689.072-7.191 0-5.502-.013-5.911-.072-7.191-.059-1.277-.353-2.45-1.32-3.417C19.398.425 18.225.131 16.948.072 15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
-          </a>
-        </div>
-        <div className="footer-links">
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Terms</a>
-          <a href="#">Privacy</a>
-        </div>
-        <div className="footer-copy">&copy; {new Date().getFullYear()} HiddenUttarakhand.com. All rights reserved.</div>
-      </footer>
-    </div>
+          {/* Homestay Categories */}
+          <Box sx={{ mt: 3, mb: 3 }}>
+            <Tabs
+              value={selectedCategory}
+              onChange={(_, v) => setSelectedCategory(v)}
+              textColor="primary"
+              indicatorColor="secondary"
+              variant="scrollable"
+              scrollButtons="auto"
+              sx={{ mb: 2 }}
+            >
+              {['Budgeted', 'Luxury', 'Treehouse'].map(cat => (
+                <Tab label={cat} value={cat} key={cat} sx={{ fontWeight: 600, fontSize: { xs: '0.98rem', sm: '1.08rem' } }} />
+              ))}
+            </Tabs>
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3, justifyContent: { xs: 'center', sm: 'flex-start' } }}>
+              {location.homestays[selectedCategory as keyof typeof location.homestays].map((stay: Homestay, i: number) => (
+                <Box key={i} sx={{ width: { xs: '98vw', sm: 300 }, maxWidth: 340, bgcolor: '#fff', borderRadius: 2, boxShadow: 2, mb: 2, p: 1, position: 'relative' }}>
+                  <Box className="card-img-wrapper" sx={{ position: 'relative', width: '100%', height: 200, overflow: 'hidden', borderRadius: 2 }}>
+                    <img src={stay.img} alt={stay.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px 8px 0 0' }} />
+                    <IconButton sx={{ position: 'absolute', top: 12, right: 14, bgcolor: 'rgba(255,255,255,0.85)', '&:hover': { bgcolor: '#ffe4ec' } }}>
+                      <svg width="22" height="22" fill="#ff385c" viewBox="0 0 32 32"><path d="M16 29s-9.3-7.1-12.4-11.1C1.2 15.5 0 13.6 0 11.5 0 7.9 2.9 5 6.5 5c2.1 0 4.1 1.1 5.2 2.9C13.4 6.1 15.4 5 17.5 5 21.1 5 24 7.9 24 11.5c0 2.1-1.2 4-3.6 6.4C25.3 21.9 16 29 16 29z"/></svg>
+                    </IconButton>
+                  </Box>
+                  <Box className="card-content" sx={{ p: 2 }}>
+                    <Typography variant="h6" sx={{ fontWeight: 700, mb: 0.5 }}>{stay.name}</Typography>
+                    <Typography sx={{ color: '#555', fontSize: '1rem', mb: 1 }}>{stay.desc}</Typography>
+                    <Box sx={{ mt: 'auto' }}>
+                      <Box component="button" sx={{ mt: 1, bgcolor: '#ff385c', color: '#fff', border: 'none', borderRadius: 1, px: 2, py: 1, fontWeight: 600, fontSize: '1rem', cursor: 'pointer', boxShadow: 1, '&:hover': { bgcolor: '#d21c3c' } }}>
+                        View Details
+                      </Box>
+                    </Box>
+                  </Box>
+                </Box>
+              ))}
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+      {/* Footer */}
+      <Box component="footer" sx={{ bgcolor: 'primary.main', color: '#fff', py: 4, mt: 5, borderTopLeftRadius: 3, borderTopRightRadius: 3, boxShadow: 2 }}>
+        <Box className="footer-social" sx={{ display: 'flex', justifyContent: 'center', gap: 2, mb: 2 }}>
+          <IconButton href="#" color="inherit" aria-label="Facebook" sx={{ bgcolor: 'rgba(255,255,255,0.12)', '&:hover': { bgcolor: '#f6e05e', color: '#234e52' } }}><FacebookIcon /></IconButton>
+          <IconButton href="#" color="inherit" aria-label="Twitter" sx={{ bgcolor: 'rgba(255,255,255,0.12)', '&:hover': { bgcolor: '#f6e05e', color: '#234e52' } }}><TwitterIcon /></IconButton>
+          <IconButton href="#" color="inherit" aria-label="Instagram" sx={{ bgcolor: 'rgba(255,255,255,0.12)', '&:hover': { bgcolor: '#f6e05e', color: '#234e52' } }}><InstagramIcon /></IconButton>
+        </Box>
+        <Box className="footer-links" sx={{ display: 'flex', justifyContent: 'center', gap: 3, flexWrap: 'wrap', mb: 1 }}>
+          <Typography component="a" href="#" sx={{ color: '#f6e05e', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#fff', borderBottom: '2px solid #fff' }, pb: '2px', borderBottom: '2px solid transparent' }}>About</Typography>
+          <Typography component="a" href="#" sx={{ color: '#f6e05e', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#fff', borderBottom: '2px solid #fff' }, pb: '2px', borderBottom: '2px solid transparent' }}>Contact</Typography>
+          <Typography component="a" href="#" sx={{ color: '#f6e05e', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#fff', borderBottom: '2px solid #fff' }, pb: '2px', borderBottom: '2px solid transparent' }}>Terms</Typography>
+          <Typography component="a" href="#" sx={{ color: '#f6e05e', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#fff', borderBottom: '2px solid #fff' }, pb: '2px', borderBottom: '2px solid transparent' }}>Privacy</Typography>
+        </Box>
+        <Typography className="footer-copy" sx={{ fontSize: '1.05rem', color: '#e6fffa', mb: 1.2, mt: 1 }}>
+          &copy; {new Date().getFullYear()} HiddenUttarakhand.com. All rights reserved.
+        </Typography>
+      </Box>
+    </ThemeProvider>
   );
 }
 
