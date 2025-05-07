@@ -1,12 +1,29 @@
 import React, { useState } from 'react';
 import {
-  AppBar, Toolbar, Drawer, List, ListItem, ListItemText, ListItemButton, Tabs, Tab, Box, CssBaseline, ThemeProvider, createTheme, Typography, IconButton, BottomNavigation, BottomNavigationAction
+  AppBar, Toolbar, Drawer, List, ListItem, ListItemText, ListItemButton, Tabs, Tab, Box, CssBaseline, ThemeProvider, createTheme, Typography, IconButton, BottomNavigation, BottomNavigationAction, Divider
 } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MenuIcon from '@mui/icons-material/Menu';
+import YardIcon from '@mui/icons-material/Yard';
+import DeckIcon from '@mui/icons-material/Deck';
+import BeachAccessIcon from '@mui/icons-material/BeachAccess';
+import KitchenIcon from '@mui/icons-material/Kitchen';
+import WifiIcon from '@mui/icons-material/Wifi';
+import WorkIcon from '@mui/icons-material/Work';
+import LocalParkingIcon from '@mui/icons-material/LocalParking';
+import PetsIcon from '@mui/icons-material/Pets';
+import VideocamIcon from '@mui/icons-material/Videocam';
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import './App.css';
+import { BrowserRouter, Routes, Route, useNavigate, useParams, Link as RouterLink } from 'react-router-dom';
+import Button from '@mui/material/Button';
+import Dialog from '@mui/material/Dialog';
+import DialogTitle from '@mui/material/DialogTitle';
+import DialogContent from '@mui/material/DialogContent';
+import Grid from '@mui/material/Grid';
 
 interface Homestay {
   name: string;
@@ -212,31 +229,384 @@ const drawerWidth = 220;
 
 const theme = createTheme({
   palette: {
-    primary: { main: '#234e52' },
-    secondary: { main: '#4fd1c5' },
-    background: { default: '#f6f6f1' },
+    primary: { main: '#FF385C' },
+    secondary: { main: '#222222' },
+    background: { default: '#FFF8F6', paper: '#fff' },
+    text: { primary: '#222222', secondary: '#717171' },
   },
   typography: {
     fontFamily: [
-      'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'
+      'Cereal',
+      'Airbnb Cereal App',
+      'Circular',
+      'Helvetica Neue',
+      'Arial',
+      'sans-serif',
     ].join(','),
-    h1: { fontWeight: 800 },
-    h2: { fontWeight: 700 },
-    h3: { fontWeight: 700 },
+    h1: { fontWeight: 800, letterSpacing: 0 },
+    h2: { fontWeight: 700, letterSpacing: 0 },
+    h3: { fontWeight: 700, letterSpacing: 0 },
+    h4: { fontWeight: 700, letterSpacing: 0 },
+    h5: { fontWeight: 600, letterSpacing: 0 },
+    h6: { fontWeight: 600, letterSpacing: 0 },
+    body1: { fontWeight: 400, fontSize: '1.08rem' },
+    body2: { fontWeight: 400, fontSize: '1rem' },
+    subtitle1: { fontWeight: 600 },
+    subtitle2: { fontWeight: 500 },
+    button: { fontWeight: 600, textTransform: 'none' },
+  },
+  shape: {
+    borderRadius: 12,
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          borderRadius: 8,
+          fontWeight: 600,
+        },
+      },
+    },
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          borderRadius: 16,
+        },
+      },
+    },
   },
 });
 
-function App() {
+// Add LocationContext before the Layout component
+interface LocationContextType {
+  selectedLocationIdx: number;
+  setSelectedLocationIdx: (idx: number) => void;
+  selectedCategory: 'Budgeted' | 'Luxury' | 'Treehouse';
+  setSelectedCategory: (category: 'Budgeted' | 'Luxury' | 'Treehouse') => void;
+}
+
+const LocationContext = React.createContext<LocationContextType | undefined>(undefined);
+
+function LocationProvider({ children }: { children: React.ReactNode }) {
   const [selectedLocationIdx, setSelectedLocationIdx] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState<'Budgeted' | 'Luxury' | 'Treehouse'>('Budgeted');
-  const [selectedLocTab, setSelectedLocTab] = useState('Overview');
-  const [mobileOpen, setMobileOpen] = useState(false);
-  const location = LOCATIONS[selectedLocationIdx];
-  const locTabData =
-    LOCATION_TAB_CONTENT[location.name] && LOCATION_TAB_CONTENT[location.name][selectedLocTab]
-      ? LOCATION_TAB_CONTENT[location.name][selectedLocTab]
-      : null;
 
+  return (
+    <LocationContext.Provider value={{ selectedLocationIdx, setSelectedLocationIdx, selectedCategory, setSelectedCategory }}>
+      {children}
+    </LocationContext.Provider>
+  );
+}
+
+function useLocation() {
+  const context = React.useContext(LocationContext);
+  if (context === undefined) {
+    throw new Error('useLocation must be used within a LocationProvider');
+  }
+  return context;
+}
+
+// PropertyDetail component (Airbnb-style)
+function PropertyDetail() {
+  const { locationName, category, homestayIdx } = useParams();
+  // Find the location and homestay
+  const location = LOCATIONS.find(loc => loc.name === locationName);
+  const homestayList = location ? location.homestays[category as keyof typeof location.homestays] : [];
+  const homestay = homestayList && homestayIdx !== undefined ? homestayList[parseInt(homestayIdx)] : null;
+
+  // Mock gallery images (repeat main image for now)
+  const galleryImages = homestay ? [homestay.img, homestay.img, homestay.img] : [];
+
+  // Mock bedroom data for carousel
+  const bedrooms = [
+    {
+      img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80',
+      name: 'Bedroom 1',
+      beds: '1 queen bed, 1 cot',
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80',
+      name: 'Bedroom 2',
+      beds: '1 bunk bed, 1 small double bed',
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
+      name: 'Bedroom 3',
+      beds: '2 single beds',
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80',
+      name: 'Bedroom 4',
+      beds: '1 king bed',
+    },
+  ];
+
+  // Carousel state
+  const [bedroomPage, setBedroomPage] = React.useState(0);
+  const bedroomsPerPage = 2;
+  const totalBedroomPages = Math.ceil(bedrooms.length / bedroomsPerPage);
+  const pagedBedrooms = bedrooms.slice(bedroomPage * bedroomsPerPage, (bedroomPage + 1) * bedroomsPerPage);
+
+  // Airbnb-style amenities with icons and availability
+  const amenities = [
+    { icon: <YardIcon sx={{ color: 'primary.main' }} />, label: 'Garden view', available: true },
+    { icon: <DeckIcon sx={{ color: 'primary.main' }} />, label: 'Courtyard view', available: true },
+    { icon: <BeachAccessIcon sx={{ color: 'primary.main' }} />, label: 'Shared beach access', available: true },
+    { icon: <KitchenIcon sx={{ color: 'primary.main' }} />, label: 'Kitchen', available: true },
+    { icon: <WifiIcon sx={{ color: 'primary.main' }} />, label: 'Wifi – 31 Mbps', available: true },
+    { icon: <WorkIcon sx={{ color: 'primary.main' }} />, label: 'Dedicated workspace', available: true },
+    { icon: <LocalParkingIcon sx={{ color: 'primary.main' }} />, label: 'Free parking on premises', available: true },
+    { icon: <PetsIcon sx={{ color: 'primary.main' }} />, label: 'Pets allowed', available: true },
+    { icon: <VideocamIcon sx={{ color: 'primary.main' }} />, label: 'Exterior security cameras on property', available: true },
+    { icon: <VideocamIcon sx={{ color: 'text.disabled' }} />, label: 'Carbon monoxide alarm', available: false },
+    { icon: <svg width="24" height="24" fill="#234e52"><circle cx="12" cy="12" r="10" /></svg>, label: 'Mountain View', available: true },
+    { icon: <svg width="24" height="24" fill="#234e52"><rect x="4" y="4" width="16" height="16" rx="4" /></svg>, label: 'Free WiFi', available: true },
+    { icon: <svg width="24" height="24" fill="#234e52"><rect x="8" y="8" width="8" height="8" /></svg>, label: 'Breakfast Included', available: true },
+    { icon: <svg width="24" height="24" fill="#234e52"><ellipse cx="12" cy="12" rx="10" ry="6" /></svg>, label: 'Peaceful Surroundings', available: true },
+  ];
+
+  // Dialog state for amenities
+  const [amenitiesOpen, setAmenitiesOpen] = React.useState(false);
+  const handleAmenitiesOpen = () => setAmenitiesOpen(true);
+  const handleAmenitiesClose = () => setAmenitiesOpen(false);
+
+  // Mock host info
+  const host = { name: 'Anil Kumar', avatar: 'https://randomuser.me/api/portraits/men/32.jpg', desc: 'Local host, passionate about Kumaon hospitality.' };
+
+  if (!location || !homestay) {
+    return <Box sx={{ p: 4 }}><Typography variant="h5">Property not found.</Typography></Box>;
+  }
+
+  return (
+    <Box sx={{ maxWidth: 1200, mx: 'auto', p: { xs: 1, sm: 3 }, mt: 2 }}>
+      {/* Title and location */}
+      <Typography variant="h4" sx={{ fontWeight: 700, mb: 1 }}>{homestay.name}</Typography>
+      <Typography variant="subtitle1" sx={{ color: 'text.secondary', mb: 2 }}>{location.name} &mdash; {category}</Typography>
+      {/* Image gallery */}
+      <Box sx={{ display: 'flex', gap: 2, flexWrap: { xs: 'wrap', md: 'nowrap' }, mb: 3 }}>
+        <Box sx={{ flex: 2, minWidth: 0 }}>
+          <Box sx={{ display: 'flex', gap: 2 }}>
+            <Box sx={{ flex: 2, minWidth: 0 }}>
+              <img src={galleryImages[0]} alt={homestay.name} style={{ width: '100%', height: 340, objectFit: 'cover', borderRadius: 16 }} />
+            </Box>
+            <Box sx={{ display: { xs: 'none', md: 'flex' }, flexDirection: 'column', gap: 2, flex: 1 }}>
+              <img src={galleryImages[1]} alt={homestay.name} style={{ width: '100%', height: 165, objectFit: 'cover', borderRadius: 16 }} />
+              <img src={galleryImages[2]} alt={homestay.name} style={{ width: '100%', height: 165, objectFit: 'cover', borderRadius: 16 }} />
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+
+      {/* Where you'll sleep */}
+      <Box sx={{ mb: 4, borderTop: '1px solid #eee', borderBottom: '1px solid #eee', py: 3, px: { xs: 0, sm: 1 }, mt: 2 }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 2 }}>
+          <Typography variant="h6" sx={{ fontWeight: 700 }}>Where you'll sleep</Typography>
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+            <Typography sx={{ fontWeight: 500 }}>{bedroomPage + 1} / {totalBedroomPages}</Typography>
+            <IconButton
+              onClick={() => setBedroomPage(p => Math.max(0, p - 1))}
+              disabled={bedroomPage === 0}
+              sx={{ bgcolor: '#fff', border: '1px solid #eee', mr: 0.5 }}
+            >
+              <ArrowBackIosNewIcon fontSize="small" />
+            </IconButton>
+            <IconButton
+              onClick={() => setBedroomPage(p => Math.min(totalBedroomPages - 1, p + 1))}
+              disabled={bedroomPage === totalBedroomPages - 1}
+              sx={{ bgcolor: '#fff', border: '1px solid #eee' }}
+            >
+              <ArrowForwardIosIcon fontSize="small" />
+            </IconButton>
+          </Box>
+        </Box>
+        <Box sx={{ display: 'flex', gap: 3, flexWrap: { xs: 'wrap', sm: 'nowrap' }, justifyContent: { xs: 'center', sm: 'flex-start' } }}>
+          {pagedBedrooms.map((room, idx) => (
+            <Box key={idx} sx={{ minWidth: 260, maxWidth: 320, flex: '1 1 260px', bgcolor: '#fff', borderRadius: 3, boxShadow: 1, p: 2, display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+              <img src={room.img} alt={room.name} style={{ width: '100%', height: 160, objectFit: 'cover', borderRadius: 12, marginBottom: 12 }} />
+              <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>{room.name}</Typography>
+              <Typography variant="body2" sx={{ color: 'text.secondary', mt: 0.5 }}>{room.beds}</Typography>
+            </Box>
+          ))}
+        </Box>
+      </Box>
+
+      {/* What this place offers */}
+      <Box sx={{ mb: 4 }}>
+        <Typography variant="h6" sx={{ fontWeight: 700, mb: 2 }}>What this place offers</Typography>
+        {/* Two-column flexbox layout for amenities */}
+        {(() => {
+          const visibleAmenities = amenities.slice(0, 8);
+          const mid = Math.ceil(visibleAmenities.length / 2);
+          const col1 = visibleAmenities.slice(0, mid);
+          const col2 = visibleAmenities.slice(mid);
+          return (
+            <Box sx={{ display: 'flex', gap: 6, maxWidth: 600, mb: 2 }}>
+              <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 1 }}>
+                {col1.map((a, idx) => (
+                  <Box key={idx} sx={{ display: 'flex', alignItems: 'center', gap: 1.2, py: 1 }}>
+                    {a.icon}
+                    <Typography
+                      sx={{
+                        fontWeight: 500,
+                        fontSize: '1.05rem',
+                        color: a.available ? 'text.primary' : 'text.disabled',
+                        textDecoration: a.available ? 'none' : 'line-through',
+                      }}
+                    >
+                      {a.label}
+                    </Typography>
+                  </Box>
+                ))}
+              </Box>
+              <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 1 }}>
+                {col2.map((a, idx) => (
+                  <Box key={idx} sx={{ display: 'flex', alignItems: 'center', gap: 1.2, py: 1 }}>
+                    {a.icon}
+                    <Typography
+                      sx={{
+                        fontWeight: 500,
+                        fontSize: '1.05rem',
+                        color: a.available ? 'text.primary' : 'text.disabled',
+                        textDecoration: a.available ? 'none' : 'line-through',
+                      }}
+                    >
+                      {a.label}
+                    </Typography>
+                  </Box>
+                ))}
+              </Box>
+            </Box>
+          );
+        })()}
+        <Button
+          variant="outlined"
+          sx={{ borderRadius: 2, fontWeight: 600, fontSize: '1.08rem', px: 3, py: 1.2 }}
+          onClick={handleAmenitiesOpen}
+        >
+          Show all {amenities.length} amenities
+        </Button>
+        <Dialog open={amenitiesOpen} onClose={handleAmenitiesClose} maxWidth="sm" fullWidth>
+          <DialogTitle sx={{ fontWeight: 700 }}>What this place offers</DialogTitle>
+          <DialogContent>
+            {/* Two-column flexbox layout for all amenities */}
+            {(() => {
+              const mid = Math.ceil(amenities.length / 2);
+              const col1 = amenities.slice(0, mid);
+              const col2 = amenities.slice(mid);
+              return (
+                <Box sx={{ display: 'flex', gap: 6, mt: 1 }}>
+                  <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 1 }}>
+                    {col1.map((a, idx) => (
+                      <Box key={idx} sx={{ display: 'flex', alignItems: 'center', gap: 1.2, py: 1 }}>
+                        {a.icon}
+                        <Typography
+                          sx={{
+                            fontWeight: 500,
+                            fontSize: '1.05rem',
+                            color: a.available ? 'text.primary' : 'text.disabled',
+                            textDecoration: a.available ? 'none' : 'line-through',
+                          }}
+                        >
+                          {a.label}
+                        </Typography>
+                      </Box>
+                    ))}
+                  </Box>
+                  <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 1 }}>
+                    {col2.map((a, idx) => (
+                      <Box key={idx} sx={{ display: 'flex', alignItems: 'center', gap: 1.2, py: 1 }}>
+                        {a.icon}
+                        <Typography
+                          sx={{
+                            fontWeight: 500,
+                            fontSize: '1.05rem',
+                            color: a.available ? 'text.primary' : 'text.disabled',
+                            textDecoration: a.available ? 'none' : 'line-through',
+                          }}
+                        >
+                          {a.label}
+                        </Typography>
+                      </Box>
+                    ))}
+                  </Box>
+                </Box>
+              );
+            })()}
+          </DialogContent>
+        </Dialog>
+      </Box>
+
+      {/* Main content and sidebar */}
+      <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 4 }}>
+        {/* Main info */}
+        <Box sx={{ flex: 2, minWidth: 0 }}>
+          {/* Description */}
+          <Typography variant="h6" sx={{ mb: 1 }}>About this property</Typography>
+          <Typography variant="body1" sx={{ mb: 3 }}>{homestay.desc}</Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary', mb: 3 }}>This is a beautiful homestay in {location.name}. More details and booking options coming soon.</Typography>
+          {/* Host section */}
+          <Divider sx={{ mb: 3 }} />
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
+            <img src={host.avatar} alt={host.name} style={{ width: 56, height: 56, borderRadius: '50%', objectFit: 'cover', border: '2px solid #eee' }} />
+            <Box>
+              <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>{host.name}</Typography>
+              <Typography variant="body2" sx={{ color: 'text.secondary' }}>{host.desc}</Typography>
+            </Box>
+          </Box>
+        </Box>
+        {/* Booking sidebar */}
+        <Box sx={{ flex: 1, minWidth: 280, maxWidth: 340, mb: { xs: 3, md: 0 } }}>
+          <Box sx={{ bgcolor: '#fff', borderRadius: 4, boxShadow: 3, p: 3, border: '1px solid #e2e8f0', position: 'sticky', top: 100 }}>
+            <Typography variant="h5" sx={{ fontWeight: 700, mb: 1, color: 'primary.main' }}>₹2,500 <Typography component="span" sx={{ fontWeight: 400, fontSize: '1.1rem', color: 'text.secondary' }}>/ night</Typography></Typography>
+            <Box sx={{ display: 'flex', gap: 1, mb: 2 }}>
+              <Typography variant="body2" sx={{ color: 'text.secondary' }}>Check-in</Typography>
+              <Typography variant="body2" sx={{ color: 'text.secondary' }}>-</Typography>
+              <Typography variant="body2" sx={{ color: 'text.secondary' }}>Check-out</Typography>
+            </Box>
+            <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, mb: 2 }}>
+              <Box sx={{ bgcolor: '#f6e05e', color: '#234e52', borderRadius: 2, px: 2, py: 1, fontWeight: 600, textAlign: 'center', cursor: 'not-allowed', opacity: 0.7 }}>
+                Booking coming soon
+              </Box>
+            </Box>
+            <Divider sx={{ my: 2 }} />
+            <Typography variant="body2" sx={{ color: 'text.secondary' }}>You won't be charged yet</Typography>
+          </Box>
+        </Box>
+      </Box>
+    </Box>
+  );
+}
+
+// Add HomestayCard component before the App component
+function HomestayCard({ stay, location, category, index }: { stay: Homestay; location: string; category: string; index: number }) {
+  const navigate = useNavigate();
+  
+  return (
+    <Box sx={{ width: { xs: '98vw', sm: 300 }, maxWidth: 340, bgcolor: '#fff', borderRadius: 2, boxShadow: 2, mb: 2, p: 1, position: 'relative' }}>
+      <Box className="card-img-wrapper" sx={{ position: 'relative', width: '100%', height: 200, overflow: 'hidden', borderRadius: 2 }}>
+        <img src={stay.img} alt={stay.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px 8px 0 0' }} />
+        <IconButton sx={{ position: 'absolute', top: 12, right: 14, bgcolor: 'rgba(255,255,255,0.85)', '&:hover': { bgcolor: '#ffe4ec' } }}>
+          <svg width="22" height="22" fill="#ff385c" viewBox="0 0 32 32"><path d="M16 29s-9.3-7.1-12.4-11.1C1.2 15.5 0 13.6 0 11.5 0 7.9 2.9 5 6.5 5c2.1 0 4.1 1.1 5.2 2.9C13.4 6.1 15.4 5 17.5 5 21.1 5 24 7.9 24 11.5c0 2.1-1.2 4-3.6 6.4C25.3 21.9 16 29 16 29z"/></svg>
+        </IconButton>
+      </Box>
+      <Box className="card-content" sx={{ p: 2 }}>
+        <Typography variant="h6" sx={{ fontWeight: 700, mb: 0.5 }}>{stay.name}</Typography>
+        <Typography sx={{ color: '#555', fontSize: '1rem', mb: 1 }}>{stay.desc}</Typography>
+        <Box sx={{ mt: 'auto' }}>
+          <Box component="button" sx={{ mt: 1, bgcolor: '#ff385c', color: '#fff', border: 'none', borderRadius: 1, px: 2, py: 1, fontWeight: 600, fontSize: '1rem', cursor: 'pointer', boxShadow: 1, '&:hover': { bgcolor: '#d21c3c' } }}
+            onClick={() => navigate(`/property/${location}/${category}/${index}`)}>
+            View Details
+          </Box>
+        </Box>
+      </Box>
+    </Box>
+  );
+}
+
+// Modify the Layout component to use LocationContext
+function Layout({ children }: { children: React.ReactNode }) {
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const { selectedLocationIdx, setSelectedLocationIdx, selectedCategory, setSelectedCategory } = useLocation();
   const handleDrawerToggle = () => setMobileOpen(!mobileOpen);
 
   const drawer = (
@@ -272,9 +642,8 @@ function App() {
   );
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <AppBar position="sticky" color="primary" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <AppBar position="sticky" color="primary" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1, bgcolor: '#3EB4FA !important' }}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -285,17 +654,37 @@ function App() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h5" sx={{ flexGrow: 1, fontWeight: 800, letterSpacing: 1.5, color: '#f6e05e', fontFamily: 'Playfair Display, Georgia, serif' }}>
+          <Typography
+            variant="h5"
+            component={RouterLink}
+            to="/"
+            sx={{
+              flexGrow: 1,
+              fontWeight: 800,
+              letterSpacing: 1.5,
+              color: '#fff',
+              fontFamily: 'Playfair Display, Georgia, serif',
+              textDecoration: 'none',
+              '&:hover': { color: '#fff' },
+            }}
+          >
             HiddenUttarakhand.com
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 3 }}>
-            <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#f6e05e' } }}>Home</Typography>
-            <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#f6e05e' } }}>About</Typography>
-            <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#f6e05e' } }}>Contact</Typography>
+            <Typography
+              component={RouterLink}
+              to="/"
+              sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#e0f7ff' } }}
+            >
+              Home
+            </Typography>
+            <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#e0f7ff' } }}>About</Typography>
+            <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#e0f7ff' } }}>Contact</Typography>
           </Box>
         </Toolbar>
       </AppBar>
-      <Box sx={{ display: 'flex' }}>
+
+      <Box sx={{ display: 'flex', flex: 1 }}>
         {/* Sidebar Drawer */}
         <Drawer
           variant="permanent"
@@ -322,147 +711,177 @@ function App() {
         >
           {drawer}
         </Drawer>
-        {/* Main Content */}
-        <Box component="main" sx={{ flexGrow: 1, p: { xs: 1, sm: 3 }, ml: { sm: `${drawerWidth}px` }, minHeight: '100vh', bgcolor: 'background.default' }}>
-          {/* Location Info Tabs */}
-          <Box sx={{ bgcolor: '#fff', borderRadius: 2, boxShadow: 2, mb: 3, p: { xs: 1, sm: 3 } }}>
-            <Tabs
-              value={selectedLocTab}
-              onChange={(_, v) => setSelectedLocTab(v)}
-              variant="scrollable"
-              scrollButtons="auto"
-              textColor="primary"
-              indicatorColor="secondary"
-              sx={{ mb: 2 }}
-            >
-              {LOCATION_TABS.map(tab => (
-                <Tab label={tab} value={tab} key={tab} sx={{ fontWeight: 600, fontSize: { xs: '0.98rem', sm: '1.08rem' } }} />
-              ))}
-            </Tabs>
-            <Box className="loc-tab-content">
-              {locTabData ? (
-                <>
-                  {selectedLocTab === 'Overview' && (
-                    <Box>
-                      {/* Placeholder images for Overview */}
-                      {location.name === 'Dunagiri' && (
-                        <Box sx={{ display: 'flex', gap: 2, mb: 2, flexWrap: 'wrap' }}>
-                          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Himalaya" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
-                          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Temple" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
-                          <img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Forest" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
-                        </Box>
-                      )}
-                      {locTabData.content.map((item: any, idx: number) =>
-                        Array.isArray(item) ? (
-                          <ul key={idx}>{item.map((li: string, i: number) => <li key={i}>{li}</li>)}</ul>
-                        ) : (
-                          // Special heading for Vridh Jageshwar
-                          item.replace(/<b>|<\/b>/g, '') === 'Vridh Jageshwar – The Hilltop Abode of Mahadev' ? (
-                            <Typography key={idx} variant="h6" sx={{ fontWeight: 700, mt: 3, mb: 1 }}>{item.replace(/<b>|<\/b>/g, '')}</Typography>
-                          ) : (
-                            <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
-                          )
-                        )
-                      )}
-                    </Box>
-                  )}
-                  {selectedLocTab === 'How to Reach' && (
-                    <Box>
-                      {locTabData.content.map((item: string, idx: number) =>
-                        <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
-                      )}
-                    </Box>
-                  )}
-                  {selectedLocTab === 'Things to Do' && (
-                    <Box>
-                      {locTabData.content.map((item: string, idx: number) =>
-                        <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
-                      )}
-                    </Box>
-                  )}
-                  {selectedLocTab === 'Travel Tips' && (
-                    <Box component="ul" sx={{ pl: 3 }}>
-                      {locTabData.content.map((item: string, idx: number) => <li key={idx}><Typography component="span">{item}</Typography></li>)}
-                    </Box>
-                  )}
-                  {selectedLocTab === 'Connectivity & Internet' && (
-                    <Box>
-                      {locTabData.content.map((item: string, idx: number) =>
-                        <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
-                      )}
-                    </Box>
-                  )}
-                  {selectedLocTab === 'Travel Stories / Experiences' && (
-                    <Box>
-                      {locTabData.stories.map((story: any, idx: number) => (
-                        <Typography key={idx} sx={{ whiteSpace: 'pre-line', mb: 3 }}>{story.text}</Typography>
-                      ))}
-                    </Box>
-                  )}
-                </>
-              ) : (
-                <Typography>Information coming soon for this location.</Typography>
-              )}
-            </Box>
-          </Box>
 
-          {/* Homestay Categories */}
-          <Box sx={{ mt: 3, mb: 3 }}>
-            <Tabs
-              value={selectedCategory}
-              onChange={(_, v) => setSelectedCategory(v)}
-              textColor="primary"
-              indicatorColor="secondary"
-              variant="scrollable"
-              scrollButtons="auto"
-              sx={{ mb: 2 }}
-            >
-              {['Budgeted', 'Luxury', 'Treehouse'].map(cat => (
-                <Tab label={cat} value={cat} key={cat} sx={{ fontWeight: 600, fontSize: { xs: '0.98rem', sm: '1.08rem' } }} />
-              ))}
-            </Tabs>
-            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3, justifyContent: { xs: 'center', sm: 'flex-start' } }}>
-              {location.homestays[selectedCategory as keyof typeof location.homestays].map((stay: Homestay, i: number) => (
-                <Box key={i} sx={{ width: { xs: '98vw', sm: 300 }, maxWidth: 340, bgcolor: '#fff', borderRadius: 2, boxShadow: 2, mb: 2, p: 1, position: 'relative' }}>
-                  <Box className="card-img-wrapper" sx={{ position: 'relative', width: '100%', height: 200, overflow: 'hidden', borderRadius: 2 }}>
-                    <img src={stay.img} alt={stay.name} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px 8px 0 0' }} />
-                    <IconButton sx={{ position: 'absolute', top: 12, right: 14, bgcolor: 'rgba(255,255,255,0.85)', '&:hover': { bgcolor: '#ffe4ec' } }}>
-                      <svg width="22" height="22" fill="#ff385c" viewBox="0 0 32 32"><path d="M16 29s-9.3-7.1-12.4-11.1C1.2 15.5 0 13.6 0 11.5 0 7.9 2.9 5 6.5 5c2.1 0 4.1 1.1 5.2 2.9C13.4 6.1 15.4 5 17.5 5 21.1 5 24 7.9 24 11.5c0 2.1-1.2 4-3.6 6.4C25.3 21.9 16 29 16 29z"/></svg>
-                    </IconButton>
-                  </Box>
-                  <Box className="card-content" sx={{ p: 2 }}>
-                    <Typography variant="h6" sx={{ fontWeight: 700, mb: 0.5 }}>{stay.name}</Typography>
-                    <Typography sx={{ color: '#555', fontSize: '1rem', mb: 1 }}>{stay.desc}</Typography>
-                    <Box sx={{ mt: 'auto' }}>
-                      <Box component="button" sx={{ mt: 1, bgcolor: '#ff385c', color: '#fff', border: 'none', borderRadius: 1, px: 2, py: 1, fontWeight: 600, fontSize: '1rem', cursor: 'pointer', boxShadow: 1, '&:hover': { bgcolor: '#d21c3c' } }}>
-                        View Details
-                      </Box>
-                    </Box>
-                  </Box>
-                </Box>
-              ))}
-            </Box>
-          </Box>
+        {/* Main Content */}
+        <Box component="main" sx={{ flexGrow: 1, p: { xs: 1, sm: 3 }, ml: { sm: `${drawerWidth}px` }, bgcolor: 'background.default' }}>
+          {children}
         </Box>
       </Box>
+
       {/* Footer */}
-      <Box component="footer" sx={{ bgcolor: 'primary.main', color: '#fff', py: 4, mt: 5, borderTopLeftRadius: 3, borderTopRightRadius: 3, boxShadow: 2 }}>
+      <Box component="footer" sx={{ bgcolor: '#3EB4FA', color: '#fff', py: 4, mt: 'auto', borderTopLeftRadius: 3, borderTopRightRadius: 3, boxShadow: 2 }}>
         <Box className="footer-social" sx={{ display: 'flex', justifyContent: 'center', gap: 2, mb: 2 }}>
-          <IconButton href="#" color="inherit" aria-label="Facebook" sx={{ bgcolor: 'rgba(255,255,255,0.12)', '&:hover': { bgcolor: '#f6e05e', color: '#234e52' } }}><FacebookIcon /></IconButton>
-          <IconButton href="#" color="inherit" aria-label="Twitter" sx={{ bgcolor: 'rgba(255,255,255,0.12)', '&:hover': { bgcolor: '#f6e05e', color: '#234e52' } }}><TwitterIcon /></IconButton>
-          <IconButton href="#" color="inherit" aria-label="Instagram" sx={{ bgcolor: 'rgba(255,255,255,0.12)', '&:hover': { bgcolor: '#f6e05e', color: '#234e52' } }}><InstagramIcon /></IconButton>
+          <IconButton href="#" color="inherit" aria-label="Facebook" sx={{ bgcolor: 'rgba(255,255,255,0.12)', '&:hover': { bgcolor: '#e0f7ff', color: '#234e52' } }}><FacebookIcon /></IconButton>
+          <IconButton href="#" color="inherit" aria-label="Twitter" sx={{ bgcolor: 'rgba(255,255,255,0.12)', '&:hover': { bgcolor: '#e0f7ff', color: '#234e52' } }}><TwitterIcon /></IconButton>
+          <IconButton href="#" color="inherit" aria-label="Instagram" sx={{ bgcolor: 'rgba(255,255,255,0.12)', '&:hover': { bgcolor: '#e0f7ff', color: '#234e52' } }}><InstagramIcon /></IconButton>
         </Box>
         <Box className="footer-links" sx={{ display: 'flex', justifyContent: 'center', gap: 3, flexWrap: 'wrap', mb: 1 }}>
-          <Typography component="a" href="#" sx={{ color: '#f6e05e', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#fff', borderBottom: '2px solid #fff' }, pb: '2px', borderBottom: '2px solid transparent' }}>About</Typography>
-          <Typography component="a" href="#" sx={{ color: '#f6e05e', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#fff', borderBottom: '2px solid #fff' }, pb: '2px', borderBottom: '2px solid transparent' }}>Contact</Typography>
-          <Typography component="a" href="#" sx={{ color: '#f6e05e', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#fff', borderBottom: '2px solid #fff' }, pb: '2px', borderBottom: '2px solid transparent' }}>Terms</Typography>
-          <Typography component="a" href="#" sx={{ color: '#f6e05e', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#fff', borderBottom: '2px solid #fff' }, pb: '2px', borderBottom: '2px solid transparent' }}>Privacy</Typography>
+          <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#e0f7ff', borderBottom: '2px solid #e0f7ff' }, pb: '2px', borderBottom: '2px solid transparent' }}>About</Typography>
+          <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#e0f7ff', borderBottom: '2px solid #e0f7ff' }, pb: '2px', borderBottom: '2px solid transparent' }}>Contact</Typography>
+          <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#e0f7ff', borderBottom: '2px solid #e0f7ff' }, pb: '2px', borderBottom: '2px solid transparent' }}>Terms</Typography>
+          <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.08rem', '&:hover': { color: '#e0f7ff', borderBottom: '2px solid #e0f7ff' }, pb: '2px', borderBottom: '2px solid transparent' }}>Privacy</Typography>
         </Box>
-        <Typography className="footer-copy" sx={{ fontSize: '1.05rem', color: '#e6fffa', mb: 1.2, mt: 1 }}>
+        <Typography className="footer-copy" sx={{ fontSize: '1.05rem', color: '#e6fffa', mb: 1.2, mt: 1, textAlign: 'center' }}>
           &copy; {new Date().getFullYear()} HiddenUttarakhand.com. All rights reserved.
         </Typography>
       </Box>
-    </ThemeProvider>
+    </Box>
+  );
+}
+
+// Modify the App component to use LocationContext
+function App() {
+  return (
+    <LocationProvider>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <BrowserRouter>
+          <Layout>
+            <Routes>
+              <Route path="/" element={
+                <HomePage />
+              } />
+              <Route path="/property/:locationName/:category/:homestayIdx" element={<PropertyDetail />} />
+            </Routes>
+          </Layout>
+        </BrowserRouter>
+      </ThemeProvider>
+    </LocationProvider>
+  );
+}
+
+// Create a separate HomePage component to use the location context
+function HomePage() {
+  const [selectedLocTab, setSelectedLocTab] = useState('Overview');
+  const { selectedLocationIdx, selectedCategory, setSelectedCategory } = useLocation();
+  const location = LOCATIONS[selectedLocationIdx];
+  const locTabData =
+    LOCATION_TAB_CONTENT[location.name] && LOCATION_TAB_CONTENT[location.name][selectedLocTab]
+      ? LOCATION_TAB_CONTENT[location.name][selectedLocTab]
+      : null;
+
+  return (
+    <>
+      {/* Location Info Tabs */}
+      <Box sx={{ bgcolor: '#fff', borderRadius: 2, boxShadow: 2, mb: 3, p: { xs: 1, sm: 3 } }}>
+        <Tabs
+          value={selectedLocTab}
+          onChange={(_, v) => setSelectedLocTab(v)}
+          variant="scrollable"
+          scrollButtons="auto"
+          textColor="primary"
+          indicatorColor="secondary"
+          sx={{ mb: 2 }}
+        >
+          {LOCATION_TABS.map(tab => (
+            <Tab label={tab} value={tab} key={tab} sx={{ fontWeight: 600, fontSize: { xs: '0.98rem', sm: '1.08rem' } }} />
+          ))}
+        </Tabs>
+        <Box className="loc-tab-content">
+          {locTabData ? (
+            <>
+              {selectedLocTab === 'Overview' && (
+                <Box>
+                  {/* Placeholder images for Overview */}
+                  {location.name === 'Dunagiri' && (
+                    <Box sx={{ display: 'flex', gap: 2, mb: 2, flexWrap: 'wrap' }}>
+                      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Himalaya" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
+                      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Temple" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
+                      <img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=400&q=80" alt="Dunagiri Forest" style={{ width: '180px', height: '120px', objectFit: 'cover', borderRadius: '10px' }} />
+                    </Box>
+                  )}
+                  {locTabData.content.map((item: any, idx: number) =>
+                    Array.isArray(item) ? (
+                      <ul key={idx}>{item.map((li: string, i: number) => <li key={i}>{li}</li>)}</ul>
+                    ) : (
+                      // Special heading for Vridh Jageshwar
+                      item.replace(/<b>|<\/b>/g, '') === 'Vridh Jageshwar – The Hilltop Abode of Mahadev' ? (
+                        <Typography key={idx} variant="h6" sx={{ fontWeight: 700, mt: 3, mb: 1 }}>{item.replace(/<b>|<\/b>/g, '')}</Typography>
+                      ) : (
+                        <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
+                      )
+                    )
+                  )}
+                </Box>
+              )}
+              {selectedLocTab === 'How to Reach' && (
+                <Box>
+                  {locTabData.content.map((item: string, idx: number) =>
+                    <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
+                  )}
+                </Box>
+              )}
+              {selectedLocTab === 'Things to Do' && (
+                <Box>
+                  {locTabData.content.map((item: string, idx: number) =>
+                    <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
+                  )}
+                </Box>
+              )}
+              {selectedLocTab === 'Travel Tips' && (
+                <Box component="ul" sx={{ pl: 3 }}>
+                  {locTabData.content.map((item: string, idx: number) => <li key={idx}><Typography component="span">{item}</Typography></li>)}
+                </Box>
+              )}
+              {selectedLocTab === 'Connectivity & Internet' && (
+                <Box>
+                  {locTabData.content.map((item: string, idx: number) =>
+                    <Typography key={idx} sx={{ mb: 1 }} component="div" dangerouslySetInnerHTML={{ __html: item }} />
+                  )}
+                </Box>
+              )}
+              {selectedLocTab === 'Travel Stories / Experiences' && (
+                <Box>
+                  {locTabData.stories.map((story: any, idx: number) => (
+                    <Typography key={idx} sx={{ whiteSpace: 'pre-line', mb: 3 }}>{story.text}</Typography>
+                  ))}
+                </Box>
+              )}
+            </>
+          ) : (
+            <Typography>Information coming soon for this location.</Typography>
+          )}
+        </Box>
+      </Box>
+
+      {/* Homestay Categories */}
+      <Box sx={{ mt: 3, mb: 3 }}>
+        <Tabs
+          value={selectedCategory}
+          onChange={(_, v) => setSelectedCategory(v)}
+          textColor="primary"
+          indicatorColor="secondary"
+          variant="scrollable"
+          scrollButtons="auto"
+          sx={{ mb: 2 }}
+        >
+          {['Budgeted', 'Luxury', 'Treehouse'].map(cat => (
+            <Tab label={cat} value={cat} key={cat} sx={{ fontWeight: 600, fontSize: { xs: '0.98rem', sm: '1.08rem' } }} />
+          ))}
+        </Tabs>
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3, justifyContent: { xs: 'center', sm: 'flex-start' } }}>
+          {location.homestays[selectedCategory as keyof typeof location.homestays].map((stay: Homestay, i: number) => (
+            <HomestayCard
+              key={i}
+              stay={stay}
+              location={location.name}
+              category={selectedCategory}
+              index={i}
+            />
+          ))}
+        </Box>
+      </Box>
+    </>
   );
 }
 
