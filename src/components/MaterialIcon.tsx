@@ -1,12 +1,14 @@
 import React from 'react';
-import { SvgIcon, SvgIconProps } from '@mui/material';
+import Box from '@mui/material/Box';
+import { SxProps, Theme } from '@mui/material/styles';
 
-interface MaterialIconProps extends Omit<SvgIconProps, 'children'> {
+export interface MaterialIconProps {
   icon: string;
+  sx?: SxProps<Theme>;
 }
 
-export const MaterialIcon: React.FC<MaterialIconProps> = ({ icon, ...props }) => (
-  <SvgIcon {...props}>
-    <span className="material-icons">{icon}</span>
-  </SvgIcon>
-); 
+export const MaterialIcon: React.FC<MaterialIconProps> = ({ icon, sx }) => (
+  <Box component="span" className="material-icons" sx={sx}>{icon}</Box>
+);
+
+export default MaterialIcon; 

@@ -56,7 +56,24 @@ function Layout() {
           <IconButton color="inherit" aria-label="open drawer" edge="start" onClick={handleDrawerToggle} sx={{ mr: 2, display: { sm: 'none' } }}>
             <MenuIcon />
           </IconButton>
-          <Typography variant="h5" component={RouterLink} to="/" sx={{ flexGrow: 1, fontWeight: 800, letterSpacing: 1.5, color: '#fff', fontFamily: 'Playfair Display, Georgia, serif', textDecoration: 'none', '&:hover': { color: '#fff' } }}>
+          <Typography
+            variant="h5"
+            component={RouterLink}
+            to="/"
+            sx={{
+              fontWeight: 800,
+              letterSpacing: 1,
+              color: '#1976d2',
+              fontSize: { xs: '1.25rem', sm: '2rem' },
+              px: { xs: 1, sm: 3 },
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              maxWidth: { xs: '70vw', sm: 'none' },
+              textDecoration: 'none',
+              cursor: 'pointer',
+            }}
+          >
             HiddenUttarakhand.com
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 3 }}>
