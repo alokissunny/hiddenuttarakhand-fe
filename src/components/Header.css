@@ -1,0 +1,64 @@
+/* Header.css */
+
+.uk-header {
+  background: #0a4a8a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  min-height: 70px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.uk-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.uk-logo {
+  height: 60px;
+  margin-right: 1rem;
+}
+
+.uk-header-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.uk-tagline {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Montserrat', Arial, sans-serif;
+  line-height: 1.1;
+}
+
+.uk-tagline span {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.uk-initiative {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+}
+
+.uk-header-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.uk-header-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.uk-header-nav a:hover {
+  color: #ffd700;
+} 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Drawer, List, ListItemButton, ListItemText, Box, IconButton, Typography } from '@mui/material';
+import { Drawer, List, ListItemButton, ListItemText, Box, IconButton, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -7,10 +7,17 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import { Outlet, Link as RouterLink } from 'react-router-dom';
 import { useLocation } from '../context/LocationContext';
 import theme from '../theme';
+import './Header.css';
+import Header from './Header';
 
 const LOCATIONS = [
   { name: 'Dunagiri' },
   { name: 'Jageshwar Dham' },
+  { name: 'Shitlakhet' },
+  { name: 'Kausani Estate' },
+  { name: 'Sunargaon Kanda' },
+  { name: 'Katarmal' },
+  
 ];
 const drawerWidth = 220;
 
@@ -51,38 +58,7 @@ function Layout() {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      <AppBar position="sticky" color="primary" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1, bgcolor: '#3EB4FA !important' }}>
-        <Toolbar>
-          <IconButton color="inherit" aria-label="open drawer" edge="start" onClick={handleDrawerToggle} sx={{ mr: 2, display: { sm: 'none' } }}>
-            <MenuIcon />
-          </IconButton>
-          <Typography
-            variant="h5"
-            component={RouterLink}
-            to="/"
-            sx={{
-              fontWeight: 800,
-              letterSpacing: 1,
-              color: '#1976d2',
-              fontSize: { xs: '1.25rem', sm: '2rem' },
-              px: { xs: 1, sm: 3 },
-              whiteSpace: 'nowrap',
-              overflow: 'hidden',
-              textOverflow: 'ellipsis',
-              maxWidth: { xs: '70vw', sm: 'none' },
-              textDecoration: 'none',
-              cursor: 'pointer',
-            }}
-          >
-            HiddenUttarakhand.com
-          </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 3 }}>
-            <Typography component={RouterLink} to="/" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#e0f7ff' } }}>Home</Typography>
-            <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#e0f7ff' } }}>About</Typography>
-            <Typography component="a" href="#" sx={{ color: '#fff', textDecoration: 'none', fontWeight: 500, fontSize: '1.1rem', '&:hover': { color: '#e0f7ff' } }}>Contact</Typography>
-          </Box>
-        </Toolbar>
-      </AppBar>
+      <Header />
       <Box sx={{ display: 'flex', flex: 1 }}>
         <Drawer
           variant="permanent"
