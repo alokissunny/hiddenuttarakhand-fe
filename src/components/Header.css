@@ -7,48 +7,61 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 2rem;
-  min-height: 70px;
+  min-height: 80px;
   font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .uk-header-left {
   display: flex;
   align-items: center;
+  min-width: 0;
 }
 
 .uk-logo {
-  height: 60px;
-  margin-right: 1rem;
+  height: 56px;
+  width: auto;
+  margin-right: 1.2rem;
+  background: #fff;
+  border-radius: 8px;
+  padding: 2px 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .uk-header-texts {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 0;
 }
 
-.uk-tagline {
-  font-size: 1.2rem;
-  font-weight: bold;
+.uk-tagline-main {
+  font-size: 1.35rem;
+  font-weight: 800;
   font-family: 'Montserrat', Arial, sans-serif;
   line-height: 1.1;
+  white-space: nowrap;
 }
 
-.uk-tagline span {
+.uk-tagline-script {
   font-family: 'Dancing Script', cursive;
-  font-size: 1rem;
-  font-weight: normal;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  white-space: nowrap;
 }
 
 .uk-initiative {
   font-family: 'Dancing Script', cursive;
-  font-size: 1.1rem;
-  margin-top: 0.2rem;
+  font-size: 1.05rem;
+  margin-top: 0.1rem;
+  color: #e0e0e0;
 }
 
 .uk-header-nav {
   display: flex;
   gap: 2rem;
+  align-items: center;
 }
 
 .uk-header-nav a {
@@ -61,4 +74,50 @@
 
 .uk-header-nav a:hover {
   color: #ffd700;
+}
+
+@media (max-width: 600px) {
+  .uk-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 0.7rem;
+    min-height: 56px;
+    background: #0a4a8a;
+    position: relative;
+    z-index: 10;
+  }
+  .uk-header-left {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .uk-logo {
+    height: 38px;
+    margin-right: 0.7rem;
+    padding: 1px 3px;
+  }
+  .uk-header-texts {
+    min-width: 0;
+  }
+  .uk-tagline-main {
+    font-size: 1rem;
+    white-space: normal;
+  }
+  .uk-tagline-script {
+    font-size: 0.95rem;
+    white-space: normal;
+  }
+  .uk-header-nav {
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 0.3rem;
+    font-size: 0.98rem;
+    flex-wrap: wrap;
+  }
+  .uk-header-nav a {
+    font-size: 0.98rem;
+    padding: 0.2rem 0.1rem;
+  }
 } 

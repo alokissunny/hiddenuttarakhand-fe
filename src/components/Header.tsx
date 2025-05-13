@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link as RouterLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => (
@@ -11,13 +10,11 @@ const Header = () => (
         className="uk-logo"
       />
       <div className="uk-header-texts">
-        <div className="uk-tagline">
-          Unveil the Secrets of the Himalayas –<br />
-          <span>Explore Hidden Uttarakhand.</span>
+        <div className="uk-tagline-main">
+          Unveil the Secrets of the Himalayas –
         </div>
-        <div className="uk-initiative">
-          An initiative taken by<br />
-          Uttarakhand Tourism Development Board
+        <div className="uk-tagline-script">
+          Explore Hidden Uttarakhand.
         </div>
       </div>
     </div>

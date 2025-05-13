@@ -183,6 +183,116 @@ export const LOCATIONS: Location[] = [
       ],
     },
   },
+  {
+    name: 'Dhanachuli, Mukteshwar',
+    story: {
+      title: 'Dhanachuli: The Misty Orchard Village',
+      text: 'Dhanachuli is a tranquil hamlet near Mukteshwar, known for its apple orchards, mountain views, and peaceful vibe. A perfect offbeat escape in Kumaon.',
+      images: [
+        'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80'
+      ],
+    },
+    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+  },
+  {
+    name: 'Pangot, Nainital',
+    story: {
+      title: 'Pangot: The Birdwatcher\'s Paradise',
+      text: 'Pangot is a small village near Nainital, famous for its rich birdlife, forest trails, and serene atmosphere. Ideal for nature lovers and photographers.',
+      images: [
+        'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80'
+      ],
+    },
+    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+  },
+  {
+    name: 'Majhkali, Almora',
+    story: {
+      title: 'Majhkali: The Quiet Himalayan Hamlet',
+      text: 'Majhkali is a peaceful village near Almora, offering panoramic views of the Himalayas and a slow-paced rural lifestyle.',
+      images: [
+        'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80'
+      ],
+    },
+    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+  },
+  {
+    name: 'Kasar Devi, Almora',
+    story: {
+      title: 'Kasar Devi: The Mystical Ridge',
+      text: 'Kasar Devi is known for its ancient temple, spiritual energy, and stunning ridge-top views. A favorite among seekers and artists.',
+      images: [
+        'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80'
+      ],
+    },
+    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+  },
+  {
+    name: 'Chaukori, Pithoragarh',
+    story: {
+      title: 'Chaukori: The Tea Garden Hill Station',
+      text: 'Chaukori is a scenic hill station in Pithoragarh, surrounded by tea gardens and offering breathtaking views of the Himalayas.',
+      images: [
+        'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80'
+      ],
+    },
+    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+  },
+  {
+    name: 'Lohaghat, Champawat',
+    story: {
+      title: 'Lohaghat: The Riverside Heritage Town',
+      text: 'Lohaghat is a historic town on the banks of the Lohawati River, known for its colonial-era buildings and natural beauty.',
+      images: [
+        'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=600&q=80'
+      ],
+    },
+    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+  },
+  {
+    name: 'Abbott Mount, Champawat',
+    story: {
+      title: 'Abbott Mount: The Colonial Hill Retreat',
+      text: 'Abbott Mount is a quiet hill station dotted with colonial bungalows, offering solitude and panoramic Himalayan views.',
+      images: [
+        'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80'
+      ],
+    },
+    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+  },
+  {
+    name: 'Binsar, Almora',
+    story: {
+      title: 'Binsar: The Wildlife Sanctuary',
+      text: 'Binsar is famous for its wildlife sanctuary, dense forests, and spectacular views of Himalayan peaks. A haven for trekkers and birdwatchers.',
+      images: [
+        'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80'
+      ],
+    },
+    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+  },
+  {
+    name: 'Didihat, Pithoragarh',
+    story: {
+      title: 'Didihat: The Gateway to Eastern Kumaon',
+      text: 'Didihat is a small town in Pithoragarh, surrounded by lush hills and known for its temples and peaceful ambiance.',
+      images: [
+        'https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=600&q=80'
+      ],
+    },
+    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+  },
+  {
+    name: 'Berinag, Pithoragarh',
+    story: {
+      title: 'Berinag: The Serpentine Hill Village',
+      text: 'Berinag is known for its ancient Nag temples, tea gardens, and panoramic views of the Himalayas.',
+      images: [
+        'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80'
+      ],
+    },
+    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+  },
 ];
 
 export const LOCATION_TAB_CONTENT: Record<string, any> = {

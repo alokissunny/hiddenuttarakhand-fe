@@ -49,6 +49,7 @@ const HomePage: React.FC = () => {
 
   return (
     <>
+      {/* Hero Image Section removed for relocation to Layout */}
       {/* Selected Location Name for Mobile */}
       <Box sx={{ display: { xs: 'block', sm: 'none' }, textAlign: 'center', mt: 2, mb: 1 }}>
         <Typography variant="h6" sx={{ fontWeight: 700, color: 'primary.main', fontSize: '1.18rem', letterSpacing: 0.5 }}>
