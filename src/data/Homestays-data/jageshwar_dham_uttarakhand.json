@@ -1,0 +1,915 @@
+[
+  {
+    "place_id": "ChIJkUthzUHGoDkRTobPyycBA0w",
+    "name": "Thikalna Himalayan Retreat",
+    "address": "Itmenaan Estate, Village Naugaon, Tehsil Bhanoli, District Almora, Almora",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.66773320000001,
+      "lng": 79.83716629999999
+    }
+  },
+  {
+    "place_id": "ChIJzXG8lbrLoDkRG9A7TPLFGBU",
+    "name": "Kumaoun Village Home Stay",
+    "address": "PQ3W+XVQ, Naini Village Near Dal Bend, Almora",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.7049637,
+      "lng": 79.7972202
+    }
+  },
+  {
+    "place_id": "ChIJw1RVZefOoDkRS4BE3OGmm2I",
+    "name": "Jageshwar Jungle Lodge",
+    "address": "Village Khali, Jageshwar dham,, Jageshwar",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6438733,
+      "lng": 79.8387197
+    }
+  },
+  {
+    "place_id": "ChIJD2b5NCvPoDkRCBO-Kc589Hk",
+    "name": "The Green Village Eco Resort Jageshwar",
+    "address": "Artola-Jageshwar Road, Almora",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6247255,
+      "lng": 79.8298166
+    }
+  },
+  {
+    "place_id": "ChIJ-4gYiR3PoDkRPHSJUsUeTWY",
+    "name": "Jageshwar Dham - Inn & Estates",
+    "address": "Jageshwar inn Jageshwar, Dandeshwar-Jageshwar Road, Gandhak",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6254876,
+      "lng": 79.8325371
+    }
+  },
+  {
+    "place_id": "ChIJSVdzZOfOoDkRi6LBaVUHJR8",
+    "name": "K.M.V.N Tourist Rest House Jageshwar",
+    "address": "JVQ2+7X5, Dandeshwar-Jageshwar Road, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.6381269,
+      "lng": 79.85247009999999
+    }
+  },
+  {
+    "place_id": "ChIJXYH8k93OoDkR1eUpAHCggfI",
+    "name": "Subham Hotel",
+    "address": "JVQ2+5C8, Dandeshwar-Jageshwar Road, जागेश्वर धाम",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.6379227,
+      "lng": 79.8510656
+    }
+  },
+  {
+    "place_id": "ChIJz-0Ue-fOoDkRD-MBh4aPmMo",
+    "name": "Tara Guest House & Tara Digital Studio's, Mandir Pooja,",
+    "address": "Temple, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.6375363,
+      "lng": 79.85439290000001
+    }
+  },
+  {
+    "place_id": "ChIJw-ZC3tXLoDkRp2qt2cZu3CY",
+    "name": "Maa Ananda Mayee Guest House",
+    "address": "towards, Almora - Berinag Road, Omnagar, Dhaulchhina",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6734881,
+      "lng": 79.7897267
+    }
+  },
+  {
+    "place_id": "ChIJy5IetUHGoDkR08jUC5xVirM",
+    "name": "Itmenaan Estate, Binsar Himalayas",
+    "address": "Itmenaan Estate, Village Naugaon, Tehsil, Bhanoli",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.5609269,
+      "lng": 79.81042339999999
+    }
+  },
+  {
+    "place_id": "ChIJlxdhEQDPoDkRbE4GsM9lRKg",
+    "name": "गुरु कृपा होम स्टे",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJhc8cSgDPoDkRSJGDUYSqQqg",
+    "name": "Aadyia inn",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJB-o3fgDPoDkRCuAmxyJGAVM",
+    "name": "Bajrangi Home stay Jageshwar Dham Artola",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJE9-PI5nPoDkRPMRJUIovgMg",
+    "name": "Shagun Hotel & Restaurant",
+    "address": "Jageshwar Dham",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJhx4eeADPoDkR8ZUr2-KSYaY",
+    "name": "Shubham Guest House",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJNU_vfQDPoDkR8Vu7yoy2KaU",
+    "name": "Jungle camp resort",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJ-T3uFGLPoDkRk7Tyl1s8SvA",
+    "name": "Hotel O Jai Shiv Shakti Guest House",
+    "address": "near Jageshwar dham, Artola, near Jageshwar dham, Almora",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJi___b-fOoDkRaAcOq0kkd6o",
+    "name": "Graceful Resort In Almora - #UTTALM001",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.638434,
+      "lng": 79.85278199999999
+    }
+  },
+  {
+    "place_id": "ChIJMTKPK6LPoDkRn_5uyVrSZ5k",
+    "name": "जागेश्वर धाम",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.638433,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJ-YwK_ErPoDkREHnuR-jf7nE",
+    "name": "Hotel Athiti",
+    "address": "JVQ3+85J, Vriddha Jageshwar Road, Jageshwar Range",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6383274,
+      "lng": 79.85289519999999
+    }
+  },
+  {
+    "place_id": "ChIJ-_pJ2zrPoDkRCWSpq0n7qmg",
+    "name": "Dev dham home stay & restorent",
+    "address": "JVQ3+85X, Artola",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.6383653,
+      "lng": 79.852977
+    }
+  },
+  {
+    "place_id": "ChIJM5YsYDrPoDkRBZySW_EVaqY",
+    "name": "Bhaskar Guest House Jageshwar Dham",
+    "address": "Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.6381464,
+      "lng": 79.85314919999999
+    }
+  },
+  {
+    "place_id": "ChIJmaUn2VnPoDkRVbyDjAHeubs",
+    "name": "Jai shree ram guest house",
+    "address": "JVQ2+6RH, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6380599,
+      "lng": 79.85209549999999
+    }
+  },
+  {
+    "place_id": "ChIJqw5NOk_PoDkRapmKXUlvz-k",
+    "name": "Durga Guest House Jageshwar",
+    "address": "Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6379207,
+      "lng": 79.85360690000002
+    }
+  },
+  {
+    "place_id": "ChIJPWkJyvLPoDkRy_A8-AZrP_Y",
+    "name": "Deodar In Home Stay",
+    "address": "Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6383503,
+      "lng": 79.85157389999999
+    }
+  },
+  {
+    "place_id": "ChIJ3-kNF4vPoDkR5xt0FkAufpw",
+    "name": "Hotel Mrityunjay Inn",
+    "address": "Shubham Hotel, near Shubham Guest House, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.63835419999999,
+      "lng": 79.8515166
+    }
+  },
+  {
+    "place_id": "ChIJc8ilj53PoDkRDUiQFBItiYg",
+    "name": "Devdar In Home Stay",
+    "address": "Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.6382789,
+      "lng": 79.8514285
+    }
+  },
+  {
+    "place_id": "ChIJ5UJzNOjPoDkRp6R7jBkLvRc",
+    "name": "हरी ॐ गेस्ट हाउस जागेश्वर धाम",
+    "address": "JVQ2+4JC, Dandeshwar-Jageshwar Road, Jageshwar Range",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6378079,
+      "lng": 79.85150039999999
+    }
+  },
+  {
+    "place_id": "ChIJOUMpM3_PoDkRsCbXsSC0Qe0",
+    "name": "Shivalay Guest House",
+    "address": "Jageshwar Dham",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.63780640000001,
+      "lng": 79.8514879
+    }
+  },
+  {
+    "place_id": "ChIJr3E0U7_PoDkRhK8AK93aE0s",
+    "name": "Rudraksh Tourist Guest House & Restaurant, Jageshwar Dham",
+    "address": "Rudraksh Guest House, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6376989,
+      "lng": 79.8510898
+    }
+  },
+  {
+    "place_id": "ChIJq_sxA2fPoDkREM48fM4pci4",
+    "name": "Sarveshwar Homestay By Geetnanda Residency",
+    "address": "near jageshwar temple, Dandeshwar-Jageshwar Road, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.638089,
+      "lng": 79.85464569999999
+    }
+  },
+  {
+    "place_id": "ChIJ35GN97vPoDkRzNI0clWDt8Y",
+    "name": "Kuber homestay jageshwar dham",
+    "address": "Jageshwar Dham",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6376911,
+      "lng": 79.85453919999999
+    }
+  },
+  {
+    "place_id": "ChIJi6rXsd3OoDkRFD0ns5Xu6PI",
+    "name": "Bharat residency",
+    "address": "JVQ2+54X, Dandeshwar-Jageshwar Road, Jageshwar Range",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.6379969,
+      "lng": 79.8503735
+    }
+  },
+  {
+    "place_id": "ChIJ383WqOfPoDkRbrTA3-31-pk",
+    "name": "Jai Bhola Jageshwar Home Stay",
+    "address": "Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.63965159999999,
+      "lng": 79.8552759
+    }
+  },
+  {
+    "place_id": "ChIJZUIIS-bOoDkRXPscdmJbwh0",
+    "name": "Jageshwar Forest Rest House",
+    "address": "JVR4+628, Dandeshwar-Jageshwar Road, Jageshwar Range",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6405283,
+      "lng": 79.85506819999999
+    }
+  },
+  {
+    "place_id": "ChIJlzGXi1jPoDkRHfrb4iL2Chs",
+    "name": "Siddhi Vinayak Resort Jageshwar",
+    "address": "JRQX+7MG, Unnamed Road, Jageshwar Range",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6381893,
+      "lng": 79.8492103
+    }
+  },
+  {
+    "place_id": "ChIJB0mUmEzPoDkRCcpWRh5lUxY",
+    "name": "OYO 47615 Jageshwar Inn",
+    "address": "1, Dandeshwar-Jageshwar Road, Jageshwar Range",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.6367069,
+      "lng": 79.8497436
+    }
+  },
+  {
+    "place_id": "ChIJpacC0RvPoDkRC8Fxk0Yce6o",
+    "name": "Radha madhav Home stay",
+    "address": "JVP4+JV, Jageshwar Range",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6366475,
+      "lng": 79.8571898
+    }
+  },
+  {
+    "place_id": "ChIJO-GhRADPoDkRN_EqOOqAX6I",
+    "name": "Prem bhatt",
+    "address": "JRWX+2W9, Jageshwar Dham",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6450484,
+      "lng": 79.84984510000001
+    }
+  },
+  {
+    "place_id": "ChIJbfWswB_PoDkRv7wRKmmYh6Y",
+    "name": "The Himalayan Star Camp",
+    "address": "JVH3+MGW, Jageshwar Range",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.629226,
+      "lng": 79.8538215
+    }
+  },
+  {
+    "place_id": "ChIJ29wMxj3PoDkRYMJrkvHo1EQ",
+    "name": "Jageshwar meditation huts",
+    "address": "meditation homes, Sadhna kendra, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.6306494,
+      "lng": 79.86000469999999
+    }
+  },
+  {
+    "place_id": "ChIJM_tB2l_PoDkRdXD2EQoV5z4",
+    "name": "homestay",
+    "address": "Naikana",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.635766,
+      "lng": 79.8646835
+    }
+  },
+  {
+    "place_id": "ChIJVwdSe2_PoDkRAh8FoVCz5jQ",
+    "name": "Shiva Home Stay",
+    "address": "GREEN TOP DINGRI NAINI, ROAD, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6392294,
+      "lng": 79.8654486
+    }
+  },
+  {
+    "place_id": "ChIJRWf9YbbPoDkR3PbIbl55i4M",
+    "name": "The beauty of nature",
+    "address": "Kotuli Gunth",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.63380069999999,
+      "lng": 79.8400046
+    }
+  },
+  {
+    "place_id": "ChIJTV4LntLPoDkR2-QJmFNL-oY",
+    "name": "the beauty of nautre",
+    "address": "Kotuli Gunth",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6339938,
+      "lng": 79.8397255
+    }
+  },
+  {
+    "place_id": "ChIJ9dBcLfnPoDkRZNRDruq1qgs",
+    "name": "CEDAR SERAI Home Stay",
+    "address": "Jageshwar dham range Villege",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6323569,
+      "lng": 79.8390995
+    }
+  },
+  {
+    "place_id": "ChIJl1lCM63PoDkREMN_nf20jL4",
+    "name": "Van Serai - The Himalayan Spiritual Lodge",
+    "address": "near Dandeshwar Temple, Dandeshwar-Jageshwar Road, Jageshwar Range",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.629055,
+      "lng": 79.8414914
+    }
+  },
+  {
+    "place_id": "ChIJQxl2x0DPoDkRGajLtgVeEy8",
+    "name": "HOME AVENUE GUEST HOUSE JAGESHWAR",
+    "address": "Dandeshwar Temple, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.629055,
+      "lng": 79.8414914
+    }
+  },
+  {
+    "place_id": "ChIJWU2Me1nPoDkRuUx3hoOxP84",
+    "name": "Shiva Green Home Stay",
+    "address": "Mahadev Temple, opposite Dandeshwar Temple, Dandeshwar-Jageshwar Road, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.62932009999999,
+      "lng": 79.8409993
+    }
+  },
+  {
+    "place_id": "ChIJBcm7IN3PoDkRTd2-GoUa02s",
+    "name": "View pont",
+    "address": "Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.6259692,
+      "lng": 79.86246129999999
+    }
+  },
+  {
+    "place_id": "ChIJJaKgmOzOoDkRMElNoGPVXOg",
+    "name": "Narayan Guest House",
+    "address": "Near Temple gate Vridh, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.6541064,
+      "lng": 79.85545979999999
+    }
+  },
+  {
+    "place_id": "ChIJFTw79DPPoDkRlQCq0oNLuiM",
+    "name": "Khali gunth",
+    "address": "office, Khali gunth post, distik, Mirtola",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6512533,
+      "lng": 79.84113599999999
+    }
+  },
+  {
+    "place_id": "ChIJbwMj91zPoDkRhozpPs_V364",
+    "name": "Kunja Village Homestay",
+    "address": "Kunja Village Homestay Village: Kunja Post Office: Mirtola, Dist:, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6456135,
+      "lng": 79.8355438
+    }
+  },
+  {
+    "place_id": "ChIJF27Hln7JoDkROWRFSdPoAho",
+    "name": "UTT Village Homestay",
+    "address": "Kunja Village P.O, Mirtola",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6454354,
+      "lng": 79.8351425
+    }
+  },
+  {
+    "place_id": "ChIJkfq4KnDPoDkR1VU3gYraNpw",
+    "name": "Rangoli hotel and restaurant",
+    "address": "road, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6269659,
+      "lng": 79.8379875
+    }
+  },
+  {
+    "place_id": "ChIJI-cMimnPoDkRvdi-87WdXp8",
+    "name": "Kot Kailash Retreat",
+    "address": "MR4R+6C6, Shaukiyathal, old, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.6555345,
+      "lng": 79.8410212
+    }
+  },
+  {
+    "place_id": "ChIJEZw4phTPoDkRbC2Z0U5GBMU",
+    "name": "RB Camping Bhagartola",
+    "address": "JVWF+JFH, Bhagar Tola",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6465624,
+      "lng": 79.8737282
+    }
+  },
+  {
+    "place_id": "ChIJacXOqZ_PoDkRqyMZXwxjgf4",
+    "name": "Neji ji resort Holiday enjoy",
+    "address": "JRXM+R9Q, Kunj Gunth",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6495786,
+      "lng": 79.8334872
+    }
+  },
+  {
+    "place_id": "ChIJEygIaYLPoDkRfEkK6wcTPQU",
+    "name": "Nature Valley Homestay Shaukiyathal",
+    "address": "Village- Shaukiyathal, Vridh, Jageshwar Dham",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.65567919999999,
+      "lng": 79.8407426
+    }
+  },
+  {
+    "place_id": "ChIJyYKdIi_PoDkRUwT8-SpvJC0",
+    "name": "VIVAAN",
+    "address": "JRCQ+WF7, Pitharar RD, Jageshwar Range",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.62229959999999,
+      "lng": 79.838658
+    }
+  },
+  {
+    "place_id": "ChIJDUZXWu3PoDkRl2bF_545YyA",
+    "name": "Jageshwar Range",
+    "address": "Jageshwar Range",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6128647,
+      "lng": 79.84648039999999
+    }
+  },
+  {
+    "place_id": "ChIJ55dSVSrKoDkRJs_9gosnOk4",
+    "name": "State Bank of India",
+    "address": "MQFJ+GQH, Almora - Berinag Road, Dhaulchhina",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.673803,
+      "lng": 79.7819987
+    }
+  },
+  {
+    "place_id": "ChIJKZuCXLjNoDkRP6FJNdTD3rA",
+    "name": "State Bank ATM",
+    "address": "PV3Q+G5M, Seraghat",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7038277,
+      "lng": 79.88792130000002
+    }
+  },
+  {
+    "place_id": "ChIJGUxJOsPJoDkRJBYCC0cNj_0",
+    "name": "State Bank of India BARECHHINA",
+    "address": "PITHORAGARH ROAD, PO, VILL, Barechhina",
+    "type": "guest_house",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.6419594,
+      "lng": 79.7518011
+    }
+  },
+  {
+    "place_id": "ChIJB-E2MQDPoDkR4N1JUCAIgeo",
+    "name": "Akash farnichar",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJuaokbgDPoDkRDtT7ANc7xbM",
+    "name": "Jaya nagar yadav colony",
+    "address": "Jbp m.p, mandir Yadav colony, near jogeshwar, 525/2, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJj39APpLFoDkRIsQCNTFN7cY",
+    "name": "Kaphlikhan Town",
+    "address": "Kaphlikhan Town",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.5718733,
+      "lng": 79.8564576
+    }
+  },
+  {
+    "place_id": "ChIJez4KGgDPoDkRgk12Vho61dw",
+    "name": "BITRA RAMESH House'",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJi7B5tmnPoDkRsykJ2tt_ioY",
+    "name": "Brahma Kund",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJVwKDjnTPoDkRvfagXFFJMwo",
+    "name": "andoli kholi",
+    "address": "JVQ3+94F, Dunar",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJnXIAbULPoDkRQ2yGG53peX0",
+    "name": "Jila Chhatarpur",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": 1,
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJQTXwDlvPoDkRxS0QkT_OJLw",
+    "name": "JAY BHOLENAATH TUM KIRANA",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJRxl3POHPoDkRZOyb9Tgyqvw",
+    "name": "अकूला देवी मंदिर डोटियाल गांव",
+    "address": "Temple, State Highway 37, Harkhola",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJaw_Ys7DPoDkRN4PJI_C5SUY",
+    "name": "रहस्यमय मंदिर",
+    "address": "JVQ3+94F, near jageswar dham, betul",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJ208ZhlnPoDkRkuZ5mUx44lE",
+    "name": "Sarkar ka mandir",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": 1,
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJdSn6OgDPoDkRcbvSmxvH3RQ",
+    "name": "Group of temple, Jageshwar",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJdVHvTwDPoDkRFEZbdBGJYNo",
+    "name": "Jakh State",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJz3-pIcjPoDkRwwAk1Qq1Ms8",
+    "name": "Maha mruthunjaya ling",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJkxEk6hPPoDkRiK9mlLpnd_c",
+    "name": "Puran singh Gaira house",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJgWWyqiDPoDkRVNP7fxyNVE0",
+    "name": "Das house (Himanshu)",
+    "address": "JVQ3+94F, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJhVVZVZXPoDkRvLkL270ze1M",
+    "name": "jageshwar",
+    "address": "near Jageshwar temple, Jageshwar Dham",
+    "type": "guest_house",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJHSVgv3PPoDkRcuWBtN2XbrU",
+    "name": "Pandit ji",
+    "address": "Jageshwar Dham",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  },
+  {
+    "place_id": "ChIJq6qqeufOoDkR0AovUYbFCgQ",
+    "name": "Dhumra Devi Temple",
+    "address": "JVQ3+94F",
+    "type": "guest_house",
+    "rating": 1,
+    "location": {
+      "lat": 29.6384344,
+      "lng": 79.8527819
+    }
+  }
+]

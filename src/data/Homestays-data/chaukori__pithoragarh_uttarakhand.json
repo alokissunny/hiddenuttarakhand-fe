@@ -1,0 +1,1036 @@
+[
+  {
+    "place_id": "ChIJgRNLz6IrpzkRnJ_VRHAvsN0",
+    "name": "Boutique stay with parking in Pithoragarh, by GuestHouser 15258",
+    "address": "R2QM+95R, Chaukori",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8385,
+      "lng": 80.03289
+    }
+  },
+  {
+    "place_id": "ChIJjx8XmaIrpzkRqfhcSEeJggo",
+    "name": "KMVN Tourist Rest House Chaukori",
+    "address": "Pithoragarh Road, Chaukori",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.8373776,
+      "lng": 80.03158930000001
+    }
+  },
+  {
+    "place_id": "ChIJaW6rmqIrpzkRX2VHFnxUnIQ",
+    "name": "Hotel Himshikhar",
+    "address": "Bageshwar-Munsyari Road, Chaukori",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.83685899999999,
+      "lng": 80.031651
+    }
+  },
+  {
+    "place_id": "ChIJaXYhrqIrpzkRc8biL16WbdQ",
+    "name": "Ojaswi Resort",
+    "address": "Tea Garden, Near police Chauki, Chaukori - 262531, Uttarkhand, Chaukori, Pithoragarh",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.838548,
+      "lng": 80.0306287
+    }
+  },
+  {
+    "place_id": "ChIJe0pyrdXUoDkRDPc7MA-qzCQ",
+    "name": "Sainik Rest House",
+    "address": "Near State Bank of India, National Highway 309A, Raiagar, Berinag, Pithoragarh",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.7797279,
+      "lng": 80.0508492
+    }
+  },
+  {
+    "place_id": "ChIJ2bzlL5IrpzkR3OzA-JLtfoA",
+    "name": "Hardik Resort Chaukori A Unit Of TGH Group",
+    "address": "View Point Road, Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8384526,
+      "lng": 80.03323250000001
+    }
+  },
+  {
+    "place_id": "ChIJcclT-a0rpzkRQ8pcgQf6ea8",
+    "name": "Dalfin homestay",
+    "address": "R2QM+97Q, Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8384526,
+      "lng": 80.03323250000001
+    }
+  },
+  {
+    "place_id": "ChIJW6zz_yIrpzkRb-AoYuZFuXA",
+    "name": "Deep Resort",
+    "address": "Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.83796069999999,
+      "lng": 80.0329187
+    }
+  },
+  {
+    "place_id": "ChIJ9XElVGIrpzkRr8eqZoJyc68",
+    "name": "Geet Hotel",
+    "address": "R2QM+55J, behind T.R.C. Govt Guest House, Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8379548,
+      "lng": 80.03288649999999
+    }
+  },
+  {
+    "place_id": "ChIJhePgo74loTkRQDD2_d_qPpM",
+    "name": "Gaurav Resort Chaukori",
+    "address": "Chaukori",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.83695179999999,
+      "lng": 80.03196919999999
+    }
+  },
+  {
+    "place_id": "ChIJn1qSoKIrpzkRHI88zwO3N3A",
+    "name": "Hotel Sadbhavana",
+    "address": "R2QJ+5F2, Chaukori",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.8378776,
+      "lng": 80.0311334
+    }
+  },
+  {
+    "place_id": "ChIJ71QeblMrpzkREteZ6lyMdwg",
+    "name": "HARI OM HOMESTAY",
+    "address": "near TOURIST RENT CANT, Chaukori",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.8370226,
+      "lng": 80.0313692
+    }
+  },
+  {
+    "place_id": "ChIJq9TcD5grpzkRH_fOuDJxmGw",
+    "name": "Swastik Homestay",
+    "address": "R2QJ+76J, Chaukori",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.838221,
+      "lng": 80.0305249
+    }
+  },
+  {
+    "place_id": "ChIJK-IWXLYrpzkR7UGsp1JojNA",
+    "name": "Manish Home Stay",
+    "address": "Chaukori, Pithoragarh",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.8395767,
+      "lng": 80.0308106
+    }
+  },
+  {
+    "place_id": "ChIJBxcLNN8rpzkR9S-uit8mZvo",
+    "name": "Bhavya Homestay and Restaurant",
+    "address": "National Highway 309A, Chaukori",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.8366155,
+      "lng": 80.0314719
+    }
+  },
+  {
+    "place_id": "ChIJyYOtaD0rpzkRj6aSX0YDW2A",
+    "name": "Shanti HomeStay",
+    "address": "near Police Station, Berinag, Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8374118,
+      "lng": 80.03065219999999
+    }
+  },
+  {
+    "place_id": "ChIJSala1hArpzkRTxg4Go4y3KE",
+    "name": "Neelgagan Resort",
+    "address": "Chaukori",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.8408727,
+      "lng": 80.0342415
+    }
+  },
+  {
+    "place_id": "ChIJT4ZN7YMrpzkR9Alj_crFmzQ",
+    "name": "Ram Ganga HomeStay",
+    "address": "Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8361046,
+      "lng": 80.0317069
+    }
+  },
+  {
+    "place_id": "ChIJQf2HM1krpzkR5xorH1_Ncn0",
+    "name": "Kite Home Stay",
+    "address": "Near KMSB himalaya inter college, ring road chaukodi, Berinag",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.8396723,
+      "lng": 80.0361075
+    }
+  },
+  {
+    "place_id": "ChIJqyJzHBMrpzkRyMFXa0FIchE",
+    "name": "Himalayan Oaks",
+    "address": "near Police Chowki, Pithoragarh Road, Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.83869179999999,
+      "lng": 80.02977899999999
+    }
+  },
+  {
+    "place_id": "ChIJn_0VEgErpzkRZZuAT8d1J2s",
+    "name": "द Gud Chaha Cafe and Homestay",
+    "address": "Bus Stop, Bageshwar-Munsyari Road, Chaukori",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.8361849,
+      "lng": 80.0309707
+    }
+  },
+  {
+    "place_id": "ChIJNZmhr5YrpzkRsr9Bfjlsy68",
+    "name": "Hardik Resort",
+    "address": "View Point Road, Chaukori",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.8355679,
+      "lng": 80.0314949
+    }
+  },
+  {
+    "place_id": "ChIJqxonVg8rpzkRDxMFfOgkDEs",
+    "name": "Aashiyana home stay",
+    "address": "R2QH+HQ2, Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8388879,
+      "lng": 80.0293973
+    }
+  },
+  {
+    "place_id": "ChIJgw_UEqErpzkRJJAEJiNXtww",
+    "name": "Hotel Sunrise",
+    "address": "Bus Stop, Bageshwar-Munsyari Road, Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8358783,
+      "lng": 80.0307291
+    }
+  },
+  {
+    "place_id": "ChIJ1xwS1iQrpzkRRVh8mmpP9es",
+    "name": "The Himalayan Woods, Chaukori",
+    "address": "near Police Chowki, Pithoragarh Road, Chaukori",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.8393457,
+      "lng": 80.0294615
+    }
+  },
+  {
+    "place_id": "ChIJN8XpkxYrpzkRDeWORi07h-E",
+    "name": "Anandi resort",
+    "address": "R2RM+P24, Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8421174,
+      "lng": 80.0323411
+    }
+  },
+  {
+    "place_id": "ChIJ6bJsHwArpzkR8xP2af5euto",
+    "name": "The Chaukori Heritage",
+    "address": "Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8422762,
+      "lng": 80.0338261
+    }
+  },
+  {
+    "place_id": "ChIJc6indQArpzkRZStEQilje3I",
+    "name": "BHANUMATI HOMESTAY CHAUKORI (Pankaj)",
+    "address": "R2RM+W8P, Chaukori",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8423344,
+      "lng": 80.0333254
+    }
+  },
+  {
+    "place_id": "ChIJ-XWY2kErpzkR9JHh5XrX7Tk",
+    "name": "HILL QUEEN HOME STAY chaukori (pithoragarh) uttarakhand",
+    "address": "Chaukori",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.8360385,
+      "lng": 80.02959109999999
+    }
+  },
+  {
+    "place_id": "ChIJrQMMsa4rpzkRj4wwlKNXc7k",
+    "name": "pahaad",
+    "address": "R2VM+7MG, Chaukori",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8431796,
+      "lng": 80.0342071
+    }
+  },
+  {
+    "place_id": "ChIJJa9FOQArpzkR4w9OEqPyJJ0",
+    "name": "Hotel",
+    "address": "R2PH+29R, Arari",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8356009,
+      "lng": 80.02874620000001
+    }
+  },
+  {
+    "place_id": "ChIJJzwVioorpzkR9T92_nOZmE8",
+    "name": "Hotel Om Nanda Rudra",
+    "address": "Chaukori",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.8354018,
+      "lng": 80.0284375
+    }
+  },
+  {
+    "place_id": "ChIJsWzYImsrpzkRpmTRNe7YCEE",
+    "name": "Godavari Palace",
+    "address": "Godavari Place, Chaukori",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.8348805,
+      "lng": 80.0286191
+    }
+  },
+  {
+    "place_id": "ChIJzyNFqfIrpzkR_-tDaAVBNds",
+    "name": "Oak woods",
+    "address": "Chaukori",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8440147,
+      "lng": 80.03281249999999
+    }
+  },
+  {
+    "place_id": "ChIJQwwq2lorpzkRtd-evO_kt8Q",
+    "name": "Bhupesh home stay chaukori",
+    "address": "NH309A",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8354277,
+      "lng": 80.02774749999999
+    }
+  },
+  {
+    "place_id": "ChIJG2ASD4ArpzkRpEVTLl1mnf4",
+    "name": "Meet home Stay",
+    "address": "Meet home stay, Chaukori",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.8343803,
+      "lng": 80.0266607
+    }
+  },
+  {
+    "place_id": "ChIJOQvp1YErpzkRThEwNGdpVec",
+    "name": "OLD MONK ADVENTURES",
+    "address": "beside hanging rock, Chaukori",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8403265,
+      "lng": 80.02491169999999
+    }
+  },
+  {
+    "place_id": "ChIJ63nAZLUrpzkRkyjaVCbT3Oc",
+    "name": "The nature homestay",
+    "address": "National Highway 309A, Arari",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.8364423,
+      "lng": 80.0246816
+    }
+  },
+  {
+    "place_id": "ChIJp91fuBkrpzkRJvgnE7l-yYA",
+    "name": "Geetanjali Homestay",
+    "address": "Geetanjali homestay, Chaukori",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.83356039999999,
+      "lng": 80.0261032
+    }
+  },
+  {
+    "place_id": "ChIJoVUBZFQrpzkRq2n-K8xGfEM",
+    "name": "Hotel Chaukori Inn",
+    "address": "R2MG+Q34, Arari",
+    "type": "lodging",
+    "rating": 1,
+    "location": {
+      "lat": 29.8343948,
+      "lng": 80.0251906
+    }
+  },
+  {
+    "place_id": "ChIJNzefYVorpzkRdXltUYPY54c",
+    "name": "Apna Ghar hotel & resort",
+    "address": "Near Udiyari bend, Munsyari Bageshwar road, National Highway 309A, Chaukori",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.8325207,
+      "lng": 80.0251593
+    }
+  },
+  {
+    "place_id": "ChIJdc7Ww5YrpzkRF5W6AubIyBY",
+    "name": "The nature homestay Wi Fi Available with 50 Mbps speed",
+    "address": "kotmanya chaukori, Arari",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.8401687,
+      "lng": 80.0204575
+    }
+  },
+  {
+    "place_id": "ChIJn9FcVAArpzkRkVyK4YW9aNg",
+    "name": "Pankaj Joshi Home",
+    "address": "V22J+F6J, Chaukori",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8512037,
+      "lng": 80.03051909999999
+    }
+  },
+  {
+    "place_id": "ChIJoSANB4krpzkRAH5KaLFFGuo",
+    "name": "मोनाल होम स्टे",
+    "address": "R2XF+M8, Arari",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8492874,
+      "lng": 80.02338060000001
+    }
+  },
+  {
+    "place_id": "ChIJ1wSkZVwrpzkRz1Sxq4iaiTg",
+    "name": "Bhutua santer",
+    "address": "R2X8+9F5, Kotmanya-Dausoli-Pankhu Road, Berinag",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8483794,
+      "lng": 80.0162491
+    }
+  },
+  {
+    "place_id": "ChIJ-VqRr3YrpzkR_gGcqlstnBc",
+    "name": "Aangan Resort",
+    "address": "R2CF+RX3, Bageshwar - Didihat Road, Udiyari",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.8220072,
+      "lng": 80.02492199999999
+    }
+  },
+  {
+    "place_id": "ChIJh9SDSWkrpzkRUMZctfA4KrU",
+    "name": "Nyoli Nest & Aagan Home Stays",
+    "address": "Near Udiyari, Band, Bageshwar - Didihat Road, Thal",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.8217983,
+      "lng": 80.0246038
+    }
+  },
+  {
+    "place_id": "ChIJn-OjVQQrpzkR21S9kpVW08A",
+    "name": "Shiv Darshan",
+    "address": "Band, Udiyari",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8215665,
+      "lng": 80.02354679999999
+    }
+  },
+  {
+    "place_id": "ChIJL8NxlG4rpzkR8qnxjtHBdSY",
+    "name": "David homestay kotmanya",
+    "address": "Dharamghar- Syakote Road, Kotmanya",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.84905879999999,
+      "lng": 80.01468299999999
+    }
+  },
+  {
+    "place_id": "ChIJcz0HSVUrpzkRdZZAIu-iRvA",
+    "name": "Hotel Border Way And Restaurant",
+    "address": "Choukuri Road, Udyariband",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.81888289999999,
+      "lng": 80.0212379
+    }
+  },
+  {
+    "place_id": "ChIJeSa7ePkrpzkRNGW_kyMOBF0",
+    "name": "Hills View Hotel And Restaurant",
+    "address": "Chaukori",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.8188238,
+      "lng": 80.02118829999999
+    }
+  },
+  {
+    "place_id": "ChIJj7zbaE4rpzkRUBmKMequHzE",
+    "name": "OYO 48736 Hotel Border Way And Restaurant",
+    "address": "1 Udiyari, Band, Chaukori",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.818811,
+      "lng": 80.021187
+    }
+  },
+  {
+    "place_id": "ChIJfUTKgr0rpzkRolGHHX2cSVo",
+    "name": "mangalam",
+    "address": "R3G4+6C5, Jakha Rawat",
+    "type": "lodging",
+    "rating": 1,
+    "location": {
+      "lat": 29.8255037,
+      "lng": 80.0560994
+    }
+  },
+  {
+    "place_id": "ChIJcxRQGCwtpzkRSsNx8r1PYAU",
+    "name": "Lalit Home Arari",
+    "address": "R2X4+2HJ, Bageshwar-Munsyari Road, Arari",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8475859,
+      "lng": 80.0063873
+    }
+  },
+  {
+    "place_id": "ChIJ-wVt9vorpzkRxChZNlLJxTw",
+    "name": "dunkhola homestay दुनखोला होमस्टे",
+    "address": "07/01, village dunkhola tunkhola",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.81275540000001,
+      "lng": 80.04198099999999
+    }
+  },
+  {
+    "place_id": "ChIJS4Gn0m8rpzkRsK8cUAq1M_8",
+    "name": "Kafal Hill Homestay ,adventure & fitness club",
+    "address": "Berinag Thal Road, Dhanoli, Berinag",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.8112614,
+      "lng": 80.02389860000001
+    }
+  },
+  {
+    "place_id": "ChIJ7cKoGSArpzkRcjAgofXOD0o",
+    "name": "मनराल होमस्टे ( पंकज सिंह)",
+    "address": "R334+64, Garau",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8029605,
+      "lng": 80.0555802
+    }
+  },
+  {
+    "place_id": "ChIJta_ovZMrpzkRCvOBFqouWuY",
+    "name": "Spices Hills Gaudhar",
+    "address": "Haouse no 53, Garau Gaudhar, Berinag",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.8016285,
+      "lng": 80.0525937
+    }
+  },
+  {
+    "place_id": "ChIJoWWoJXMrpzkRDDhDk4qy_Yw",
+    "name": "Garau,Uttarakhand, India",
+    "address": "R334+64, Garau",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8028615,
+      "lng": 80.0556129
+    }
+  },
+  {
+    "place_id": "ChIJ7U4DcgArpzkRVab5vvpRX6A",
+    "name": "Mahara bhawan",
+    "address": "V397+RV4, Pankhu",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8695235,
+      "lng": 80.0647111
+    }
+  },
+  {
+    "place_id": "ChIJcV8CMS_VoDkRLMyAXoh4x0E",
+    "name": "Mantoli",
+    "address": "Mantoli",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7754557,
+      "lng": 80.0618743
+    }
+  },
+  {
+    "place_id": "ChIJEQSt3yjVoDkRzgcqesvDBJs",
+    "name": "Government Inter College",
+    "address": "Q3G4+2PF, Berinag - Muwani Road, Mantoli, Berinag",
+    "type": "guest_house",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.7750547,
+      "lng": 80.0568071
+    }
+  },
+  {
+    "place_id": "ChIJpc492QYrpzkRakmtFNbEaBU",
+    "name": "State Bank of India DIDIHAT",
+    "address": "DIDIHAT DIST:PITHORAGARH, Pithoragarh",
+    "type": "guest_house",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.82523269999999,
+      "lng": 80.0459952
+    }
+  },
+  {
+    "place_id": "ChIJk04jFHArpzkR1a6uJ98Udhk",
+    "name": "Mallikarjun School",
+    "address": "Uddyari, Bageshwar, SH-11, Bhageswar Didihat Road, Bageshwar, Bageshwar",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8164707,
+      "lng": 80.0211365
+    }
+  },
+  {
+    "place_id": "ChIJuVW4BAYspzkRCCUjx4oHJVg",
+    "name": "Post Office, Mahruri",
+    "address": "V263+4G8, Mahruri",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.8602838,
+      "lng": 80.0038371
+    }
+  },
+  {
+    "place_id": "ChIJtWeKWHcppzkRIuxFCahUkX8",
+    "name": "Government Primary School",
+    "address": "12, Bageshwar- Munsyari Road, Dasoli",
+    "type": "guest_house",
+    "rating": 1,
+    "location": {
+      "lat": 29.8862364,
+      "lng": 80.0487531
+    }
+  },
+  {
+    "place_id": "ChIJkcCfYXkqpzkRoE-roTLO9Ls",
+    "name": "Government Inter College",
+    "address": "R3QV+V4C, kafalta, birgwali, Selaban",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.839689,
+      "lng": 80.0927632
+    }
+  },
+  {
+    "place_id": "ChIJr5SLaOsspzkRlFHvGrC-o0M",
+    "name": "Branch Post Office, Kapuri",
+    "address": "RX4M+CWG, Kapuri",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.8060614,
+      "lng": 79.98481660000002
+    }
+  },
+  {
+    "place_id": "ChIJ_WOcec3UoDkRwkeCA-5EVaQ",
+    "name": "Forest Department",
+    "address": "Q2HR+XPJ, Chaukori R.F.",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7799668,
+      "lng": 80.0417733
+    }
+  },
+  {
+    "place_id": "ChIJ22zwA64spzkRRgFIg6KQ2B0",
+    "name": "Branch Post Office, Nargoli",
+    "address": "Q2P2+4QW, Nargoli",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.7853723,
+      "lng": 80.0019612
+    }
+  },
+  {
+    "place_id": "ChIJKeCcqtXUoDkRaii2DWjPTJ4",
+    "name": "State Bank ATM",
+    "address": "Q3H2+XCV, National Highway 309A, Berinag",
+    "type": "guest_house",
+    "rating": 2.5,
+    "location": {
+      "lat": 29.7799757,
+      "lng": 80.0510585
+    }
+  },
+  {
+    "place_id": "ChIJT25hqNXUoDkR4NCnD5PG8eo",
+    "name": "Almora Urban Co Operative Bank",
+    "address": "Q3J2+3GV, National Highway 309A, Dhanoli, Berinag",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.7802275,
+      "lng": 80.0513108
+    }
+  },
+  {
+    "place_id": "ChIJeXYq0sAspzkROWJx7ujYVcI",
+    "name": "Branch Post Office, Khatigaon",
+    "address": "QXWM+7MJ, Khati Gaon",
+    "type": "guest_house",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.7957005,
+      "lng": 79.9841501
+    }
+  },
+  {
+    "place_id": "ChIJtUsaANXUoDkRwI0nziX1NT8",
+    "name": "State Bank of India BERINAG",
+    "address": "BERINAG DIST:PITHORAGARH",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.780069,
+      "lng": 80.051035
+    }
+  },
+  {
+    "place_id": "ChIJR8A9_8gqpzkRWSmHdizpxEY",
+    "name": "Dhanoli",
+    "address": "Dhanoli",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.78121579999999,
+      "lng": 80.0527938
+    }
+  },
+  {
+    "place_id": "ChIJS4ATMpoupzkRBJAkd6nmIDE",
+    "name": "Branch Post Office, Syankote",
+    "address": "VXHJ+82M, Dharamghar- Syakote Road, Syakot",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.8783483,
+      "lng": 79.9800503
+    }
+  },
+  {
+    "place_id": "ChIJHQirxtXUoDkRXPFxYPszMTQ",
+    "name": "Maharishi Vidya Mandir",
+    "address": "National Highway 309A, Berinag",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7786431,
+      "lng": 80.0517351
+    }
+  },
+  {
+    "place_id": "ChIJp89l9MotpzkRi4PyWZoC-GM",
+    "name": "Sub Post Office, Kameridevi",
+    "address": "RXW6+PJC, Kameridevi, National Highway 309A",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8468092,
+      "lng": 79.9615243
+    }
+  },
+  {
+    "place_id": "ChIJvcIOICrVoDkRajJWFZurYJs",
+    "name": "SBtate Bank ATM",
+    "address": "Q3H3+4XM, Almora - Berinag Road, Berinag",
+    "type": "guest_house",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.7778436,
+      "lng": 80.0549331
+    }
+  },
+  {
+    "place_id": "ChIJw2p899bUoDkRmUxut19lgig",
+    "name": "Government Post Graduate College Berinag",
+    "address": "Q3G2+65R, PG College Road, Berinag",
+    "type": "guest_house",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.7756065,
+      "lng": 80.0503779
+    }
+  },
+  {
+    "place_id": "ChIJQbhPlynVoDkRNBmjHKFe77o",
+    "name": "Union Bank of India",
+    "address": "Ganesh Chowk, New Market, opp. PWD Office, Berinag Road, Berinag",
+    "type": "guest_house",
+    "rating": 3.1,
+    "location": {
+      "lat": 29.7765681,
+      "lng": 80.055454
+    }
+  },
+  {
+    "place_id": "ChIJAZKcqynVoDkR7MR46HZ0mWI",
+    "name": "Sadhana Public School",
+    "address": "Q3G4+39C, Mantoli, Berinag",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.7751907,
+      "lng": 80.0558914
+    }
+  },
+  {
+    "place_id": "ChIJfSaM8zkrpzkRDEeSbM_YV-s",
+    "name": "Indane - Berinag Gas Service",
+    "address": "Ground Floor, Devinagar, Baitholi",
+    "type": "guest_house",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.7739538,
+      "lng": 80.05554479999999
+    }
+  },
+  {
+    "place_id": "ChIJO8s_XRwtpzkRyHwaEtCXdPk",
+    "name": "Branch Post Office",
+    "address": "RX27+RC3, Uprara, Bans Patan - Kanda Rd, Silati, Village, Uprara",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.80202269999999,
+      "lng": 79.9635524
+    }
+  },
+  {
+    "place_id": "ChIJJXx9X9ctpzkRJLi54usQWPU",
+    "name": "Branch Post Office, Bhantola",
+    "address": "VX73+545, Bhantola",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.862894,
+      "lng": 79.952846
+    }
+  },
+  {
+    "place_id": "ChIJ2dTAL9MspzkRjMotSf60sfI",
+    "name": "Branch Post Office, Rawatsera",
+    "address": "QXHC+6HM, Rawatsera, Bans Patan - Kanda Rd",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.7780816,
+      "lng": 79.9714371
+    }
+  },
+  {
+    "place_id": "ChIJ3y4jRA0tpzkRpb2UH3YBcu8",
+    "name": "Uttarakhand Gramin Bank",
+    "address": "RW6V+53P, Saniudiyar, Bans Patan - Kanda Rd",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.8104555,
+      "lng": 79.94269919999999
+    }
+  },
+  {
+    "place_id": "ChIJVQCPbOktpzkRVZi6k5oWu74",
+    "name": "Branch Post Office, Jhakra",
+    "address": "VW2Q+44X, Jhakra, Bageshwar-Munsyari Road",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.8503732,
+      "lng": 79.9378649
+    }
+  },
+  {
+    "place_id": "ChIJhROi_uPUoDkRlahAyXX5uG8",
+    "name": "Avani",
+    "address": "PO, Tripuradevi - Berinag Road, via, Berinag",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.75409479999999,
+      "lng": 80.0482267
+    }
+  },
+  {
+    "place_id": "ChIJlWYEmxMtpzkR4BVKMAR0X3g",
+    "name": "Branch Post Office, Saniudiyar",
+    "address": "RW5R+F9R, Saniudiyar, Bans Patan - Kanda Rd",
+    "type": "guest_house",
+    "rating": 1,
+    "location": {
+      "lat": 29.8087494,
+      "lng": 79.9408868
+    }
+  },
+  {
+    "place_id": "ChIJn8O4YjAtpzkRXksprAwh4m4",
+    "name": "Branch Post Office, Dewal Bichharal",
+    "address": "QXP2+G32, Dewal Bichharal",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.7862639,
+      "lng": 79.950133
+    }
+  },
+  {
+    "place_id": "ChIJFRtXPAArpzkRYTR05XsEHI8",
+    "name": "Praveen villa",
+    "address": "R2QM+97Q, Chaukori",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8384526,
+      "lng": 80.03323250000001
+    }
+  },
+  {
+    "place_id": "ChIJjSEScgArpzkRyUuV-h_o4nU",
+    "name": "Pawan csc center &mobail repairing",
+    "address": "R2QM+97Q, Chaukori",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8384526,
+      "lng": 80.03323250000001
+    }
+  },
+  {
+    "place_id": "ChIJ-3LbRAArpzkRXZzQ4ocUPnA",
+    "name": "M D dairy farm",
+    "address": "R2QM+97Q, Chaukori",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8384526,
+      "lng": 80.03323250000001
+    }
+  }
+]

@@ -1,0 +1,904 @@
+[
+  {
+    "place_id": "ChIJZfeyN0CsoDkRJ2hAznQPG0c",
+    "name": "Kaafal Cottage, Ranikhet",
+    "address": "Village Bismoria P.O. Majkhali, Ranikhet",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.6756502,
+      "lng": 79.500783
+    }
+  },
+  {
+    "place_id": "ChIJ0yf8BkCsoDkR9cUuDOovczc",
+    "name": "Home Stay At Ranikhet",
+    "address": "Cottage no 11, Vimoksha Valley, Village Digoti, Majkhali, Ranikhet, Rānīkhet",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.6713548,
+      "lng": 79.4933903
+    }
+  },
+  {
+    "place_id": "ChIJo-Y36X2poDkRy6Q_1aV4K-k",
+    "name": "Janardan Homestay Ranikhet",
+    "address": "537/181, Dilkash Market, Rānīkhet",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6422243,
+      "lng": 79.4319707
+    }
+  },
+  {
+    "place_id": "ChIJccT15U-soDkRtvDHWaYUBcc",
+    "name": "Vimoksha Valley Residency & Resorts",
+    "address": "India",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.6828563,
+      "lng": 79.5050747
+    }
+  },
+  {
+    "place_id": "ChIJr4MvhH2poDkRcOb3fh9CGoI",
+    "name": "Hotel Snow View",
+    "address": "Post Office, Chaukuni, Ranikhet",
+    "type": "lodging",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.6692691,
+      "lng": 79.4682904
+    }
+  },
+  {
+    "place_id": "ChIJs5qiTU6soDkR7MpqcEGaGis",
+    "name": "POOL RETREAT",
+    "address": "Majhkhali,, Almora-Ranikhet Road, Majkhali",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6780802,
+      "lng": 79.5108508
+    }
+  },
+  {
+    "place_id": "ChIJW2Q230SsoDkRPXeY4z7MJps",
+    "name": "Himsukh",
+    "address": "MGJ2+VF5, Almora-Ranikhet Road, Turkaura",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.682141,
+      "lng": 79.5012237
+    }
+  },
+  {
+    "place_id": "ChIJG9Ed3USsoDkRw0RhDGTIKg0",
+    "name": "Woodsvilla Resort",
+    "address": "Village-Digoti, Almora-Ranikhet Road, Majkhali",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.6811286,
+      "lng": 79.5006946
+    }
+  },
+  {
+    "place_id": "ChIJ9aE_g-6roDkRQadTSc9WW4Y",
+    "name": "Cosmos Himalayan Villas",
+    "address": "Kalika Post Office, Altius Estate Naini, Ranikhet",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.67521,
+      "lng": 79.49973179999999
+    }
+  },
+  {
+    "place_id": "ChIJVw4PLZ-toDkRVnxDetCjaSU",
+    "name": "OYO 22602 Hotel Richmond Hills",
+    "address": "Digoti Road Village Majkhali, Distt, Ranikhet",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.6835,
+      "lng": 79.499316
+    }
+  },
+  {
+    "place_id": "ChIJ51rialusoDkR7XszuLD8HVY",
+    "name": "Richmond Hills Hotel",
+    "address": "MFMX+VWV, Lawasi",
+    "type": "lodging",
+    "rating": 3.2,
+    "location": {
+      "lat": 29.68472989999999,
+      "lng": 79.4997964
+    }
+  },
+  {
+    "place_id": "ChIJQ6nmjlusoDkR_ecROcx5p5g",
+    "name": "Vimoksha Valley Phase II",
+    "address": "Village Digoti, Majkhali, Ranikhet, Someshwar Range",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6868687,
+      "lng": 79.49898519999999
+    }
+  },
+  {
+    "place_id": "ChIJzU2m5YiroDkRmJp5gaJAelc",
+    "name": "Crestmont Snow View - Best Hotel In Ranikhet",
+    "address": "MFH8+7MF Ranikhet - Dwarhat, Dwarahat Road, Dadgaliya",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.6781875,
+      "lng": 79.4666875
+    }
+  },
+  {
+    "place_id": "ChIJl9ay1V-poDkR5GTjmOg7XVk",
+    "name": "Holm Farm Heritage",
+    "address": "Dist, Ranikhet",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.637521,
+      "lng": 79.4517309
+    }
+  },
+  {
+    "place_id": "ChIJK1fdqmKpoDkRdPM0JUvF-S4",
+    "name": "OYO 5211 Ranikhet Grand",
+    "address": "Sadar Bazaar Road, Sadar Bazar, Ranikhet",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.643583,
+      "lng": 79.436719
+    }
+  },
+  {
+    "place_id": "ChIJn7tSeX2poDkR_-ShCzNMAY4",
+    "name": "Balmoral Camp Bliss",
+    "address": "Pandey Kota, Ranikhet",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6317516,
+      "lng": 79.4385301
+    }
+  },
+  {
+    "place_id": "ChIJZbd2en2poDkRDPWbo71LizI",
+    "name": "Panthers Trail, Ranikhet",
+    "address": "Post Office Kalika, Naini Gaon, Ranikhet",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.642828,
+      "lng": 79.434285
+    }
+  },
+  {
+    "place_id": "ChIJ1QKIAdaroDkRM9ABLwVc_Bw",
+    "name": "Rajdeep Hotel",
+    "address": "Sadar Bazar, Ranikhet",
+    "type": "lodging",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.643266,
+      "lng": 79.431798
+    }
+  },
+  {
+    "place_id": "ChIJeScBhH2poDkR45i2M4zho4c",
+    "name": "Alka Hotel",
+    "address": "Alka Hotel, Gandhi Chowk, Ranikhet",
+    "type": "lodging",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.64355529999999,
+      "lng": 79.4304346
+    }
+  },
+  {
+    "place_id": "ChIJW1us1kiqoDkRhLrm19hHC6g",
+    "name": "Seed at Queens Meadows Ranikhet",
+    "address": "near Heda Khan Temple, Village- Badhan, Chiliyanaula, near Heda Khan Temple, Ranikhet",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.67034529999999,
+      "lng": 79.41686059999999
+    }
+  },
+  {
+    "place_id": "ChIJAQAAkEysoDkRdwAYgRzB7VQ",
+    "name": "Neku",
+    "address": "MGH7+M8C, Majkhali",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.679189,
+      "lng": 79.513269
+    }
+  },
+  {
+    "place_id": "ChIJ0QB7b26poDkR-uOSaKbIJDk",
+    "name": "KMVN Tourist Rest House Raniket",
+    "address": "JCHQ+2CQ, Mall Road, Pandey Kota, Ranikhet",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.6275998,
+      "lng": 79.4385965
+    }
+  },
+  {
+    "place_id": "ChIJbRo0V3CpoDkRSYMJhdbsNaw",
+    "name": "Nortons Heritage Hotel",
+    "address": "JCHP+H49, Ranikhet Road, Pandey Kota, Ranikhet",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.62892369999999,
+      "lng": 79.4353621
+    }
+  },
+  {
+    "place_id": "ChIJAYhnqmKpoDkRXTI1yEDN6-w",
+    "name": "Queen's Meadow Hotel",
+    "address": "Sadar Bazaar Road, Ranikhet",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.643612,
+      "lng": 79.43682249999999
+    }
+  },
+  {
+    "place_id": "ChIJRYONJm2poDkREiua2W5lrIo",
+    "name": "West View",
+    "address": "Pandey Kota, Ranikhet",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.62268219999999,
+      "lng": 79.4391515
+    }
+  },
+  {
+    "place_id": "ChIJ8QhcHc-voDkRDyLZV38VC9o",
+    "name": "Nayalap - Rural Himalayan Glamping",
+    "address": "Near Hedakhan Ashram, Village Salla Rautela, Post Shitlakhet",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.5975259,
+      "lng": 79.5473275
+    }
+  },
+  {
+    "place_id": "ChIJ6QUNJ1iwoDkRvdl_qJglUF8",
+    "name": "Hotel Sheetalam",
+    "address": "Shitlakhet Road, Dhamuwa Kanala",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.5945435,
+      "lng": 79.5440764
+    }
+  },
+  {
+    "place_id": "ChIJT4vlCMWvoDkRJ-WjfDmchFc",
+    "name": "Himadri Home Stay ,Shitlakhet,Almora",
+    "address": "Post-Office, near S.B.I, Shitlakhet",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.5943031,
+      "lng": 79.5444188
+    }
+  },
+  {
+    "place_id": "ChIJ816FBgCtoDkRxBs3mkOLvBk",
+    "name": "dada kata",
+    "address": "MGH7+M8C, Majkhali",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6791893,
+      "lng": 79.513269
+    }
+  },
+  {
+    "place_id": "ChIJ48sftPetoDkRSdbEoGDljy8",
+    "name": "Blissful Villas Ranikhet",
+    "address": "Majkhali",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6791893,
+      "lng": 79.513269
+    }
+  },
+  {
+    "place_id": "ChIJryZbcz-toDkRpVP7MICVIwY",
+    "name": "Cottage rental",
+    "address": "ranikhet, Majkhali",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6791893,
+      "lng": 79.513269
+    }
+  },
+  {
+    "place_id": "ChIJq2itFrytoDkRjRJ2Q9MAC5w",
+    "name": "Trishul home stay",
+    "address": "MGH7+M8C, Unnamed Road, Majkhali",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6791893,
+      "lng": 79.513269
+    }
+  },
+  {
+    "place_id": "ChIJb6zpMrmtoDkRPaMd3zw-e3o",
+    "name": "OYO 71908 Kaafal Cottage",
+    "address": "Majkhali",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.679189,
+      "lng": 79.513269
+    }
+  },
+  {
+    "place_id": "ChIJAQAAkEysoDkRZvlTrn1tOAo",
+    "name": "Hotel Eleven Guest House & Restaurant",
+    "address": "Majkhali",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.6792636,
+      "lng": 79.51344069999999
+    }
+  },
+  {
+    "place_id": "ChIJ1_sKCT2toDkRSJeZueFaYMw",
+    "name": "Country Side Home Stay",
+    "address": "Malli Riyuni, opp. Hotel Dev Chayya, Ranikhet, Majkhali",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6803085,
+      "lng": 79.5111244
+    }
+  },
+  {
+    "place_id": "ChIJ9TrB04CtoDkRyr5xeyf7DYM",
+    "name": "Hotel Dev Chhaya",
+    "address": "National Highway 109, Majkhali",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.6801643,
+      "lng": 79.5108724
+    }
+  },
+  {
+    "place_id": "ChIJh6kqCpStoDkRf4ppVuZL57k",
+    "name": "The Solitude Homestay",
+    "address": "Majkhali",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.67990189999999,
+      "lng": 79.5163018
+    }
+  },
+  {
+    "place_id": "ChIJ-721XwCtoDkRUT6T88NHQ4g",
+    "name": "Anami guest house(Anant Dham)",
+    "address": "Majkhali",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6775283,
+      "lng": 79.5105937
+    }
+  },
+  {
+    "place_id": "ChIJx6dDFditoDkRRZjbjPr9hck",
+    "name": "Majkhali Mud Home",
+    "address": "Majkhali",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.6798532,
+      "lng": 79.5099015
+    }
+  },
+  {
+    "place_id": "ChIJq10mX_StoDkR7rO8qWV1cD0",
+    "name": "shubham home stay majkhali ranikhet uk",
+    "address": "C/O Thakur Singh Adhikari Village Malli Riyuni Majkhali, Ranikhet",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.6811126,
+      "lng": 79.50950600000002
+    }
+  },
+  {
+    "place_id": "ChIJRUBWgbStoDkRHDmg4mnRc08",
+    "name": "The Himalayan Lodge",
+    "address": "MGH9+C44, Majkhali - Someshwar Road, Khori",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.678508,
+      "lng": 79.517843
+    }
+  },
+  {
+    "place_id": "ChIJ3wLYCo6toDkRdLAYuVqgraQ",
+    "name": "The Mother's Heritage Home Stay",
+    "address": "Malli Reuni, Majkhali",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6813362,
+      "lng": 79.50883410000002
+    }
+  },
+  {
+    "place_id": "ChIJ_Vxk1VWtoDkREItP0XLvBpY",
+    "name": "Jagriti homestay",
+    "address": "Majkhali",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6811669,
+      "lng": 79.50818459999999
+    }
+  },
+  {
+    "place_id": "ChIJ_xzCfg2toDkRzU2m4vQJkwY",
+    "name": "Odyssey Stays Majkhali",
+    "address": "Village Malli Reuni, Majkhali",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6812795,
+      "lng": 79.5081586
+    }
+  },
+  {
+    "place_id": "ChIJN3hrgUmsoDkRl-xXKWNonmY",
+    "name": "Mr Sarup's Cottage",
+    "address": "MGG5+2Q9, Majkhali",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.675041,
+      "lng": 79.50948509999999
+    }
+  },
+  {
+    "place_id": "ChIJx5SxaUqsoDkR3rivikoLY7k",
+    "name": "Himalayan Eco Lodges Majkhali Woods",
+    "address": "Dida Avam Dida Chak",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6739213,
+      "lng": 79.51166119999999
+    }
+  },
+  {
+    "place_id": "ChIJR4cz5MitoDkRMWGnjUIrspE",
+    "name": "The Xanadu Resort",
+    "address": "N H 109, Village Talli Riyuni, Majkhali, Ranikhet",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6774314,
+      "lng": 79.5192613
+    }
+  },
+  {
+    "place_id": "ChIJM2T7YgCtoDkROHhoAuilxcM",
+    "name": "Himalaya Darshan Homestay",
+    "address": "Ranikhet, Majkhali",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6814978,
+      "lng": 79.5072596
+    }
+  },
+  {
+    "place_id": "ChIJs5qiTU6soDkRl2wVtAQTdgA",
+    "name": "Club Cottage",
+    "address": "MGJ4+JVJ, National Highway 109, Ranikhet",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.6815998,
+      "lng": 79.50714289999999
+    }
+  },
+  {
+    "place_id": "ChIJ6_g_2oStoDkR9i5hrE0vhnQ",
+    "name": "Colonel's Paradise",
+    "address": "Majkhali",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6816025,
+      "lng": 79.506518
+    }
+  },
+  {
+    "place_id": "ChIJU9VadFWtoDkRoVCRweg6RT4",
+    "name": "Altitude 6000",
+    "address": "Himalayan Greens, Digoti Road, Majkhali",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6838568,
+      "lng": 79.5079892
+    }
+  },
+  {
+    "place_id": "ChIJz4WIDYOtoDkRLxjyBUHelPg",
+    "name": "Himvarsha Homestay",
+    "address": "Plot 5&6, Village Talli Riyuni, Majkhali PO Ranikhet, majhkali",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6840932,
+      "lng": 79.50795000000001
+    }
+  },
+  {
+    "place_id": "ChIJgVaezV-toDkRrynQlv8zxms",
+    "name": "Himalayan Green",
+    "address": "MGM4+JWW, Someshwar Range",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.6841022,
+      "lng": 79.5073425
+    }
+  },
+  {
+    "place_id": "ChIJqQvziD-toDkRGnyiKkhq1DE",
+    "name": "Himalayan Anchor",
+    "address": "Himalayan View Majakhali, Someshwar Range",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6834349,
+      "lng": 79.5064857
+    }
+  },
+  {
+    "place_id": "ChIJ8VpZmxWtoDkRuFbrgZb3Ci4",
+    "name": "Himalayan Home in the clouds",
+    "address": "MGM4+8HC, Majkhali",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.683356,
+      "lng": 79.5063788
+    }
+  },
+  {
+    "place_id": "ChIJy4XNnLCtoDkRSOf6lwhZg-Q",
+    "name": "Taxi Service Majkhali",
+    "address": "Majkhali - Someshwar Road, Ranikhet",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6836738,
+      "lng": 79.5065671
+    }
+  },
+  {
+    "place_id": "ChIJc-gjOX6toDkRCZ5hSBr_Qo0",
+    "name": "Mysa By Meraki",
+    "address": "Cottage-11, Vimoksha Valley-1, Majhkhali, Ranikhet",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6828367,
+      "lng": 79.5050079
+    }
+  },
+  {
+    "place_id": "ChIJK_gpKFOsoDkR2jvkPbe-Zgw",
+    "name": "Bhagwat Adhikari",
+    "address": "Talli Reauni, Majkhali",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.6871685,
+      "lng": 79.5147813
+    }
+  },
+  {
+    "place_id": "ChIJzzDND3OtoDkR1z0_0hfQodk",
+    "name": "Bella Vista",
+    "address": "Cottage # 1, Vimoksha Velly Phase # 1, Dekoti Majhkali, Ranikhet",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6835898,
+      "lng": 79.50526400000001
+    }
+  },
+  {
+    "place_id": "ChIJ74OtgE-soDkRij0sZo-xwKQ",
+    "name": "Yog Homestay",
+    "address": "Near Yak & Yeti hotel Ranikhet, road, Majkhali",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6810807,
+      "lng": 79.5039552
+    }
+  },
+  {
+    "place_id": "ChIJ3bE_J9SroDkR3MzCk8Oc1Rc",
+    "name": "Ranikhet",
+    "address": "Ranikhet",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6433615,
+      "lng": 79.4321825
+    }
+  },
+  {
+    "place_id": "ChIJAVkOjQ2soDkR3ai4htII6vY",
+    "name": "Pan Himalayan Grassroots Development Foundation",
+    "address": "MFFW+G7R, Almora-Ranikhet Road, Ranikhet Range",
+    "type": "guest_house",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.6738537,
+      "lng": 79.4956424
+    }
+  },
+  {
+    "place_id": "ChIJ8dVSukysoDkRZ0VE87eKATk",
+    "name": "State Bank of India MAJKHALI",
+    "address": "Majkhali",
+    "type": "guest_house",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.679509,
+      "lng": 79.514482
+    }
+  },
+  {
+    "place_id": "ChIJayRrz7atoDkRF8nL9iNqJMs",
+    "name": "Exalter Himalaya View",
+    "address": "MGHF+R7X, Majkhali - Someshwar Road, Khori",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6796035,
+      "lng": 79.5232216
+    }
+  },
+  {
+    "place_id": "ChIJn4M1CBh3AjoRN4k5imwTy_Q",
+    "name": "Ashok Hall Girls' Residential School",
+    "address": "P.O. Majkhali, Almora",
+    "type": "guest_house",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6779603,
+      "lng": 79.5248366
+    }
+  },
+  {
+    "place_id": "ChIJKY5U_0CsoDkR5If4kCV1YZo",
+    "name": "House of Umang",
+    "address": "Village Naini , 9km from Ranikhet, Almora-Ranikhet Road, Ranikhet Range",
+    "type": "guest_house",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6738613,
+      "lng": 79.4957158
+    }
+  },
+  {
+    "place_id": "ChIJeUtrGS-poDkRYOr4p5PdKug",
+    "name": "Chaubatia",
+    "address": "Chaubatia",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6137821,
+      "lng": 79.45632499999999
+    }
+  },
+  {
+    "place_id": "ChIJ2WT8FAeuoDkRrnleUsE7gCw",
+    "name": "The Terraces, Mohanco Estates",
+    "address": "Almora-Ranikhet Road, Gadhwali",
+    "type": "guest_house",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6513894,
+      "lng": 79.5531438
+    }
+  },
+  {
+    "place_id": "ChIJYf_I-HOyoDkRuW8J0dI-0tI",
+    "name": "Govindpur",
+    "address": "MHJ8+WC4",
+    "type": "guest_house",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.6822529,
+      "lng": 79.56607819999999
+    }
+  },
+  {
+    "place_id": "ChIJqzBeWxGyoDkRo5b13P6gh5Y",
+    "name": "Central Bank of India",
+    "address": "Unnamed Road,, Ramana",
+    "type": "guest_house",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6712505,
+      "lng": 79.5758802
+    }
+  },
+  {
+    "place_id": "ChIJ4ccIpq-soDkRsw5UOfhpPJw",
+    "name": "SBI ATM",
+    "address": "PFHH+PMW, Almora Road, Bagwali Pokhar Market",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.7293526,
+      "lng": 79.47919639999999
+    }
+  },
+  {
+    "place_id": "ChIJ39IcBaysoDkRDk-kMh6SmuI",
+    "name": "Uttarakhand Gramin Bank",
+    "address": "PFMG+8V7, Almora Road, Bagwali Pokhar Market",
+    "type": "guest_house",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.73327609999999,
+      "lng": 79.4771746
+    }
+  },
+  {
+    "place_id": "ChIJM6Gs6qeroDkREJhmEQ9NkYc",
+    "name": "Uttrakhand Tourism Place",
+    "address": "H-16, village- Makhannpur, P.O, Gagas",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.688232,
+      "lng": 79.438035
+    }
+  },
+  {
+    "place_id": "ChIJS5u5f2KpoDkR4T0lBP1ujR8",
+    "name": "om communication",
+    "address": "JCVQ+GV2, Almora-Ranikhat-Kosi Road, Khari Bazar, Ranikhet",
+    "type": "guest_house",
+    "rating": 1.5,
+    "location": {
+      "lat": 29.64376709999999,
+      "lng": 79.4396446
+    }
+  },
+  {
+    "place_id": "ChIJmXOsjdWroDkRAAM7Sj6-kJc",
+    "name": "State Bank Of India ATM",
+    "address": "JCVP+FR3, Khari Bazar, Ranikhet",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.643626,
+      "lng": 79.4370559
+    }
+  },
+  {
+    "place_id": "ChIJaSGKlWKpoDkR3ajkHLs6uWU",
+    "name": "Cantonment Board Office Ranikhet",
+    "address": "JCVP+4J6, Khari Bazar, Ranikhet",
+    "type": "guest_house",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.64279059999999,
+      "lng": 79.4365118
+    }
+  },
+  {
+    "place_id": "ChIJycOKfH2poDkRvowsAaJLzkY",
+    "name": "M P Computers",
+    "address": "Sadar Bazaar Road, Khari Bazar, Ranikhet",
+    "type": "guest_house",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.6432565,
+      "lng": 79.4343536
+    }
+  },
+  {
+    "place_id": "ChIJvTqZqWKpoDkRCSkWkCs8rBA",
+    "name": "Sanjeevani NGO",
+    "address": "Trishul Enterprises Building Near Roadways Bus Station, Ranikhet",
+    "type": "guest_house",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.643106,
+      "lng": 79.43373299999999
+    }
+  },
+  {
+    "place_id": "ChIJBzVihH2poDkRt289DUVfVss",
+    "name": "Almora Urban Co Operative Bank",
+    "address": "JCVM+59C, Sadar Bazaar Road, Ranikhet",
+    "type": "guest_house",
+    "rating": 3.3,
+    "location": {
+      "lat": 29.6429273,
+      "lng": 79.4334061
+    }
+  },
+  {
+    "place_id": "ChIJpy9Lj32poDkRQ1UEnqPo6Bg",
+    "name": "Atul Kumar Anoop Kumar Jewellers",
+    "address": "Atul Kumar Anoop Kumar Jewellers, 128, Sadar Bazaar Road, Ranikhet",
+    "type": "guest_house",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.6430896,
+      "lng": 79.4330495
+    }
+  },
+  {
+    "place_id": "ChIJ09KBlSSroDkRagSNWw9WyTU",
+    "name": "State Bank of India",
+    "address": "PC9P+P33, Ranikhet-Dwarahat Raod, Bhuina",
+    "type": "guest_house",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.7192743,
+      "lng": 79.4351659
+    }
+  },
+  {
+    "place_id": "ChIJFUeI-tWroDkRZrecKVK8_2U",
+    "name": "IDBI Bank ATM",
+    "address": "JCVJ+G4H, Sadar Bazaar Road, Raneth, Ranikhet",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.6438005,
+      "lng": 79.43035220000002
+    }
+  }
+]

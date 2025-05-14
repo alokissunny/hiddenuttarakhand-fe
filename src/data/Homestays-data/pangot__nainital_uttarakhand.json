@@ -1,0 +1,739 @@
+[
+  {
+    "place_id": "ChIJMzJBkuuhoDkR_g_W14_r-No",
+    "name": "The Naini Retreat, Nainital",
+    "address": "Ayyarpatta, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3887333,
+      "lng": 79.4526355
+    }
+  },
+  {
+    "place_id": "ChIJj7pzUfqhoDkRa5GLgTQRmqo",
+    "name": "Himalaya Hotel, Nainital",
+    "address": "Near Bus Stand, Tallital, Nainital",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.3794111,
+      "lng": 79.46294759999999
+    }
+  },
+  {
+    "place_id": "ChIJS-ySKPKhoDkRLUJ7Q-mfrEo",
+    "name": "Melville Hall (Colonel's Cottage)",
+    "address": "9FQ6+5GG, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.3879285,
+      "lng": 79.4613279
+    }
+  },
+  {
+    "place_id": "ChIJDfPiJ5qViDARRUlV8rCLwlI",
+    "name": "Shervani Hilltop Nainital",
+    "address": "Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.3968112,
+      "lng": 79.44320689999999
+    }
+  },
+  {
+    "place_id": "ChIJw8ZKH5WhoDkRg-GmMddiN3o",
+    "name": "Luxury Yet Affordable Stay",
+    "address": "116-120, Bara Bazar Road, Nainital",
+    "type": "lodging",
+    "rating": 1,
+    "location": {
+      "lat": 29.3940915,
+      "lng": 79.4503721
+    }
+  },
+  {
+    "place_id": "ChIJA_PUDr6hoDkRi_7hlRkiLkE",
+    "name": "Abbotsford Estate, Nainital (Prasada Bhawan)",
+    "address": "above ATI, Abbotsford , Prasada Bhawan, Oak Park, above ATI, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.3938646,
+      "lng": 79.438931
+    }
+  },
+  {
+    "place_id": "ChIJa0HpOJWhoDkR6Vk0xkCes7w",
+    "name": "Hotel Kohinoor",
+    "address": "Cheena Baba Mandir, near, Nainital High Court Road, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.2,
+    "location": {
+      "lat": 29.3954792,
+      "lng": 79.4496552
+    }
+  },
+  {
+    "place_id": "ChIJi8yfcvKhoDkRQAtx2vrTuQE",
+    "name": "Hotel Rajmahal",
+    "address": "Compound, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.3926865,
+      "lng": 79.456575
+    }
+  },
+  {
+    "place_id": "ChIJEbE7xu-hoDkRD_jsfRLu_FA",
+    "name": "OYO 4112 Amuns Resort",
+    "address": "DSB Road, DSB College Road, Nainital",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.383784,
+      "lng": 79.45796399999999
+    }
+  },
+  {
+    "place_id": "ChIJi6YoNLyhoDkR9A8C2Z9q1LQ",
+    "name": "Nainital Camp Wildland & Farmstay",
+    "address": "Bajoon",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.3718791,
+      "lng": 79.4000707
+    }
+  },
+  {
+    "place_id": "ChIJ7z3mqCWhoDkRd1y_7LVuTms",
+    "name": "Vikram Vintage Inn",
+    "address": "Hotel Vikram Vintage Inn, opposite ATi, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.3943665,
+      "lng": 79.441822
+    }
+  },
+  {
+    "place_id": "ChIJC4uwjLqhoDkRlIVDsCi0fLk",
+    "name": "The Palace Belvedere",
+    "address": "Awagarh Estate, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.393472,
+      "lng": 79.4530455
+    }
+  },
+  {
+    "place_id": "ChIJJ5QRTKmjoDkRPVIcIqx18GM",
+    "name": "Amar Valley Resort",
+    "address": "near Kainchi Dham Temple, Road, Bhowali, Hartapa",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.4270766,
+      "lng": 79.51019819999999
+    }
+  },
+  {
+    "place_id": "ChIJddTfKkGfoDkRPLhqmNs4Mwg",
+    "name": "1 BR Boutique stay in Tallital, Nainital (B27D), by GuestHouser",
+    "address": "Bus Stop, near New Tourist, Bypass Road, Baldiyakhan, Smanora Range",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.3498533,
+      "lng": 79.4534535
+    }
+  },
+  {
+    "place_id": "ChIJ-7hA8PChoDkRMeikpHdFTRE",
+    "name": "Alka The Lake Side Hotel",
+    "address": "The Mall, Nainital",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.3854377,
+      "lng": 79.4627857
+    }
+  },
+  {
+    "place_id": "ChIJradhobuYoDkRn2gkyvwBlBs",
+    "name": "Hotel aamod bhimtal",
+    "address": "9F6J+PFW, Gethia santoriyam",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.3618583,
+      "lng": 79.4812164
+    }
+  },
+  {
+    "place_id": "ChIJQQKP7AKhoDkRY3Tt9EIjpPU",
+    "name": "The Great Barbet Birding Lodge",
+    "address": "CCFG+7Q8, Pangoot",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.4231687,
+      "lng": 79.4269474
+    }
+  },
+  {
+    "place_id": "ChIJLQIocfKhoDkRwiAa3SsY4G4",
+    "name": "Comfortable Room on the Mall Road Nainital",
+    "address": "9FQ5+RR6, Mall Road, 5, Nainital",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.38954129999999,
+      "lng": 79.4595183
+    }
+  },
+  {
+    "place_id": "ChIJy8tB5cR1CjkRmzgpaz7sPvk",
+    "name": "Dynasty Resort",
+    "address": "Nainital Road, KalaDungi, Dist Nainital, Khurpatal",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.3699088,
+      "lng": 79.42856689999999
+    }
+  },
+  {
+    "place_id": "ChIJf2SrDPKhoDkRDRYrc5LHjcA",
+    "name": "Classic The Mall",
+    "address": "Mall Road, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.3891857,
+      "lng": 79.4596009
+    }
+  },
+  {
+    "place_id": "ChIJn1v83-qhoDkRqfCIDoiDdmQ",
+    "name": "Hotel Aroma by Royal Collection Hotels",
+    "address": "Ayarpatta Slopes, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.3912172,
+      "lng": 79.449969
+    }
+  },
+  {
+    "place_id": "ChIJ8wzc7P2hoDkRoNIAr4aQq_s",
+    "name": "The Golden Sunrise Hotel",
+    "address": "near Jeolikote, Main Highway, Beluwakhan",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.345308,
+      "lng": 79.4753652
+    }
+  },
+  {
+    "place_id": "ChIJE7bvsJShoDkR8PtW0M5_rNY",
+    "name": "Hotel Hidden Chalet",
+    "address": "near Kurmanchal Bank, Nainital",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3929448,
+      "lng": 79.45156639999999
+    }
+  },
+  {
+    "place_id": "ChIJVVVVlfKhoDkR_bwI1Ly4EBA",
+    "name": "nainital guest houses",
+    "address": "9FR6+P6W, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.3918622,
+      "lng": 79.4605926
+    }
+  },
+  {
+    "place_id": "ChIJT0kRYP2goDkRbm4SbXRlyfc",
+    "name": "Camp Mehi Nature Resort , Pangoot, Nainital",
+    "address": "Patkot, Pangoot",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.4237415,
+      "lng": 79.42549629999999
+    }
+  },
+  {
+    "place_id": "ChIJl5njnO2hoDkRp7s9sMD-2Do",
+    "name": "The Grand Hotel",
+    "address": "The Mall, Nainital",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.3906011,
+      "lng": 79.4580331
+    }
+  },
+  {
+    "place_id": "ChIJmXoYX6qHoDkRYXqselecJmk",
+    "name": "The Earl's Court, Nainital",
+    "address": "near High Court, Opp. Balika Vidhya Mandir, near High Court, Sherwani, Nainital",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.394906,
+      "lng": 79.444318
+    }
+  },
+  {
+    "place_id": "ChIJT4yqZbihoDkRfjoKHDEAYQk",
+    "name": "Naina Greens",
+    "address": "Naina Greens Mallital Nainital Near Polytechnic College 263001, Nainital",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.3924852,
+      "lng": 79.4389353
+    }
+  },
+  {
+    "place_id": "ChIJEVONLeuhoDkRKFH2PRwCNHk",
+    "name": "hotel broadway",
+    "address": "near Kurmanchal Bank, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.3931553,
+      "lng": 79.4524751
+    }
+  },
+  {
+    "place_id": "ChIJg6Ty1vuhoDkRj0A-iB-eujA",
+    "name": "Hotel Deep Jyoti",
+    "address": "Popular Compound, near Rickshaw Stand, 2, Ropeway Road, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.3924264,
+      "lng": 79.4549806
+    }
+  },
+  {
+    "place_id": "ChIJGRvCFvehoDkRAghZw8VUMnY",
+    "name": "Prashant's Homestay Nainital - Lake View Rooms",
+    "address": "Stoneleigh Main Building, Tallital, Nainital",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.38441029999999,
+      "lng": 79.4663616
+    }
+  },
+  {
+    "place_id": "ChIJrdZkjfmhoDkR7fL6XNAFUxI",
+    "name": "OYO 8878 Chinar Lake View",
+    "address": "Opposite Hotel Welcome Park, Upper Mall Road, Nainital",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.382212,
+      "lng": 79.464908
+    }
+  },
+  {
+    "place_id": "ChIJXaGj6b2hoDkRD8f-wO6drI0",
+    "name": "Hotel Palace",
+    "address": "9FQ5+MW2, The Mall Road, near Railway Holiday Home, Mall Road, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.3873398,
+      "lng": 79.4618662
+    }
+  },
+  {
+    "place_id": "ChIJQwqHt--hoDkRekdeck7CjNc",
+    "name": "Bhikampur Lodge By Howard",
+    "address": "near DSB College, Raj Bhawan Rd, near DSB College, Tallital, Nainital",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.3837891,
+      "lng": 79.4575562
+    }
+  },
+  {
+    "place_id": "ChIJw0o5BfqhoDkRfIAQd0OiJrw",
+    "name": "Hotel Mansarovar",
+    "address": "9FJ7+MJQ, Tallital, Nainital",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.3817177,
+      "lng": 79.46410569999999
+    }
+  },
+  {
+    "place_id": "ChIJd8CL6gKhoDkRrt_DA1NaIeI",
+    "name": "Ashokas Naini Chalet Pangot",
+    "address": "Pangoot",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.42301029999999,
+      "lng": 79.427488
+    }
+  },
+  {
+    "place_id": "ChIJ39rCP-uhoDkRRbTevq9KdF8",
+    "name": "Hotel Imperial Nayna",
+    "address": "High Court Road, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.3929243,
+      "lng": 79.44997529999999
+    }
+  },
+  {
+    "place_id": "ChIJdeT5MZOhoDkRv84dhuQQNzg",
+    "name": "Hotel The Noorani",
+    "address": "Station, Poplars Compound, behind Hotel Alps, opposite Ropeway Road, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.3933584,
+      "lng": 79.45560789999999
+    }
+  },
+  {
+    "place_id": "ChIJVVVVlfKhoDkRFMoLiOKoLP0",
+    "name": "OYO 9494 Arma Dale Hotel",
+    "address": "Waverly Road, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.39508499999999,
+      "lng": 79.443438
+    }
+  },
+  {
+    "place_id": "ChIJGWuYwQKhoDkRBcaZXgU6ru4",
+    "name": "The Oak Trails Eco Lodge",
+    "address": "Haryal, Nainital",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.4377525,
+      "lng": 79.4069202
+    }
+  },
+  {
+    "place_id": "ChIJJ1ssWv2goDkRJfX1pMLK2XE",
+    "name": "Pangot Retreat",
+    "address": "CCFF+JXQ, Pangoot",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.4240799,
+      "lng": 79.4249964
+    }
+  },
+  {
+    "place_id": "ChIJ_acKWP2goDkRChRMsL0mJbI",
+    "name": "Green Valley Birding Lodge",
+    "address": "Village & Post, Kilbury Road, Pangoot",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.4320557,
+      "lng": 79.4333994
+    }
+  },
+  {
+    "place_id": "ChIJkVyeHJWhoDkRRXtdF0Nfdt8",
+    "name": "The Corner",
+    "address": "near cheem baba, High Court Road, Nainital",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.3948681,
+      "lng": 79.44970649999999
+    }
+  },
+  {
+    "place_id": "ChIJKSLeNbmhoDkR2oUjSz27k3A",
+    "name": "OYO 1595 Hotel Suman Paradise",
+    "address": "Armadale Compound, Chamber's High Court, Nainital",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3961029,
+      "lng": 79.4419235
+    }
+  },
+  {
+    "place_id": "ChIJ62Rv076hoDkRmNQ8yymNxOU",
+    "name": "Balrampur House Nainital",
+    "address": "near Uttrakhand High Court, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.3951497,
+      "lng": 79.442385
+    }
+  },
+  {
+    "place_id": "ChIJVUSdX76hoDkR9VLzHlYSTJg",
+    "name": "OYO 5458 Swiss Hotel",
+    "address": "High Court, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.396273,
+      "lng": 79.44512
+    }
+  },
+  {
+    "place_id": "ChIJLUUpK7-hoDkRAm99mjSNNTA",
+    "name": "Hotel Moon 2",
+    "address": "near A.T.I, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.1,
+    "location": {
+      "lat": 29.394552,
+      "lng": 79.442365
+    }
+  },
+  {
+    "place_id": "ChIJZe3k-76hoDkR77oDeAx3arM",
+    "name": "OYO 3466 Home Stay Lorent Manor Cottage",
+    "address": "Manor House Cottage, 10, Mankapur,High Court Road, Nainital",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.39539199999999,
+      "lng": 79.444693
+    }
+  },
+  {
+    "place_id": "ChIJoXI3TpegoDkRC_F-PO3YJBU",
+    "name": "Geeli Mitti CoE (Centre of Excellence)",
+    "address": "Post Office, Mahrora Village, Pangot, Nainital",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.4260916,
+      "lng": 79.3912079
+    }
+  },
+  {
+    "place_id": "ChIJkxGeKsygoDkRc_XTsBHl0gw",
+    "name": "Kampland Nainital",
+    "address": "Sigri",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.4525572,
+      "lng": 79.4112604
+    }
+  },
+  {
+    "place_id": "ChIJw8DRmZWhoDkRrbHNi_eTFXQ",
+    "name": "New Pavilion Cottage",
+    "address": "Sherwani, Nainital",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.396008,
+      "lng": 79.449088
+    }
+  },
+  {
+    "place_id": "ChIJgRBeOr6hoDkRUAq9eAkqj08",
+    "name": "OYO 1597 Hotel Pavalion",
+    "address": "Chamber's High Court, High Court Road, Sherwani, Nainital",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.3957474,
+      "lng": 79.4490628
+    }
+  },
+  {
+    "place_id": "ChIJMUlq2L-hoDkRglz_uG3tc1c",
+    "name": "OYO 6017 Elite",
+    "address": "Grasmere Estate, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.394384,
+      "lng": 79.447801
+    }
+  },
+  {
+    "place_id": "ChIJy-1uYZWhoDkRNhJzW3TyVjc",
+    "name": "Namah Nainital, a member of Radisson Individuals Retreats",
+    "address": "Grassmere Estate, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.3943064,
+      "lng": 79.44781549999999
+    }
+  },
+  {
+    "place_id": "ChIJuT4qPZWhoDkRhVA6CdItVHU",
+    "name": "OYO 1470 Hotel The Royal",
+    "address": "Bara Bazar Road, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 2.5,
+    "location": {
+      "lat": 29.39379439999999,
+      "lng": 79.4499781
+    }
+  },
+  {
+    "place_id": "ChIJYTe90JShoDkRj7lQAdEF9to",
+    "name": "Hotel Cloud 7",
+    "address": "opposite इलाहाबाद बैंक, The Mall Road, opposite इलाहाबाद बैंक, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.3932548,
+      "lng": 79.45095979999999
+    }
+  },
+  {
+    "place_id": "ChIJG8C-yJShoDkR48XadrqgIWo",
+    "name": "Devi Bhawan",
+    "address": "9FV2+8PG, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.3933237,
+      "lng": 79.4518251
+    }
+  },
+  {
+    "place_id": "ChIJp1KetpShoDkRKOOgiTkNbRg",
+    "name": "Hotel Traveller's Paradise Nainital",
+    "address": "9FV2+7XC, Consul Bhawan, Belvedere Compound, near Bank of Baroda Nainital Branch, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.3931856,
+      "lng": 79.4524045
+    }
+  },
+  {
+    "place_id": "ChIJCeRilOqhoDkRFtSZw4nv8MI",
+    "name": "Gauraiya Aatithya",
+    "address": "Langdale Estate, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.3915162,
+      "lng": 79.44974010000001
+    }
+  },
+  {
+    "place_id": "ChIJEQBcqJShoDkROpNwFffZ-Cc",
+    "name": "Hotel Shanti Vatika",
+    "address": "Near Belvedere Compound, Mallital, Nainital",
+    "type": "lodging",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.3933023,
+      "lng": 79.45315990000002
+    }
+  },
+  {
+    "place_id": "ChIJYZ39KLyhoDkRs32YFql7rnw",
+    "name": "Nainital",
+    "address": "Nainital",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3924139,
+      "lng": 79.4533773
+    }
+  },
+  {
+    "place_id": "ChIJqd2Th5WhoDkR8H-i89Ca4Gg",
+    "name": "High Court Of Uttarakhand",
+    "address": "near High Court, Mallital, Nainital",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3957586,
+      "lng": 79.44771
+    }
+  },
+  {
+    "place_id": "ChIJk5X8suihoDkRFhXN-6El2mo",
+    "name": "Sherwood College",
+    "address": "9FJ3+RJM, Ayarpatta, Nainital",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3820863,
+      "lng": 79.454037
+    }
+  },
+  {
+    "place_id": "ChIJb3kRoX2ioDkRu77X_awJlUI",
+    "name": "Sukha",
+    "address": "Sukha",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3800631,
+      "lng": 79.50975489999999
+    }
+  },
+  {
+    "place_id": "ChIJJ9gCl9OhoDkRYDuMzj_v4WU",
+    "name": "SHRI MATA VAISHNO DEVI TEMPLE",
+    "address": "9CGJ+CCG, Smanora Range",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3760655,
+      "lng": 79.4310746
+    }
+  },
+  {
+    "place_id": "ChIJZ4neRrihoDkRlENionlioNY",
+    "name": "Nainital Tourism",
+    "address": "Mall Road, Mallital, Nainital",
+    "type": "guest_house",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.391513,
+      "lng": 79.45622019999999
+    }
+  },
+  {
+    "place_id": "ChIJw5MV276hoDkRxUSx-ssdCzE",
+    "name": "Hotel Suman Paradise Nainital - 3 Star Property",
+    "address": "Armadale Compound, near, High Court Road, Mallital, Nainital",
+    "type": "guest_house",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.395547,
+      "lng": 79.443302
+    }
+  }
+]

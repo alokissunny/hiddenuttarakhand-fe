@@ -1,0 +1,728 @@
+[
+  {
+    "place_id": "ChIJxbj12pi-oDkR1_rPJQD-NHw",
+    "name": "Standard room accommodation",
+    "address": "FM24+XM6, village malla Gahana, near sai mandir and patwari chauki, surmane bend, post Sargakhet, dist nainital, mukteshwar, uttarakhand, Mukteshwar",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.452416,
+      "lng": 79.6566296
+    }
+  },
+  {
+    "place_id": "ChIJ6cJx1-i9oDkR-6cFZcXNfQg",
+    "name": "Keiths Riverside Cottages",
+    "address": "CJ2P+VH6, Dhari, Bhatelia Mukhteshwar Road, Boranshi",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.4021631,
+      "lng": 79.636391
+    }
+  },
+  {
+    "place_id": "ChIJnWqWic69oDkRwjvD5iS0VKY",
+    "name": "Cottage Ananda",
+    "address": "near Govt I.T.I Tandi, Dhari - Bhatelia Road, Pokrad",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.41538269999999,
+      "lng": 79.6382235
+    }
+  },
+  {
+    "place_id": "ChIJhb-gxSm8oDkR2kE-jgvE4N0",
+    "name": "Janardan Homestay Highland Mukteshwar",
+    "address": "CJQX+HPW, village Parvada, Post Bhatelia, Tehsil Dhari, Nainital, Mukteshwar",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.438999,
+      "lng": 79.649328
+    }
+  },
+  {
+    "place_id": "ChIJc7-GdieWoDkRpezj1gTv0zo",
+    "name": "Banlekhi Resorts",
+    "address": "9JP7+V6C, Bhatelia - Dhanachuli - Bhimtal Road, banlekhi",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.3871848,
+      "lng": 79.6130195
+    }
+  },
+  {
+    "place_id": "ChIJYS6aRwW8oDkR4DX85m1kgxE",
+    "name": "OYO Maa Gauri Resort",
+    "address": "5, Sargakhet, Mukteshwar Road, Mukteshwar",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.44079299999999,
+      "lng": 79.6484369
+    }
+  },
+  {
+    "place_id": "ChIJQ5eEIp--oDkRM0Ld8meNmn0",
+    "name": "The Heritage by Nature",
+    "address": "FM23+WQ6, P.O- Sargakhet, Mukteshwar",
+    "type": "lodging",
+    "rating": 2.7,
+    "location": {
+      "lat": 29.4522832,
+      "lng": 79.6544062
+    }
+  },
+  {
+    "place_id": "ChIJ6S5b5j28oDkRJNRVZ0BuWxc",
+    "name": "Oak Essence, Mukteshwar",
+    "address": "Darima, Odakhan Road, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.4523786,
+      "lng": 79.6343646
+    }
+  },
+  {
+    "place_id": "ChIJ2TWRTKG-oDkRtaIBhGwOTUo",
+    "name": "Trinetra Orchards",
+    "address": "Motiyapathar Near Mukteswar, Nainital, Dhanachuli, Paharpani Road, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.461652,
+      "lng": 79.715583
+    }
+  },
+  {
+    "place_id": "ChIJ_aas0p2-oDkREpFXQN6Trsk",
+    "name": "Red Roof Hotel",
+    "address": "Bhatelia-Mukteshwar Road, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.4480548,
+      "lng": 79.6530273
+    }
+  },
+  {
+    "place_id": "ChIJJ-zXFaeXoDkRW7rSiHzwdTI",
+    "name": "Le Reve Valley Resort",
+    "address": "HOUSE NO.- 99, THAPLIYA MAEHRA GAON, NAUKUCHIATAL, Bhimtal",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.3364535,
+      "lng": 79.5900899
+    }
+  },
+  {
+    "place_id": "ChIJdWYxVQC8oDkRZsZFS6d2Z0Q",
+    "name": "Ganghar - The Jungle Retreat",
+    "address": "Village Gazar, Kasialekh,, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.4258302,
+      "lng": 79.6259575
+    }
+  },
+  {
+    "place_id": "ChIJ9Qhva0MuCjkRiGkiTA5BWTY",
+    "name": "Damy Royal Hotels",
+    "address": "Damy royal hotel, Dhikuli",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.3160754,
+      "lng": 79.6277006
+    }
+  },
+  {
+    "place_id": "ChIJT2PUOQqioDkRZWezB_TIays",
+    "name": "Soulitude by The Riverside",
+    "address": "Near Kalsa River Banks, Nainital District, Chanfi",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.3855415,
+      "lng": 79.5851758
+    }
+  },
+  {
+    "place_id": "ChIJ9__FvwW-oDkR92JlFOHkKjI",
+    "name": "Hill Den",
+    "address": "Okhalkhanda road, Dhanachuli - Devstal Road, Mukteshwar",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.3945442,
+      "lng": 79.66005109999999
+    }
+  },
+  {
+    "place_id": "ChIJa7RfXdS9oDkRPk9oJIMCMMk",
+    "name": "Viewtiful Homestay",
+    "address": "Parvada, South Gola Range, Mukhteshwar",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.424713,
+      "lng": 79.6472485
+    }
+  },
+  {
+    "place_id": "ChIJA1hRdsu9oDkRQYMoWKWpeVk",
+    "name": "Nakshatra cottages",
+    "address": "Kasiyalekh",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.4255908,
+      "lng": 79.6371547
+    }
+  },
+  {
+    "place_id": "ChIJKUyxKI-9oDkRDINQmE95AmI",
+    "name": "Aanchal Anand Niwas Bhowali",
+    "address": "Anand Niwas, Dugai Estate, Bhowali, Bhowāli",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.3893125,
+      "lng": 79.6190625
+    }
+  },
+  {
+    "place_id": "ChIJJxxyyKa-oDkRHKJRbybI3x4",
+    "name": "The Golden Peak",
+    "address": "Sargakhet, Bhatelia-Mukteshwar Road, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.4418319,
+      "lng": 79.6481405
+    }
+  },
+  {
+    "place_id": "ChIJ2_KMGQW8oDkR_6HzrgW7FhQ",
+    "name": "Dyo - The Organic Village Resort, Mukteshwar",
+    "address": "CJVX+V87, Amravati Estate, Bhatelia-Mukteshwar Road, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.4446648,
+      "lng": 79.64828349999999
+    }
+  },
+  {
+    "place_id": "ChIJNU19FUC9oDkRpR4k_lcW6uY",
+    "name": "Dyo - The Organic Village Resort, Mukteshwar",
+    "address": "Amravati Estate, Rd, Bhatelia",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.4446875,
+      "lng": 79.6483125
+    }
+  },
+  {
+    "place_id": "ChIJJ83VUSqWoDkRE0WqX7es2WE",
+    "name": "Camp Kalsi",
+    "address": "Mukteshwar Road, Matial, Padampuri, Bhimtal, Matial",
+    "type": "lodging",
+    "rating": 3.3,
+    "location": {
+      "lat": 29.37981250000001,
+      "lng": 79.6086875
+    }
+  },
+  {
+    "place_id": "ChIJq6qqqqa-oDkRyROJB0OtuAc",
+    "name": "Oak Chalet",
+    "address": "Gahana Orchards, Sargakhet, Mukteshwar, Nainital",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.44907670000001,
+      "lng": 79.6540764
+    }
+  },
+  {
+    "place_id": "ChIJF_WEgzKWoDkRJjFg7_6gqhU",
+    "name": "Chestnut House",
+    "address": "9JC5+32X, Jilling Estate, Matial Village, Nanital",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.370226,
+      "lng": 79.60759800000001
+    }
+  },
+  {
+    "place_id": "ChIJTQvr3Pu9oDkRRZWI4niHzHQ",
+    "name": "Magpie Mountain Village",
+    "address": "Dhari - Bhatelia Road, PO, Pokrad",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.40660099999999,
+      "lng": 79.6397618
+    }
+  },
+  {
+    "place_id": "ChIJKy0Cd6q-oDkRhjk9v2RZxf0",
+    "name": "Hotel Club 10 Pine",
+    "address": "near Tandi ITI Chaukhta, Dhari - Bhatelia Road, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.4148273,
+      "lng": 79.6379937
+    }
+  },
+  {
+    "place_id": "ChIJTSh5kMW9oDkRMq6FGT78QS4",
+    "name": "Dakshinam Residency",
+    "address": "CJ9P+458, Link Road, Chaukhuta",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.41778049999999,
+      "lng": 79.63546149999999
+    }
+  },
+  {
+    "place_id": "ChIJ4zSS2M29oDkRLxYZtN6DU4k",
+    "name": "Kanishka Inn",
+    "address": "chokhuta, chokhuta, Kasiyalekh",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.4245078,
+      "lng": 79.6371042
+    }
+  },
+  {
+    "place_id": "ChIJ9_uNBY-9oDkR-dca47bM9nw",
+    "name": "KMVN TRH Padampuri",
+    "address": "9JP9+3WR, Dist. Nainital, North Gola Range",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.3852359,
+      "lng": 79.6197597
+    }
+  },
+  {
+    "place_id": "ChIJdWYxVQC8oDkRgY5BsQHIEWM",
+    "name": "OYO 4697 Home Stay Cottage Nirvana",
+    "address": "Kaafli Gazar, Kasialekh, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.4304744,
+      "lng": 79.6403469
+    }
+  },
+  {
+    "place_id": "ChIJo12HH1C9oDkRJmu0QS9VndE",
+    "name": "Zostel Mukteshwar",
+    "address": "Colonel's Cottage, Dhari Road Village Gajar, Kasiyalekh, Post, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.4235558,
+      "lng": 79.6301179
+    }
+  },
+  {
+    "place_id": "ChIJsaqqqqa-oDkRs5x9-SHU0Sg",
+    "name": "Tathastu Resort",
+    "address": "near Double daat, shashbani letibunga pokhari road (gehna Road, near Double daat, Mukteshwar",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.4361024,
+      "lng": 79.6667658
+    }
+  },
+  {
+    "place_id": "ChIJB5QPYoG-oDkRmMi4-vYVe0o",
+    "name": "The Birdcage",
+    "address": "near Bhatelia, Leti Bunga, Shasbani, near Bhatelia, Market, Dhari",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.4372224,
+      "lng": 79.6538286
+    }
+  },
+  {
+    "place_id": "ChIJM5fyGcu9oDkRo8RYMkvJDX4",
+    "name": "Deeya Adventure Camp Kasiyalekh",
+    "address": "Link Rd, vill - Gajar, Kasiyalekh",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.4280157,
+      "lng": 79.6312023
+    }
+  },
+  {
+    "place_id": "ChIJcxPtFp2-oDkRsx4nj7RbMss",
+    "name": "Mukteshwar Eco Resort, Mukteshwar",
+    "address": "Bhatelia-Mukteshwar Road, South Gola Range",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.4451454,
+      "lng": 79.6521365
+    }
+  },
+  {
+    "place_id": "ChIJb4aEO5y-oDkRO04q5oXZqxw",
+    "name": "Somerset Lodge",
+    "address": "South Gola Range, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.44792199999999,
+      "lng": 79.653808
+    }
+  },
+  {
+    "place_id": "ChIJOf-PqqrqCTkR2UeSzLxyiLE",
+    "name": "Jilling Terraces",
+    "address": "Bhatelia-Dhanachuli-BhimtalRoad SOUTH GOLA RANGE Matial Vilage, Dhari Thesil",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.3702226,
+      "lng": 79.6076068
+    }
+  },
+  {
+    "place_id": "ChIJWQUKcEe8oDkR6zKt_UMroD4",
+    "name": "Planet Moksh",
+    "address": "CJRG+VPQ, near Bana, Kasiyalekh",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.4422185,
+      "lng": 79.6268607
+    }
+  },
+  {
+    "place_id": "ChIJ5-vgI1u8oDkRh4W5QY_26Jg",
+    "name": "Casa Dream The Resort - Luxury Hotel",
+    "address": "Mukteshwar Road, Bhowali, Satbunga",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.4431428,
+      "lng": 79.61539739999999
+    }
+  },
+  {
+    "place_id": "ChIJq6qqqqa-oDkRzHhmA9Vy0I4",
+    "name": "Krishna Hotels & Resorts",
+    "address": "FM64+588, Sargakhet, District Nainital, Mukteshwar",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.460415,
+      "lng": 79.655824
+    }
+  },
+  {
+    "place_id": "ChIJYT6Mqqa-oDkRd1JdoAQhmcs",
+    "name": "Lodge Resort Hotel Retreat Accmodation in Nanital Mukteshwar",
+    "address": "FM64+68C, Trinetra Orachards, Motia Pathar, Mukhteswar, Paharpani Road, Mukteshwar Nanital (Post Office Motia Pathar )",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.46056,
+      "lng": 79.655754
+    }
+  },
+  {
+    "place_id": "ChIJKfoOzvy8oDkR0jEcfHz4hOg",
+    "name": "The Oak Park",
+    "address": "CHJV+6QP, Cloud Nine Rd, Bhowali-Ramgarh-Mukteshwar Rd, Khaprat, South Gola Range, Nainital",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.4305891,
+      "lng": 79.5944501
+    }
+  },
+  {
+    "place_id": "ChIJWXD36cOXoDkRTYXJwcsW6Gg",
+    "name": "Camp Kalsi & Nainital hotels",
+    "address": "alchona chafi bhimtal, Bhowali Range",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.3644104,
+      "lng": 79.58714789999999
+    }
+  },
+  {
+    "place_id": "ChIJcyx1lQOXoDkRZIvNF7Vk4OI",
+    "name": "Best Homestay in Bhimtal, Nainital - Emerald Trail",
+    "address": "Jungaliya Gaon Road, Bhimtal",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.32955490000001,
+      "lng": 79.6143791
+    }
+  },
+  {
+    "place_id": "ChIJ8ROXaQe8oDkRz3zAUo4LwF0",
+    "name": "Nature Resort",
+    "address": "P. O. Sargakhet-263 132 (Mukteshwar) Distt. Nainital, Uttarakhand, INDIA, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.475628,
+      "lng": 79.643068
+    }
+  },
+  {
+    "place_id": "ChIJOxItyfuWoDkRTPVz9dFJnpA",
+    "name": "Apical Resort",
+    "address": "Jungaliya Gaon Rd Jangalia Gaon, Bhimtal",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3296062,
+      "lng": 79.61326609999999
+    }
+  },
+  {
+    "place_id": "ChIJ5XAG5wC8oDkRVWzN3ry3SYA",
+    "name": "KMVN Tourist Rest House Mukteshwar",
+    "address": "Mukteshwar Mahadev Road, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.4763794,
+      "lng": 79.644674
+    }
+  },
+  {
+    "place_id": "ChIJe1kMxGK-oDkR-MeZsaPowoc",
+    "name": "Mukteshwar Himalayan Resort",
+    "address": "Mukteshwar",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.4304924,
+      "lng": 79.6625382
+    }
+  },
+  {
+    "place_id": "ChIJz9Vau9S9oDkRXjHsTksknew",
+    "name": "Trishul Orchard Resort",
+    "address": "Ganga Chaur, P.O. Bhataliya, Mukteshwar Road, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.4322898,
+      "lng": 79.6441492
+    }
+  },
+  {
+    "place_id": "ChIJo8wnQQK8oDkRKaNVSU4M6zY",
+    "name": "Prince Palace - Himalayan View Resort",
+    "address": "Pokhri, road, Letibunga",
+    "type": "lodging",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.43669929999999,
+      "lng": 79.65417599999999
+    }
+  },
+  {
+    "place_id": "ChIJD3u8ACeWoDkR2uOUKMeDOgY",
+    "name": "Silent Trail - Sanctuary",
+    "address": "Silent Trail Sanctuary Jilling Estate - Guni Gaon, Padampuri",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.3635716,
+      "lng": 79.6170258
+    }
+  },
+  {
+    "place_id": "ChIJA3ssnMC-oDkR3RXPz9jrhWQ",
+    "name": "Sweet home cottage",
+    "address": "FM5F+X45, Letibunga-Pokhari Road, Tahsil, dhari",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.4598987,
+      "lng": 79.67286159999999
+    }
+  },
+  {
+    "place_id": "ChIJUSKgMni8oDkR5JN1Tap16Z0",
+    "name": "Whispering Heights",
+    "address": "Reeta, Nathuakhan, Dist., Nathuakhan",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.4719838,
+      "lng": 79.61713759999999
+    }
+  },
+  {
+    "place_id": "ChIJF_yKlge8oDkR6OSVzWmPV1w",
+    "name": "Valley Unwind Resort",
+    "address": "Simyal Gaon",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.4780776,
+      "lng": 79.62494459999999
+    }
+  },
+  {
+    "place_id": "ChIJVVVVVQC8oDkR3sP7fAMMBlU",
+    "name": "Krishna Orchard Resort",
+    "address": "P.O. Sargakhet - 263132, Mukteshwar",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.4392506,
+      "lng": 79.6472489
+    }
+  },
+  {
+    "place_id": "ChIJiVST6KeXoDkRBp01EZyeU60",
+    "name": "The Cottage, Jangalia",
+    "address": "8HPV+F86, Jungaliya Gaon Road, Saikhola",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3361688,
+      "lng": 79.5932651
+    }
+  },
+  {
+    "place_id": "ChIJPRPCQoi_oDkRgwv1WVmwLyI",
+    "name": "Aamari Snow View Resort",
+    "address": "near Bank of Baroda, Dhanachuli",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3963976,
+      "lng": 79.6628408
+    }
+  },
+  {
+    "place_id": "ChIJS8Xoqie_oDkR4czp0Cih1D4",
+    "name": "Hamlet House - 3BR Homestay in Dhanachuli (Mukteshwar) Uttarakhand",
+    "address": "Hamlet House homestays, Bend, near Dhanachuli, Dhanachuli",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.3963976,
+      "lng": 79.6628408
+    }
+  },
+  {
+    "place_id": "ChIJlXZQJAC_oDkRdVT40YtXBl4",
+    "name": "Dhana chulli UK",
+    "address": "9MW7+H44, Dhanachuli",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3963976,
+      "lng": 79.6628408
+    }
+  },
+  {
+    "place_id": "ChIJ30aBs5G_oDkRmLyny0-FMIA",
+    "name": "Digantaa Resort - Hotel Mukteshwar",
+    "address": "Village, Kaul, Dhari, Dhanachuli",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.3963606,
+      "lng": 79.6633131
+    }
+  },
+  {
+    "place_id": "ChIJQ9sBGKSVoDkRMdKFpm9e3Lo",
+    "name": "South Gola Range",
+    "address": "South Gola Range",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.415406,
+      "lng": 79.59405439999999
+    }
+  },
+  {
+    "place_id": "ChIJ4ww9_4C8oDkRLgv4raWItzs",
+    "name": "Club Taurus Cottage",
+    "address": "FJ8H+W98, Gargaon",
+    "type": "guest_house",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.4672429,
+      "lng": 79.629041
+    }
+  },
+  {
+    "place_id": "ChIJU1vlDl69oDkRG8w35xu7vnA",
+    "name": "Bhowali Range",
+    "address": "Bhowali Range",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.4056848,
+      "lng": 79.5434841
+    }
+  },
+  {
+    "place_id": "ChIJceK5Mxq-oDkRGQL7d1ePCVU",
+    "name": "ITI Tandi",
+    "address": "9MW8+5FJ, Dhanachuli",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.3954693,
+      "lng": 79.66612959999999
+    }
+  },
+  {
+    "place_id": "ChIJyQsMdPfXCDkR8k2C3fmuuuk",
+    "name": "Indus Valley",
+    "address": "Dhanachuli,State Highway, Nainital",
+    "type": "guest_house",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.3981153,
+      "lng": 79.67571099999999
+    }
+  },
+  {
+    "place_id": "ChIJC-hJBieWoDkRVZiNbBaWeZ0",
+    "name": "Punjab National Bank",
+    "address": "9JJ9+7RM, Bhatelia - Dhanachuli - Bhimtal Road, Ladfora Talla",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.3807216,
+      "lng": 79.6195316
+    }
+  }
+]

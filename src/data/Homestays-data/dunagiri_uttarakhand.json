@@ -1,0 +1,1102 @@
+[
+  {
+    "place_id": "ChIJibmI1eP1CTkRO5nMIMmJSmI",
+    "name": "Gunanand Dhyani",
+    "address": "Saindali, Tallai",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.710162,
+      "lng": 79.08906759999999
+    }
+  },
+  {
+    "place_id": "ChIJ-7H-QgD1CTkRouZeGNhC4xU",
+    "name": "Uttrakhand Adalikhal",
+    "address": "P3G7+4M2, Adalikhal",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7252597,
+      "lng": 79.06415249999999
+    }
+  },
+  {
+    "place_id": "ChIJwxWnn1AfCjkR_gqyFaekJ18",
+    "name": "Parindiyal's PineTop",
+    "address": "Majera Bend, Batula Talla",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6979616,
+      "lng": 79.0925469
+    }
+  },
+  {
+    "place_id": "ChIJV7UHqeD1CTkRn7c0CurqmBo",
+    "name": "Utida talla",
+    "address": "P3CQ+MW2, Patti Gujru",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.7216405,
+      "lng": 79.0898109
+    }
+  },
+  {
+    "place_id": "ChIJedTWBev1CTkRKITohGIbAn4",
+    "name": "Shanti Himalaya Resort",
+    "address": "Manila, Digolikhal",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.72506939999999,
+      "lng": 79.0990686
+    }
+  },
+  {
+    "place_id": "ChIJkf2n-_L1CTkRSnWQbQgIzko",
+    "name": "Sundriyal's ShreeVilla",
+    "address": "Sundriyal's ShreeVilla, Patti Gujru",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7209476,
+      "lng": 79.1026315
+    }
+  },
+  {
+    "place_id": "ChIJn71D4v_1CTkRCJ7a322-FCs",
+    "name": "Sarva Sukham Resorts",
+    "address": "P3FX+XX, Patti Gujru",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.7248955,
+      "lng": 79.099981
+    }
+  },
+  {
+    "place_id": "ChIJ8xlndQz1CTkRt7RFwasG3CE",
+    "name": "Sundriyal's ShreeVilla",
+    "address": "P4F2+QQ, Patti Gujru",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.7244765,
+      "lng": 79.1019685
+    }
+  },
+  {
+    "place_id": "ChIJQcUigdj1CTkR9a1jVuxQzN4",
+    "name": "SURYODAY RESORT",
+    "address": "Rashiyamahadev, road, Digolikhal",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.7315222,
+      "lng": 79.09558659999999
+    }
+  },
+  {
+    "place_id": "ChIJL97C_DD1CTkRuGwAo8vj6yI",
+    "name": "Jamariya Malla Village",
+    "address": "P3HW+VGJ, Village Jamariya Malla, Digolikhal",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7310873,
+      "lng": 79.09835919999999
+    }
+  },
+  {
+    "place_id": "ChIJmy_1P3X1CTkRHstlahM_j98",
+    "name": "HomeStay On Hills",
+    "address": "Village Jamariya Malla Post Office, Digolikhal",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.73119849999999,
+      "lng": 79.0982327
+    }
+  },
+  {
+    "place_id": "ChIJRQjtjOH1CTkRvlnbjJH9kXo",
+    "name": "Home stay Himalayanand",
+    "address": "market, Dhasikhet (sandari jameen) , post office digolikhal patti gujdu , tehseel dhumakot block nainidanda, near digolikhal, gadwal",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.74375980000001,
+      "lng": 79.0895415
+    }
+  },
+  {
+    "place_id": "ChIJ5ehzYAAfCjkRpxCfL201xmI",
+    "name": "Homestay Indu ( इंदु होमस्टे )",
+    "address": "M2MP+34Q, MDR, Kefaltanda",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6827044,
+      "lng": 79.0353713
+    }
+  },
+  {
+    "place_id": "ChIJf-R3GgAfCjkRujTeMo43h0w",
+    "name": "रुद्राक्ष होमस्टे (Rudraksh Homestay)",
+    "address": "M2MP+24F, MDR, Kefaltanda",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6825704,
+      "lng": 79.0353046
+    }
+  },
+  {
+    "place_id": "ChIJAQCpXwUfCjkRd6VMTkwV5vg",
+    "name": "Naini hills home stay nainidanda",
+    "address": "M2PJ+3GX, Nainidanda",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6852476,
+      "lng": 79.0313663
+    }
+  },
+  {
+    "place_id": "ChIJkTulBwD1CTkRZdcqQydcRwo",
+    "name": "Jaraukhand uttrakhand",
+    "address": "P3W2+M58, Jadaukhand",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.7466625,
+      "lng": 79.05045299999999
+    }
+  },
+  {
+    "place_id": "ChIJj7Xyx74fCjkR8FtsXKRf7tQ",
+    "name": "Matwar",
+    "address": "M38R+Q9G, Jadau",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6669262,
+      "lng": 79.09095549999999
+    }
+  },
+  {
+    "place_id": "ChIJdbwKUQAdCjkRNAjo8t0p_qw",
+    "name": "Pancham Sing & Umrao Singh",
+    "address": "P43F+7PW, Riwali Palli",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.7032499,
+      "lng": 79.1243355
+    }
+  },
+  {
+    "place_id": "ChIJQSAXlNYfCjkReB-Ck8jh3i4",
+    "name": "Dadar",
+    "address": "M494+R6R, Panjara Malla",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.66961910000001,
+      "lng": 79.10552249999999
+    }
+  },
+  {
+    "place_id": "ChIJjUIFeP0fCjkRdE3vLtugbeg",
+    "name": "CHANDI PRASAD DHYANI",
+    "address": "M482+32F, Panjara Talla",
+    "type": "lodging",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.6651834,
+      "lng": 79.1000521
+    }
+  },
+  {
+    "place_id": "ChIJm5mjNwCLCTkReGBHvNoJKhc",
+    "name": "Veeru Rawat home",
+    "address": "P2G9+39F, Patotiya, Patotiyadanda",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7247067,
+      "lng": 79.01835
+    }
+  },
+  {
+    "place_id": "ChIJr7WDPQD1CTkR2ohkQQnrwPg",
+    "name": "SADANAND HOMESTAY",
+    "address": "NH -309, Village- Sangliya, Jadaukhand",
+    "type": "lodging",
+    "rating": 2.3,
+    "location": {
+      "lat": 29.7503498,
+      "lng": 79.0417974
+    }
+  },
+  {
+    "place_id": "ChIJXSL4lcAdCjkRF-YSg61au78",
+    "name": "Patel nagar(patlyun gair)",
+    "address": "M4F8+M6C, Bagarkhet Talla",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6741884,
+      "lng": 79.1155058
+    }
+  },
+  {
+    "place_id": "ChIJXxageuD0CTkR0kfpRUqPUbU",
+    "name": "Surya Hotel",
+    "address": "Q22V+927, NH-121, Jadaukhand",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.7509011,
+      "lng": 79.0425348
+    }
+  },
+  {
+    "place_id": "ChIJ3bozMX0fCjkR4YxIWmHj014",
+    "name": "Navada",
+    "address": "M485+HMM, Panjara Malla",
+    "type": "lodging",
+    "rating": 2.7,
+    "location": {
+      "lat": 29.6664648,
+      "lng": 79.1091677
+    }
+  },
+  {
+    "place_id": "ChIJ08yYo_UfCjkRAIQAoVHtFNY",
+    "name": "Budhakot, mangro siro, ameta road",
+    "address": "M34V+W8Q, Panjara Talla",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6573314,
+      "lng": 79.093358
+    }
+  },
+  {
+    "place_id": "ChIJ4YrZYGsfCjkRfqC3C6RV3DU",
+    "name": "Pithadanda",
+    "address": "M454+46X, Panjara Talla",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6578597,
+      "lng": 79.105612
+    }
+  },
+  {
+    "place_id": "ChIJw_yLCoofCjkRcPGn85Qsvrg",
+    "name": "Banoti",
+    "address": "M442+6W2, Ramnagar Sonfkhal Saraikhet Marg, Sirali",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6555069,
+      "lng": 79.1022552
+    }
+  },
+  {
+    "place_id": "ChIJ11FgIACLCTkRZyZw1cj-gFA",
+    "name": "Ringalti dhumakot",
+    "address": "P2R8+FR6, Ringalti Khatta, Sangaliya Palla",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.74116569999999,
+      "lng": 79.0170035
+    }
+  },
+  {
+    "place_id": "ChIJPQOoTwAfCjkRGupPNzyeLxA",
+    "name": "Devbhoomi Home Stay",
+    "address": "M432+FVM, Bhondada",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6537014,
+      "lng": 79.10217469999999
+    }
+  },
+  {
+    "place_id": "ChIJw980VpUfCjkRYgl2WBLIcB8",
+    "name": "Bhoundanda, bhairangkhal",
+    "address": "M433+J59, Ramnagar Sonfkhal Saraikhet Marg, Sirali",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6540332,
+      "lng": 79.1029989
+    }
+  },
+  {
+    "place_id": "ChIJEQ5wI-uLCTkRpgFUwBWMFwI",
+    "name": "Nani hills home stay Nanidanda",
+    "address": "P2Q7+96R, Nainidanda",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.7384955,
+      "lng": 79.0130286
+    }
+  },
+  {
+    "place_id": "ChIJo2XPIACLCTkR7hnsZuCtovk",
+    "name": "Indu Homestay",
+    "address": "Post Office, Village- Kafaltanda, Nainidanda",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7385029,
+      "lng": 79.01294089999999
+    }
+  },
+  {
+    "place_id": "ChIJzeD9ZGKLCTkRqB4mIXhEFNs",
+    "name": "Himani hotel & homestay",
+    "address": "P2V6+8W, Kasana Bichla",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.7432827,
+      "lng": 79.0123146
+    }
+  },
+  {
+    "place_id": "ChIJCbo_MiqLCTkR9Mzdm1WvvV4",
+    "name": "Anchal Lodge N Hotels",
+    "address": "P2X7+JQ9, Kasana Palla",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.7490492,
+      "lng": 79.0144765
+    }
+  },
+  {
+    "place_id": "ChIJkSbXJwAfCjkRuR30nB2WxqM",
+    "name": "Rawat Hotel (Basnoli)",
+    "address": "J3RC+9XJ, Basnoli",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6409668,
+      "lng": 79.0724048
+    }
+  },
+  {
+    "place_id": "ChIJadiBVuCLCTkRBUhPzRTOSsU",
+    "name": "Raibasa Dhumakot",
+    "address": "Q236+55G, Dhumakot",
+    "type": "lodging",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.7529292,
+      "lng": 79.01109919999999
+    }
+  },
+  {
+    "place_id": "ChIJjaParO0hCjkR9APaO2TOTRY",
+    "name": "Corbett Sukoon Homestay",
+    "address": "Khadait, Nainidanda",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6855254,
+      "lng": 78.99549859999999
+    }
+  },
+  {
+    "place_id": "ChIJ1yAwm5L1CTkRAp-tPOtbdWo",
+    "name": "Kochiyaar nala",
+    "address": "ko chitra, Nala",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.76680530000001,
+      "lng": 79.0291419
+    }
+  },
+  {
+    "place_id": "ChIJmRAvbgchCjkRYpFDGIrvAgA",
+    "name": "Odyssey Stays Nainidanda",
+    "address": "Odyssey Stays Nainidanda, Khadait",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.685454,
+      "lng": 78.9953603
+    }
+  },
+  {
+    "place_id": "ChIJ____Iy-LCTkRyZIQaKxGX7s",
+    "name": "भरत होटल",
+    "address": "India",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.752949,
+      "lng": 79.0104679
+    }
+  },
+  {
+    "place_id": "ChIJ56tiMyqLCTkRJpnGgmESIY0",
+    "name": "Sonu Hotel",
+    "address": "Dhuma kot, Kasana Palla",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.752949,
+      "lng": 79.0104679
+    }
+  },
+  {
+    "place_id": "ChIJUygGvpUhCjkRJYR0bxsE6r0",
+    "name": "Keldhar",
+    "address": "M275+H39, Keldhar, Haldukhal",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6639075,
+      "lng": 79.0077362
+    }
+  },
+  {
+    "place_id": "ChIJVSmPRwD3CTkRAuXIiIGFnEs",
+    "name": "Bird's View Home Stay",
+    "address": "P584+PGC, Gethiya",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7168007,
+      "lng": 79.15626429999999
+    }
+  },
+  {
+    "place_id": "ChIJe_JyYwAfCjkRr8aWcqUIgkw",
+    "name": "Bikash home 🏡🏠",
+    "address": "J2MV+F2Q, Devchuli Palli",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6337127,
+      "lng": 79.0426116
+    }
+  },
+  {
+    "place_id": "ChIJpzmYM2_3CTkR5jCxQlejIWw",
+    "name": "Dayal Sharma",
+    "address": "Jhimar",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7460922,
+      "lng": 79.1515742
+    }
+  },
+  {
+    "place_id": "ChIJDeYPmtQDCjkR36TKBcmy-j8",
+    "name": "Royal home stay",
+    "address": "near Masaniyabanj, Jhimaar salt manila Almora Uttarakhand, near Masaniyabanj, Masaniyabanj",
+    "type": "lodging",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.7496566,
+      "lng": 79.1494601
+    }
+  },
+  {
+    "place_id": "ChIJc0HHGgCLCTkRdJ4497Y72h0",
+    "name": "Rawat and family",
+    "address": "Q264+V6, Chinwadi",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7622091,
+      "lng": 79.0054385
+    }
+  },
+  {
+    "place_id": "ChIJJaXengSLCTkR8goS81hEXLM",
+    "name": "PWD Guest house",
+    "address": "QX3W+RR7, Dhumakot",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.7545268,
+      "lng": 78.9970519
+    }
+  },
+  {
+    "place_id": "ChIJobuZMwD1CTkRfh1TRxv9K5I",
+    "name": "Sunny kumar",
+    "address": "Q2JM+435, Patti Khatli",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7802727,
+      "lng": 79.0327286
+    }
+  },
+  {
+    "place_id": "ChIJrTc2awCLCTkRRtEAU7DrTyI",
+    "name": "Praveen Singh",
+    "address": "PXFH+4G4, Androli",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7227627,
+      "lng": 78.97882779999999
+    }
+  },
+  {
+    "place_id": "ChIJUTtrWOcdCjkR3vlrZ8PqUFE",
+    "name": "Nanswal Bakhli",
+    "address": "P52C+849, Chhoya",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.7007982,
+      "lng": 79.17037309999999
+    }
+  },
+  {
+    "place_id": "ChIJYckiBcEfCjkRfdnfryjUmOs",
+    "name": "Pittal Nagari Marchula, SIIDCUL",
+    "address": "J4G5+R4J, Betaldunga Talla",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6270921,
+      "lng": 79.107781
+    }
+  },
+  {
+    "place_id": "ChIJg5voQaYfCjkRDb7i54Y2AHE",
+    "name": "Upasana The Riverside Resort",
+    "address": "Betaldunga Talla, Village, Sofnkhal road, kupi",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6268609,
+      "lng": 79.10873269999999
+    }
+  },
+  {
+    "place_id": "ChIJl5MkmEQfCjkRspijTIH_fxI",
+    "name": "The Hideout Riverside, Kupi, Jim Corbett by Bakri Chhap",
+    "address": "J4G5+PFX, Village, Betaldunga Talla",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6268125,
+      "lng": 79.1086875
+    }
+  },
+  {
+    "place_id": "ChIJvQD9ZgAhCjkRaGTfOnK3L1c",
+    "name": "Kaka kaki Home Stay",
+    "address": "MX2W+R2P, Haldukhal",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6520388,
+      "lng": 78.9950095
+    }
+  },
+  {
+    "place_id": "ChIJMw5kTQAZCjkR2Ztc9D_zvko",
+    "name": "Nature valley home",
+    "address": "Nature valley home stay, kunpi village, Marchula",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6268231,
+      "lng": 79.1094375
+    }
+  },
+  {
+    "place_id": "ChIJ8fsTLkkfCjkR8JRZfqi43z4",
+    "name": "Wildlife homestay",
+    "address": "Kunpi, Marchula",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6266316,
+      "lng": 79.1095675
+    }
+  },
+  {
+    "place_id": "ChIJUbzYZQSLCTkRSxqkaF81XYM",
+    "name": "NARENDER SINGH KANDARI",
+    "address": "CHAIR CHHUDKHOLA, Dhumakot",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.6980303,
+      "lng": 78.9707111
+    }
+  },
+  {
+    "place_id": "ChIJJ2N_W-YdCjkRH55hRFY4p-4",
+    "name": "Chiclet's Cottage",
+    "address": "M533+PPR, Kholyd Kyari",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6543677,
+      "lng": 79.15427290000001
+    }
+  },
+  {
+    "place_id": "ChIJoxx0Lpz1CTkRTp6FOUNJDF0",
+    "name": "Patti Gujru",
+    "address": "Patti Gujru",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7296694,
+      "lng": 79.08710049999999
+    }
+  },
+  {
+    "place_id": "ChIJUTnQr4P1CTkRB_6OtDBQThk",
+    "name": "Pandit Nitin Nautiyal",
+    "address": "P379+65J, Udakhet, Kolari",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.713099,
+      "lng": 79.067897
+    }
+  },
+  {
+    "place_id": "ChIJU5JXrIP1CTkR5ZYbpua5XOc",
+    "name": "Shri Deeba Ma Mandir, Udakhet",
+    "address": "P379+72R, Palasi",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.7132467,
+      "lng": 79.0675131
+    }
+  },
+  {
+    "place_id": "ChIJ18PPsUAeCjkRg7s0cr6K7Uw",
+    "name": "Canara bank",
+    "address": "M3MJ+3Q4, Khirerikhal",
+    "type": "guest_house",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.68263219999999,
+      "lng": 79.0819657
+    }
+  },
+  {
+    "place_id": "ChIJfwfPsUAeCjkRW9YjBZRqh1k",
+    "name": "Canara Bank ATM",
+    "address": "M3MJ+3Q4, Khirerikhal",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.6826323,
+      "lng": 79.0819664
+    }
+  },
+  {
+    "place_id": "ChIJi5WrsUAeCjkRZhuPYV6ybOg",
+    "name": "Post Office khirerikhal",
+    "address": "M3MJ+2QW, National Highway 309, Khirerikhal",
+    "type": "guest_house",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6826001,
+      "lng": 79.08196629999999
+    }
+  },
+  {
+    "place_id": "ChIJaeiEmQUeCjkRkFENxvNKr_M",
+    "name": "BANJAKHELU, PARSOLI Talli",
+    "address": "M4X2+3P6, Batula Talla",
+    "type": "guest_house",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.6976746,
+      "lng": 79.1017791
+    }
+  },
+  {
+    "place_id": "ChIJg35WcOD0CTkRuFNmzV4JH9I",
+    "name": "Canara Bank",
+    "address": "Q22R+9X3, National Highway 309, Jadaukhand",
+    "type": "guest_house",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.7508928,
+      "lng": 79.0424084
+    }
+  },
+  {
+    "place_id": "ChIJVVVVJbUhCjkR1yiHJrZG3Vw",
+    "name": "kandah forest, jungle safari",
+    "address": "MX3V+2RP, Haldukhal",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.6525949,
+      "lng": 78.9945687
+    }
+  },
+  {
+    "place_id": "ChIJxxQ8GgD1CTkRK2AGO1xg2bY",
+    "name": "Sunrise view point",
+    "address": "P34C+XRF, Dunagiri",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.70744969999999,
+      "lng": 79.0720335
+    }
+  },
+  {
+    "place_id": "ChIJqV3JsLj1CTkRU1AodPCxeR4",
+    "name": "Mahavatar Babaji’s Cave Hiking Trail",
+    "address": "P34C+XRF, Dunagiri",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.70744969999999,
+      "lng": 79.0720335
+    }
+  },
+  {
+    "place_id": "ChIJ_xWxT6z1CTkRr1Ys1hsILqs",
+    "name": "कस्तूरी ( तिवारी बंधु)",
+    "address": "P34C+XR8, Dunagiri",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.70741009999999,
+      "lng": 79.0720772
+    }
+  },
+  {
+    "place_id": "ChIJ38yWHLb1CTkRWvOvdJOxgYk",
+    "name": "Banga Rawat",
+    "address": "P34C+XR8, Dunagiri",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.70741,
+      "lng": 79.07207729999999
+    }
+  },
+  {
+    "place_id": "ChIJtbk82rP1CTkR9ab8_UBhG1w",
+    "name": "Palasi",
+    "address": "P34C+XR8, Dunagiri",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.70741,
+      "lng": 79.07207729999999
+    }
+  },
+  {
+    "place_id": "ChIJsXzK-Q31CTkRHuG3YHUewvM",
+    "name": "Maa dunagiri mandir",
+    "address": "P34C+XR8, Dunagiri",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.70741,
+      "lng": 79.07207729999999
+    }
+  },
+  {
+    "place_id": "ChIJVVpZ16T1CTkRv6Xz1vI2o20",
+    "name": "बेगुनाद जी मंदिर",
+    "address": "P34C+XR8, Dunagiri",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.70741,
+      "lng": 79.07207729999999
+    }
+  },
+  {
+    "place_id": "ChIJ3edHTQD1CTkR-fmTjpPoWvI",
+    "name": "Pankaj singh Mehta",
+    "address": "P34C+XRW, Dunagiri",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7074826,
+      "lng": 79.0720635
+    }
+  },
+  {
+    "place_id": "ChIJtVjfYij1CTkR2F4KcSdmOKI",
+    "name": "Dobriyal Sar",
+    "address": "P34C+XRW, National Highway 309, Dunagiri",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.707702,
+      "lng": 79.073075
+    }
+  },
+  {
+    "place_id": "ChIJi65H3mr1CTkRWpU3EZ5NDJY",
+    "name": "Dungri Talli",
+    "address": "P35F+86Q, National Highway 309, Dunagiri",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7083285,
+      "lng": 79.07310700000001
+    }
+  },
+  {
+    "place_id": "ChIJl12SRXL3CTkRaxP9DRdSMnA",
+    "name": "Jorasi Range",
+    "address": "Jorasi Range",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.775781,
+      "lng": 79.1604971
+    }
+  },
+  {
+    "place_id": "ChIJxVpJH0n1CTkRG4rWROB-ytQ",
+    "name": "Jai ma kalinka Devi Palasi",
+    "address": "P35G+84M, National Highway 309, Dunagiri",
+    "type": "guest_house",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.70834039999999,
+      "lng": 79.075307
+    }
+  },
+  {
+    "place_id": "ChIJ4z4IegD1CTkRmTkjvDczWBs",
+    "name": "Uniyal Home",
+    "address": "P35G+7QJ, Dunagiri",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7082136,
+      "lng": 79.0768909
+    }
+  },
+  {
+    "place_id": "ChIJw8a32BkfCjkRSIWMbdc-g-8",
+    "name": "Bhairon temple",
+    "address": "P339+2JQ, Patlun",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.7025811,
+      "lng": 79.0691002
+    }
+  },
+  {
+    "place_id": "ChIJeb3cUQAfCjkRceWW5QPQxCE",
+    "name": "BHARTI NIWAS",
+    "address": "P32F+G82, Dunagiri",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.701269,
+      "lng": 79.0732776
+    }
+  },
+  {
+    "place_id": "ChIJ_egEfhX1CTkRgevyQuUiZmo",
+    "name": "Rakesh Nautiyal Udakhet",
+    "address": "P368+WQ8, Kolari",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7122957,
+      "lng": 79.0669659
+    }
+  },
+  {
+    "place_id": "ChIJG2as_gP1CTkR08egGFfpVCU",
+    "name": "Vineet's Home",
+    "address": "P379+72R, Udakhet",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7123993,
+      "lng": 79.06702729999999
+    }
+  },
+  {
+    "place_id": "ChIJbVozNAAfCjkR9fHJ9afoJgQ",
+    "name": "Dungri post office",
+    "address": "P32G+CJ, Patti Gujru",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.7010877,
+      "lng": 79.0766055
+    }
+  },
+  {
+    "place_id": "ChIJw0B7ZgAfCjkRgERZvkpfYQI",
+    "name": "Bisht Bhawan",
+    "address": "P32G+CJ, Patti Gujru",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7010442,
+      "lng": 79.07662
+    }
+  },
+  {
+    "place_id": "ChIJaz8lZgD1CTkRX2tP6VgmAzw",
+    "name": "Bus Stop सगुनी पाणी, Kwali Udakhet, Pauri Garhwal",
+    "address": "P389+C5, Patti Gujru",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.7160871,
+      "lng": 79.0679242
+    }
+  },
+  {
+    "place_id": "ChIJ8SowlUsfCjkRPK1_Sj7CSyU",
+    "name": "चौमस्या",
+    "address": "P32J+6HP, Patti Gujru",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.7011793,
+      "lng": 79.0800998
+    }
+  },
+  {
+    "place_id": "ChIJzRBI4y4eCjkRUklLZkxylos",
+    "name": "Baikunthnath Mandir",
+    "address": "M3XF+435, Dobriyal Sar",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.697772,
+      "lng": 79.0727356
+    }
+  },
+  {
+    "place_id": "ChIJWyoOZgAfCjkRhK1ypwhgzzc",
+    "name": "Dobriyal ji",
+    "address": "M3XG+53J, Dobriyal Sar",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.697973,
+      "lng": 79.0751521
+    }
+  },
+  {
+    "place_id": "ChIJ1aHTOAAfCjkRwP8jtZtlh5E",
+    "name": "Uniyal(Rawat) Niwas",
+    "address": "M3XG+54F, Dungri Talli",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6979335,
+      "lng": 79.0752862
+    }
+  },
+  {
+    "place_id": "ChIJZ_IBG3_1CTkRA9yjLQwoGIw",
+    "name": "श्री महेशानन्द बड़थ्वाल निवास",
+    "address": "P377+C2F, Village, Kwalli",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.7135673,
+      "lng": 79.06254369999999
+    }
+  },
+  {
+    "place_id": "ChIJDyrlGdcfCjkRnunfNuSLp6w",
+    "name": "kalinka mandir",
+    "address": "P34M+8FH, Palasi",
+    "type": "guest_house",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.7058001,
+      "lng": 79.0837241
+    }
+  },
+  {
+    "place_id": "ChIJkYIiGjD1CTkRSN4aCVvbj0Y",
+    "name": "Dobha cricket ground",
+    "address": "Doba",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.7162739,
+      "lng": 79.0655485
+    }
+  },
+  {
+    "place_id": "ChIJ977wZAAfCjkRlGCYbYErXkw",
+    "name": "Banga village",
+    "address": "M3XH+99, Patti Gujru",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6984891,
+      "lng": 79.07839059999999
+    }
+  },
+  {
+    "place_id": "ChIJAbxwVgAfCjkRUgHEVcbOGu0",
+    "name": "Bango Gaon (Rainath)",
+    "address": "M3XH+99, Patti Gujru",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.69850739999999,
+      "lng": 79.07846119999999
+    }
+  },
+  {
+    "place_id": "ChIJg0cyBAAfCjkRbU_7Sa2gSZk",
+    "name": "Sanjay Kumar Rouliyal",
+    "address": "P32J+6HP, Majeda Malla",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7005985,
+      "lng": 79.0814523
+    }
+  },
+  {
+    "place_id": "ChIJH3UYOAAfCjkRjI0-C2tQi8Y",
+    "name": "Banwari Rawat",
+    "address": "P32J+6HP, Majeda Malla",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7005985,
+      "lng": 79.0814523
+    }
+  }
+]

@@ -1,0 +1,882 @@
+[
+  {
+    "place_id": "ChIJ9QiVCUBOpzkRZNg43WC_4j4",
+    "name": "Himalaya Darshan Resort",
+    "address": "Kausani",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.8626958,
+      "lng": 79.5831077
+    }
+  },
+  {
+    "place_id": "ChIJ0-QJImVOpzkRNVjrISe0zZI",
+    "name": "Shivam Guest House",
+    "address": "VH3W+2H8, Main View Point Kausani Estate, Kausani",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.852534,
+      "lng": 79.59645499999999
+    }
+  },
+  {
+    "place_id": "ChIJp8MNzH9OpzkRyfkIfQ01Too",
+    "name": "Pratiksha Himalayan Retreat (Best Resort)",
+    "address": "Kausani-Baijnath Road, Kausani",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.8463856,
+      "lng": 79.6096049
+    }
+  },
+  {
+    "place_id": "ChIJReiwrH5OpzkRkC3cQqWr8h4",
+    "name": "Hotel Grand National",
+    "address": "View Point State Guest House, Road, Kausani",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.8452079,
+      "lng": 79.5997077
+    }
+  },
+  {
+    "place_id": "ChIJUa_gF4dOpzkReoX5hPf1A38",
+    "name": "The Buransh",
+    "address": "HSCR, Baijnath Road, Kausani",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.8476304,
+      "lng": 79.60720189999999
+    }
+  },
+  {
+    "place_id": "ChIJXWe2tX9OpzkRBzEAlwwAvFg",
+    "name": "HOTEL SHIVAY",
+    "address": "near Bus Stop, Distt, Kausani",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.84277569999999,
+      "lng": 79.6036991
+    }
+  },
+  {
+    "place_id": "ChIJp2L1PX5OpzkR44B-DVvOmGA",
+    "name": "Himvadi Resorts",
+    "address": "RJV3+RQW, Kausani",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.8445362,
+      "lng": 79.6043383
+    }
+  },
+  {
+    "place_id": "ChIJ9a8sTX5OpzkRCvXq5-u5w6A",
+    "name": "Kausani Best Inn",
+    "address": "near kendriya vidhalaya, KMVN Road, estate, Kausani",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.8526922,
+      "lng": 79.59600669999999
+    }
+  },
+  {
+    "place_id": "ChIJNxvKUnlOpzkRX81t67cFNrs",
+    "name": "Hotel Jeetu",
+    "address": "RHVX+XVV, near Anashakti Ashram, Kausani",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.8449776,
+      "lng": 79.5996747
+    }
+  },
+  {
+    "place_id": "ChIJp8_OXoBOpzkRVHZxM_vZ3cM",
+    "name": "Kausani Forest Rest House",
+    "address": "RJV4+6RR, Kausani",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.8431007,
+      "lng": 79.6070141
+    }
+  },
+  {
+    "place_id": "ChIJD6NYoWBOpzkRLyAeCF5_Oz8",
+    "name": "Nature's Valley Resort, Kausani",
+    "address": "Tea Garden Road, Baijnath",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.8623116,
+      "lng": 79.60054219999999
+    }
+  },
+  {
+    "place_id": "ChIJozAiPH5OpzkRV0PAvjScwe0",
+    "name": "OYO 5519 Hotel Vishaka Palace",
+    "address": "Road, Bhatriya, Kausani",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.84429699999999,
+      "lng": 79.60426100000001
+    }
+  },
+  {
+    "place_id": "ChIJ3dtQm35OpzkR3lh83tP3mns",
+    "name": "Sumit Hotel",
+    "address": "District Bageshwar, Tehsil Garur, Kausani",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.8454055,
+      "lng": 79.602291
+    }
+  },
+  {
+    "place_id": "ChIJf2kalX9OpzkR9JOQEbr8Wpw",
+    "name": "New Pine Hotel",
+    "address": "near UCO Bank, Dwarahat-Almora-Kausani Road, near UCO Bank, Kausani",
+    "type": "lodging",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.84085999999999,
+      "lng": 79.60361
+    }
+  },
+  {
+    "place_id": "ChIJu-Uc14BOpzkRm95xSMsVYqQ",
+    "name": "Himalaya Mount View Resort & Cafe",
+    "address": "1.3 km from Main Market, Towards Baijnath Road, Kausani",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.8460385,
+      "lng": 79.6083548
+    }
+  },
+  {
+    "place_id": "ChIJJ_iAOX5OpzkRqjuoBlXzaf8",
+    "name": "Sunita Himalayan Paradise",
+    "address": "View Point Road, Kausani",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.8492704,
+      "lng": 79.59987009999999
+    }
+  },
+  {
+    "place_id": "ChIJA-w2vn9OpzkREY0TwqOmylo",
+    "name": "Chevron Eco Lodge",
+    "address": "View Point, Kausani",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.8520592,
+      "lng": 79.5969484
+    }
+  },
+  {
+    "place_id": "ChIJ65PTO35OpzkRDc03EsDm9Y0",
+    "name": "Hotel Vishaka Palace Kausani",
+    "address": "Bhatariya, Road, Kausani",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.8536909,
+      "lng": 79.5989555
+    }
+  },
+  {
+    "place_id": "ChIJQ60Q7H1OpzkRYgrXF__-MHs",
+    "name": "Himalaya Valley Restaurant, Kausani",
+    "address": "near Tea Factory, Baijanth Road, Kausani",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.85640199999999,
+      "lng": 79.6041329
+    }
+  },
+  {
+    "place_id": "ChIJuZI1LIFOpzkR-SWI4J0RAIQ",
+    "name": "The Heritage Resort",
+    "address": "near Tea Garden, Baijnath, Road, Kausani",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.8548922,
+      "lng": 79.60337170000001
+    }
+  },
+  {
+    "place_id": "ChIJqW96R35OpzkRNLDOT4nePVk",
+    "name": "Hotel Sagar, Kausani",
+    "address": "SN Pant Marg View Point, Kausani",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.8439354,
+      "lng": 79.60375259999999
+    }
+  },
+  {
+    "place_id": "ChIJq6qqan5OpzkRLkP22sfdiQk",
+    "name": "OYO Maitri Holiday Home",
+    "address": "near UCO Bank, Dwarahat - Almora - Kausani Road, Kausani",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.84025859999999,
+      "lng": 79.6035996
+    }
+  },
+  {
+    "place_id": "ChIJD_EuvmJOpzkROkVDXeYRWLs",
+    "name": "Kaushambi Heritage",
+    "address": "Pingal Kot, Kausani",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.8633605,
+      "lng": 79.6020386
+    }
+  },
+  {
+    "place_id": "ChIJ9a8sTX5OpzkRb3PO2FSBfmk",
+    "name": "Blossom Hideaway Kausani",
+    "address": "near VIP Guest House, Kausani",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.8541811,
+      "lng": 79.5941945
+    }
+  },
+  {
+    "place_id": "ChIJYwMSsX5OpzkRtWfIDc-JMA4",
+    "name": "Krishna Mount View Mountain Resort",
+    "address": "near Anashakti Ashram, Kausani",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.8446107,
+      "lng": 79.60053289999999
+    }
+  },
+  {
+    "place_id": "ChIJb7rMj35OpzkRsFakoBLZtrY",
+    "name": "OYO 46511 Hotel Negi Lodge",
+    "address": "Kausani",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.8445269,
+      "lng": 79.6038842
+    }
+  },
+  {
+    "place_id": "ChIJnfI6c-JPpzkRFN4ugfBkrCU",
+    "name": "Accts Kausani",
+    "address": "Kausani",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8445855,
+      "lng": 79.6038375
+    }
+  },
+  {
+    "place_id": "ChIJN1ZkJgBPpzkRtza2AWOcCWs",
+    "name": "Spell mount resort",
+    "address": "Hatgarh garur road kaushani spell mount",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8445855,
+      "lng": 79.6038375
+    }
+  },
+  {
+    "place_id": "ChIJKVNMRBVPpzkRsV4KDscR_uo",
+    "name": "LivingStone Forest Cottage Kausani",
+    "address": "Village Babri, Kausani Road, PO, Rangman, Kausani",
+    "type": "lodging",
+    "rating": 1,
+    "location": {
+      "lat": 29.844606,
+      "lng": 79.6038658
+    }
+  },
+  {
+    "place_id": "ChIJpaqqan5OpzkR5rRk3chnn4c",
+    "name": "Radha Gopal Royal",
+    "address": "RJV3+RGX, Bageshwar",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8446066,
+      "lng": 79.6038658
+    }
+  },
+  {
+    "place_id": "ChIJpaqqan5OpzkRTDFWyfo5ePU",
+    "name": "The Woods of Kausani By Moustache",
+    "address": "RJV3+RGX, Kausani",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8446066,
+      "lng": 79.6038658
+    }
+  },
+  {
+    "place_id": "ChIJk_ys86xPpzkR7yeXay3ECiI",
+    "name": "The Moksha Riverside",
+    "address": "RJV3+RGX, Kausani Road, Village Babri PO Rangman",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.8446066,
+      "lng": 79.6038658
+    }
+  },
+  {
+    "place_id": "ChIJM3USWr5PpzkRZY1Fc_PJmMY",
+    "name": "Uttarakhand Resort",
+    "address": "Bhataria Road, Kausani",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.8443559,
+      "lng": 79.60424859999999
+    }
+  },
+  {
+    "place_id": "ChIJg4UQHwBPpzkRh7h9AGkf_LQ",
+    "name": "Vatika Vista",
+    "address": "Kausani",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.8446159,
+      "lng": 79.60445519999999
+    }
+  },
+  {
+    "place_id": "ChIJEW7RwERPpzkRCeUvIKIBT-8",
+    "name": "Himalive Home Stay",
+    "address": "VIP Road, Kausani",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.8441523,
+      "lng": 79.6031808
+    }
+  },
+  {
+    "place_id": "ChIJBYzEV6hPpzkRMeDfNOzGyiE",
+    "name": "Shubham Home Stay",
+    "address": "Anasakti ashram road, Kausani",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.8439148,
+      "lng": 79.6030514
+    }
+  },
+  {
+    "place_id": "ChIJcW1FcgBPpzkREHeDCjycgKc",
+    "name": "Kausani Inn Home Stay",
+    "address": "near adventure & camping, Kausani",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8448026,
+      "lng": 79.60276170000002
+    }
+  },
+  {
+    "place_id": "ChIJsVGjH_ZPpzkRi3z-_sJeDIc",
+    "name": "Mount valley view home stay in Kausani",
+    "address": "Kausani",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.8440662,
+      "lng": 79.60282880000001
+    }
+  },
+  {
+    "place_id": "ChIJsTNtFqlPpzkRXcjvOFigkQc",
+    "name": "Kausani uttrakhand",
+    "address": "RJV3+C8G, Kausani Baijnath Almora Road, Dyorana",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.8435524,
+      "lng": 79.60332199999999
+    }
+  },
+  {
+    "place_id": "ChIJ0xMK-LlPpzkRs3tHRu6m5dI",
+    "name": "Neelkanth Cottage",
+    "address": "near Gandhi Ashram, Kausani",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.84308339999999,
+      "lng": 79.6037446
+    }
+  },
+  {
+    "place_id": "ChIJW7hgj35OpzkR1OkQXuKPef0",
+    "name": "OYO 27744 Hotel Deepraj",
+    "address": "Kausani",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.844772,
+      "lng": 79.602007
+    }
+  },
+  {
+    "place_id": "ChIJn1nnPKdPpzkRY3RU_Wy389E",
+    "name": "Kausani Adventure & Camping",
+    "address": "Kausani, Bhatariya raod, Kausani",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.8456124,
+      "lng": 79.6023739
+    }
+  },
+  {
+    "place_id": "ChIJ9a8sTX5OpzkRBLcVdRuDIhk",
+    "name": "Snow View Guest House Kausani & Homestay",
+    "address": "View Point kmvn Road, Near Suman Royal Resort Kausani, Kausani",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.8448707,
+      "lng": 79.60195279999999
+    }
+  },
+  {
+    "place_id": "ChIJCx0od95PpzkROme9FitrP44",
+    "name": "Hotel Dev Inn",
+    "address": "State Guest House, near Anashakti (Gandhi) Ashram, Road, Kausani",
+    "type": "lodging",
+    "rating": 1,
+    "location": {
+      "lat": 29.8449124,
+      "lng": 79.6018904
+    }
+  },
+  {
+    "place_id": "ChIJzQift39OpzkR0v3AHP7BB7I",
+    "name": "HIM DARSHAN HOME STAY",
+    "address": "RJR3+XFH, Main Road, Kausani",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.8424498,
+      "lng": 79.603721
+    }
+  },
+  {
+    "place_id": "ChIJJw1ZAEpPpzkRG-xYd0M2z6Y",
+    "name": "PK HOME STAY",
+    "address": "Kausani Almora Road, Dauni",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8422625,
+      "lng": 79.6033027
+    }
+  },
+  {
+    "place_id": "ChIJqQmEc1NPpzkRQbnWDEDfWQ4",
+    "name": "Suman Royal Resort, Best Hotels & Resorts in Kausani",
+    "address": "View Point, VIP Road, Kausani",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.84503279999999,
+      "lng": 79.6010707
+    }
+  },
+  {
+    "place_id": "ChIJLz8EXwJPpzkRcNW9oTPybcQ",
+    "name": "Hotel bhagwati place",
+    "address": "Kausani",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.841729,
+      "lng": 79.60364009999999
+    }
+  },
+  {
+    "place_id": "ChIJ__2HIFNPpzkRVBb-0FpvPC4",
+    "name": "The Kausani Regency",
+    "address": "near Anasakti Ashram, Kausani",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.84431529999999,
+      "lng": 79.60058219999999
+    }
+  },
+  {
+    "place_id": "ChIJFxuCt35OpzkRQv5k3Dzvp94",
+    "name": "Zila Panchayat Tourist Rest House",
+    "address": "Kausani",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.84434070000001,
+      "lng": 79.6003942
+    }
+  },
+  {
+    "place_id": "ChIJJQhRsX5OpzkR-SfZFVWbG2s",
+    "name": "Hotel Prashant",
+    "address": "RJV2+Q39, Kausani",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.8444141,
+      "lng": 79.600219
+    }
+  },
+  {
+    "place_id": "ChIJf0tTHlRPpzkRypTtZHJZyuo",
+    "name": "Sun n Snow Inn, Kausani",
+    "address": "Newr, Ana Shakti Ashram, Kausani",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.8446661,
+      "lng": 79.5999377
+    }
+  },
+  {
+    "place_id": "ChIJaVERnRFPpzkRIFVuy6qX1ho",
+    "name": "Hotel Kausani Retreat",
+    "address": "near UCO Bank, Kausani",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.840716,
+      "lng": 79.60367169999999
+    }
+  },
+  {
+    "place_id": "ChIJLRDydCRPpzkRE3rFol8f_g8",
+    "name": "Mahi zoom home stay",
+    "address": "Kausani-Baijnath Road, Dauni",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.8493003,
+      "lng": 79.6049623
+    }
+  },
+  {
+    "place_id": "ChIJfc--f6lPpzkR2mW7Egor9Zw",
+    "name": "Jagnath Homestay",
+    "address": "Pingalkoat Near Shawl Factory, Kausani",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8497674,
+      "lng": 79.60442069999999
+    }
+  },
+  {
+    "place_id": "ChIJmcIugi1PpzkR43IMRZ3YHOk",
+    "name": "Sakurapines homestay",
+    "address": "sakurapines homestay, near pingalkot mandir, Kausani",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.84993819999999,
+      "lng": 79.6029535
+    }
+  },
+  {
+    "place_id": "ChIJMQj8FABPpzkRUZT4GZxihrg",
+    "name": "Golden Himalaya homestay",
+    "address": "VJ23+29P, Kausani State",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.85007659999999,
+      "lng": 79.60343800000001
+    }
+  },
+  {
+    "place_id": "ChIJpfSYIgBPpzkRTSXR4p0tPQw",
+    "name": "Maa Durga Homestay",
+    "address": "View Point, Road, Kausani",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.8493935,
+      "lng": 79.5997402
+    }
+  },
+  {
+    "place_id": "ChIJv_TXNgBPpzkRsii5F-nY3eE",
+    "name": "Kausani land",
+    "address": "RJX5+V6, Melti Pande",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.849638,
+      "lng": 79.60800499999999
+    }
+  },
+  {
+    "place_id": "ChIJhTa8Fn1OpzkRP2Xygaj2IHI",
+    "name": "Janardan Studio Hotel Kausani",
+    "address": "Kausani-Baijnath Road, Dauni",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.8511112,
+      "lng": 79.60171299999999
+    }
+  },
+  {
+    "place_id": "ChIJWXVE2aFNpzkRblfkkC3zZ-o",
+    "name": "Someshwar Range",
+    "address": "Someshwar Range",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.7997628,
+      "lng": 79.5266211
+    }
+  },
+  {
+    "place_id": "ChIJy2ZbUn5OpzkR6QXXu3e_-sc",
+    "name": "Garden Restaurant",
+    "address": "Garden Restaurant, View Point, Kausani",
+    "type": "guest_house",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.8444125,
+      "lng": 79.6041943
+    }
+  },
+  {
+    "place_id": "ChIJ333QtX9OpzkRm3dzGYRgBS8",
+    "name": "State Bank ATM",
+    "address": "RJV3+3FX, Dwarahat - Almora - Kausani Road, Kausani",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.8427299,
+      "lng": 79.60371930000001
+    }
+  },
+  {
+    "place_id": "ChIJnQ73uX9OpzkRgXTv3S7MGL8",
+    "name": "Almora District Co-operative Bank",
+    "address": "RJR3+WCF, Dwarahat - Almora - Kausani Road, Kausani",
+    "type": "guest_house",
+    "rating": 3.3,
+    "location": {
+      "lat": 29.8423027,
+      "lng": 79.603546
+    }
+  },
+  {
+    "place_id": "ChIJ405Gx39OpzkRDt23oQh3lqw",
+    "name": "State Bank of India",
+    "address": "Kausani Almora Road, Kausani",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.8420292,
+      "lng": 79.604
+    }
+  },
+  {
+    "place_id": "ChIJXW-laRBPpzkR6-e_CtNiJOU",
+    "name": "Garur",
+    "address": "Garur",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8970651,
+      "lng": 79.608442
+    }
+  },
+  {
+    "place_id": "ChIJb2QK7NNNpzkRwujvZLcfELw",
+    "name": "SBI ATM",
+    "address": "Chhani Lwesal, Bageshwar, SH-11, Bageswar Road, Kausani, Kausani",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.8332083,
+      "lng": 79.6008078
+    }
+  },
+  {
+    "place_id": "ChIJNx7XENNNpzkRoJC7RFMYLQw",
+    "name": "State Bank of India",
+    "address": "Chhani Lwesal, Almora, SH-11, Bageswar Road, Kausani, Kausani",
+    "type": "guest_house",
+    "rating": 1,
+    "location": {
+      "lat": 29.8325115,
+      "lng": 79.60347829999999
+    }
+  },
+  {
+    "place_id": "ChIJHxr3z09MpzkRh496dJ06erY",
+    "name": "CANARA BANK ATM",
+    "address": "H.B.B ROAD, DIST, Chanoda",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.8078324,
+      "lng": 79.6141482
+    }
+  },
+  {
+    "place_id": "ChIJBfwx2ANNpzkRfr8G9rwINZc",
+    "name": "Shaheed RS Bora Filling Station - IndianOil",
+    "address": "Ground Floor, Someshwar",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.79877999999999,
+      "lng": 79.60853259999999
+    }
+  },
+  {
+    "place_id": "ChIJweQyAQRPpzkRYkbpOKVAkvk",
+    "name": "Bank of Baroda ATM",
+    "address": "Lohari Malli",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.89346280000001,
+      "lng": 79.6104031
+    }
+  },
+  {
+    "place_id": "ChIJMd50MARPpzkRO_4q0ZH1LMI",
+    "name": "Punjab National Bank",
+    "address": "Bageshwar, SH-11, Bageswar Road, Garud, Garud",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.8944512,
+      "lng": 79.61161969999999
+    }
+  },
+  {
+    "place_id": "ChIJv8UJOgRPpzkRvaG1WroJTZ0",
+    "name": "Punjab National Bank ATM",
+    "address": "Bageshwar, SH-11, Bageswar Road, Garud, Garud",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8945444,
+      "lng": 79.6119724
+    }
+  },
+  {
+    "place_id": "ChIJO2dSNwRPpzkRBC-pek4MxOI",
+    "name": "State Bank of India GARUR",
+    "address": "KAUSANI ROAD P.O, Baijnath Bageshwar Road",
+    "type": "guest_house",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.894911,
+      "lng": 79.61261600000002
+    }
+  },
+  {
+    "place_id": "ChIJz_yETgRPpzkR43oBMFIPpsk",
+    "name": "Almora Urban Cooperative Bank",
+    "address": "Bageshwar, SH-11, Bageswar Road, Garud, Garud",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.8949,
+      "lng": 79.6128
+    }
+  },
+  {
+    "place_id": "ChIJiUR9TARPpzkRURTtRWNsR5E",
+    "name": "Central Bank of India",
+    "address": "VJW7+33G, State Highway 11, Garud",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.8951899,
+      "lng": 79.6127104
+    }
+  },
+  {
+    "place_id": "ChIJUwFEsAVPpzkRJ-QsKly2XZg",
+    "name": "SBI ATM",
+    "address": "Bageshwar, SH-11, Bageswar Road, Garud, Garud",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.89587269999999,
+      "lng": 79.6130316
+    }
+  },
+  {
+    "place_id": "ChIJAZjJiKVPpzkRbJb8uzPHcB4",
+    "name": "Countrywide Public School",
+    "address": "VHWW+VX2, Devnai Road, Baret, Garur",
+    "type": "guest_house",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.89714230000001,
+      "lng": 79.5974004
+    }
+  },
+  {
+    "place_id": "ChIJK2ZwCQ5PpzkRgZzUj5KhFrs",
+    "name": "St. Adams Public School",
+    "address": "VJW7+WVC, Garur - Bageshwar Road, Garur",
+    "type": "guest_house",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.8973136,
+      "lng": 79.61463839999999
+    }
+  },
+  {
+    "place_id": "ChIJTwEeWQ9PpzkRhRhtQGIA85I",
+    "name": "Pooja Bakers",
+    "address": "Dwarahat - Almora - Kausani Road, Lohari Talli",
+    "type": "guest_house",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.89819469999999,
+      "lng": 79.61186699999999
+    }
+  }
+]

@@ -1,0 +1,1047 @@
+[
+  {
+    "place_id": "ChIJvd4scRrgoDkROFYmdssQiso",
+    "name": "OYO 46312 Hotel Cedar Plaza",
+    "address": "1, Chandmari Road, Chandmari, Lohaghat",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.4037754,
+      "lng": 80.08684079999999
+    }
+  },
+  {
+    "place_id": "ChIJF7cUHfPhoDkRXhfNPcuNqDU",
+    "name": "Hotel Tejmaan",
+    "address": "HOTEL TEJMAAN, near Khatkana Bridge, Dunya, Champawat",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.3325351,
+      "lng": 80.0890861
+    }
+  },
+  {
+    "place_id": "ChIJRe7EMgrgoDkRIOEEAKi5KY4",
+    "name": "Kalptaru Home Stay And Banquet lohaghat",
+    "address": "Lohaghat barakoat Road, Govt Polytechnic Road, Panchayat Ghar, Prem Nagar, Gal chaura",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.4155339,
+      "lng": 80.0805997
+    }
+  },
+  {
+    "place_id": "ChIJE6lMMBsgoTkRJcvUD1Rwp_8",
+    "name": "Monal Resort Abbott Mount",
+    "address": "C4H5+7WX, Abbott Mount Road, Lohaghat",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.4282429,
+      "lng": 80.10986659999999
+    }
+  },
+  {
+    "place_id": "ChIJF0zlJ_3hoDkRezgq_EOPxDk",
+    "name": "Hotel Shiva Residency",
+    "address": "National Highway 125, Champawat",
+    "type": "lodging",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.338158,
+      "lng": 80.095483
+    }
+  },
+  {
+    "place_id": "ChIJNUWNGADhoDkRSecMQWk4LJ8",
+    "name": "Lohaghat",
+    "address": "C33M+JPV, Lohaghat",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.4041206,
+      "lng": 80.08429749999999
+    }
+  },
+  {
+    "place_id": "ChIJ6cF1fADhoDkRV3PDY0GMAgo",
+    "name": "Abot Mount lohaghat",
+    "address": "C33M+JPV, Lohaghat",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.4041206,
+      "lng": 80.08429749999999
+    }
+  },
+  {
+    "place_id": "ChIJGfXfS2ThoDkR9KfWfek1GVI",
+    "name": "Mohan",
+    "address": "Pundil kunadi, Lohaghat",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.4041205,
+      "lng": 80.08429749999999
+    }
+  },
+  {
+    "place_id": "ChIJJwd-NwDhoDkRZR-UbtXlFUI",
+    "name": "hotel devlok inn",
+    "address": "C33M+CXJ, Lohaghat",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.4035768,
+      "lng": 80.0848907
+    }
+  },
+  {
+    "place_id": "ChIJ499hiOjhoDkRpb4ths35f2E",
+    "name": "Hotel Atithi",
+    "address": "Village Raikot Mahar, Pithoragarh Road, Lohaghat",
+    "type": "lodging",
+    "rating": 2.8,
+    "location": {
+      "lat": 29.4034053,
+      "lng": 80.0850636
+    }
+  },
+  {
+    "place_id": "ChIJSbkahxDgoDkRs4PSe-rFxpY",
+    "name": "TRH Lohaghat by KMVN",
+    "address": "1, Chandmari Road, Chandmari, Lohaghat",
+    "type": "lodging",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.4042124,
+      "lng": 80.08653939999999
+    }
+  },
+  {
+    "place_id": "ChIJw6CZT1_hoDkRObzD4bFm3ro",
+    "name": "Hotel Cedar Valley",
+    "address": "near KMVN, Pancheswar Road, Lohaghat",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.4046912,
+      "lng": 80.0871092
+    }
+  },
+  {
+    "place_id": "ChIJD4yzgBrgoDkRRQ2CQzXuUKA",
+    "name": "Hotel Cedar Plaza",
+    "address": "Hotel Cedar Plaza, Near Cedar Valley, Pancheswar Road, 262524, Chandmari, Lohaghat",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.4044078,
+      "lng": 80.0873287
+    }
+  },
+  {
+    "place_id": "ChIJdWLfUBfgoDkRERGlwC0MWl0",
+    "name": "Hotel Pandey( home delivery tiffin) lohaghat range",
+    "address": "Lohaghat Range, Lohaghat",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.4009769,
+      "lng": 80.0865104
+    }
+  },
+  {
+    "place_id": "ChIJU704TwDhoDkR_gun3OVrolU",
+    "name": "Hotel Inrira",
+    "address": "C32J+M7Q, Koli Dhek, Lohaghat",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.4015178,
+      "lng": 80.08084769999999
+    }
+  },
+  {
+    "place_id": "ChIJ7eiRoTjhoDkR7XId1Ue_pmg",
+    "name": "Bihar bhuja bhandar",
+    "address": "Bihar Buja dukan, Khetikhan Road",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.4001371,
+      "lng": 80.0854746
+    }
+  },
+  {
+    "place_id": "ChIJKTaXJVjhoDkRCsrIPiLhKEw",
+    "name": "Holiday Homes Khetikhan Champawat",
+    "address": "Champawat Road, Khetikhan Road, Champawat",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.4018925,
+      "lng": 80.08018849999999
+    }
+  },
+  {
+    "place_id": "ChIJ2WsADwDhoDkRCZ29jt6Y_DE",
+    "name": "OYO 60550 Hotel Greater Kailash Annixe",
+    "address": "1, Pithoragarh Road, Lohaghat Range, Champawat",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.400111,
+      "lng": 80.086085
+    }
+  },
+  {
+    "place_id": "ChIJFTYisAvhoDkRjGVxYfmwI3I",
+    "name": "Lohaghat Range",
+    "address": "C32M+2QG, Koli Dhek, Lohaghat",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3995614,
+      "lng": 80.08472619999999
+    }
+  },
+  {
+    "place_id": "ChIJFZaaeUHhoDkRkreVXWzQl0I",
+    "name": "Gym girl uttar Pradesh",
+    "address": "93XP+CW8, Hanuman Mandir Road, Lohaghat Range, Lohaghat",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3985372,
+      "lng": 80.0873168
+    }
+  },
+  {
+    "place_id": "ChIJaa9cghjhoDkRStTK7qx2Bqs",
+    "name": "Patni Auto service",
+    "address": "Prem Nagar, PATAN",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.4112553,
+      "lng": 80.0828258
+    }
+  },
+  {
+    "place_id": "ChIJ14da2oXhoDkRJXU-J3x29sU",
+    "name": "Hotel Monal Inn",
+    "address": "Hotel Monal Inn, pancheswar ,road, Lohaghat",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.4060277,
+      "lng": 80.0927701
+    }
+  },
+  {
+    "place_id": "ChIJVenBiRPhoDkRKBxSdRQMhHU",
+    "name": "Hotel Ganpati",
+    "address": "near Sumit auto, near Gas Office, Lohaghat",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.3968641,
+      "lng": 80.0869337
+    }
+  },
+  {
+    "place_id": "ChIJw-YQb-LhoDkRSiWlNBubmok",
+    "name": "Hotel Lohaghat Regency",
+    "address": "NEAR GAS GODAM , TANAKPUR ROAD, DISTRICT, Lohaghat",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.396635,
+      "lng": 80.0871971
+    }
+  },
+  {
+    "place_id": "ChIJQ3n38gXgoDkRydyxzXAAbeQ",
+    "name": "Hotel Ranjeet Palace, Lohaghat",
+    "address": "National Highway 9, Raikot Mahar",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.4116643,
+      "lng": 80.087363
+    }
+  },
+  {
+    "place_id": "ChIJtUVRNA7hoDkRM3B7I0y-cec",
+    "name": "Shiva hotle koli dhek",
+    "address": "C33F+RXW, Khetikhan Road, Koli Dhek, Lohaghat",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.4046105,
+      "lng": 80.0749378
+    }
+  },
+  {
+    "place_id": "ChIJMxj498zhoDkRKQmJyL4GDAU",
+    "name": "JB HOTEL & RESORT",
+    "address": "JB HOTEL & RESORT, near SBI Bank, Dak Bangla Road, Lohaghat Range, Lohaghat",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.3964741,
+      "lng": 80.08762569999999
+    }
+  },
+  {
+    "place_id": "ChIJPyKVsAXgoDkRgqDRkAbKw5w",
+    "name": "OYO 47391 Hotel Atithi",
+    "address": "Lohaghat Pithoragarh Road, Raikot Mahar",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.411273,
+      "lng": 80.0891924
+    }
+  },
+  {
+    "place_id": "ChIJB-I7GADhoDkRHQFWRs56VOU",
+    "name": "Atithi Homestay",
+    "address": "93WM+3F5, Forti",
+    "type": "lodging",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.3951313,
+      "lng": 80.08373040000001
+    }
+  },
+  {
+    "place_id": "ChIJP7ahXwHhoDkRyiDjComvlpQ",
+    "name": "SUB MAJOR B.D CHOUBE",
+    "address": "Chamniya, Lohaghat",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.41228959999999,
+      "lng": 80.0785811
+    }
+  },
+  {
+    "place_id": "ChIJfYLFPb3hoDkRn4zq42AoEg0",
+    "name": "MJ Hotel And Resorts",
+    "address": "Lohaghat, Raikot Mahar",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.4126865,
+      "lng": 80.0921513
+    }
+  },
+  {
+    "place_id": "ChIJHRqfkqbhoDkRhEXHpHNdSXY",
+    "name": "TDR-The Deodar Reservoir",
+    "address": "near Koli, lake, Koli Dhek, Lohaghat",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.40736649999999,
+      "lng": 80.0717245
+    }
+  },
+  {
+    "place_id": "ChIJlSct7dbhoDkR6Rrrdu4PSxc",
+    "name": "Chandan",
+    "address": "93VQ+9GR, National Highway 9, Lohaghat Range, Bangaon",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.39349,
+      "lng": 80.088765
+    }
+  },
+  {
+    "place_id": "ChIJWXPCHQDhoDkR9b2mYjUCUr4",
+    "name": "Fort side resort",
+    "address": "C349+FQM, Devidhura Road, Smanora Range",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.406216,
+      "lng": 80.0694212
+    }
+  },
+  {
+    "place_id": "ChIJyZyQOgDhoDkRrx7k_r3-DM8",
+    "name": "Raikot Meher",
+    "address": "C38V+729, Lohaghat Pithoragarh Road, Raikot Mahar",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.4156512,
+      "lng": 80.0926092
+    }
+  },
+  {
+    "place_id": "ChIJmYaT4-_hoDkREIezzoDGOYQ",
+    "name": "HOTEL LOHAGHAT INN & RESTAURANT",
+    "address": "near PETROL PUMP, Lohaghat Pithoragarh Road, Lohaghat",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.4166699,
+      "lng": 80.0927866
+    }
+  },
+  {
+    "place_id": "ChIJc1haRqLhoDkRJZX1-W7kik0",
+    "name": "Manas Farms Chandrika Homestay",
+    "address": "near Lohaghat, Forti",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.3918516,
+      "lng": 80.07304909999999
+    }
+  },
+  {
+    "place_id": "ChIJo4qZSJ3hoDkRBdts4BJKU6o",
+    "name": "Hotel The Mount & Restaurant",
+    "address": "C39W+94F, Lohaghat",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.418445,
+      "lng": 80.0952817
+    }
+  },
+  {
+    "place_id": "ChIJr2R8eAPhoDkRAKuC9Apk_ko",
+    "name": "Himalayan Birder Homestay",
+    "address": "Forti(Advaita Ashrama Mayavati, Road, Lohaghat",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.388685,
+      "lng": 80.0738925
+    }
+  },
+  {
+    "place_id": "ChIJ6-09cgDfoDkRWHWsGfbjlFY",
+    "name": "Oak Woods Hotel And Resorts",
+    "address": "C3FR+PM5, Lohaghat Range",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.42460340000001,
+      "lng": 80.0927507
+    }
+  },
+  {
+    "place_id": "ChIJjVP4y53foDkRilyd6L20jy0",
+    "name": "Pithoragarh Road,Near Recharge Hub Hotel",
+    "address": "C3FV+JPX, Lohaghat Pithoragarh Road, Raikot Mahar",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.4241052,
+      "lng": 80.0943644
+    }
+  },
+  {
+    "place_id": "ChIJ35q42HfhoDkRi7G8VrfwOhk",
+    "name": "Bishram Bhawan",
+    "address": "C375+PQQ, Unnamed Road, Suie",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.41434109999999,
+      "lng": 80.059485
+    }
+  },
+  {
+    "place_id": "ChIJMU4iRv8foTkRTf83a-YY5HI",
+    "name": "Whistling Woods",
+    "address": "94R5+3R, Khuna Malak",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.39019219999999,
+      "lng": 80.1095591
+    }
+  },
+  {
+    "place_id": "ChIJmwzqJC3goDkRFNw9Uij5Kuc",
+    "name": "HOTEL DHANJET PALACE",
+    "address": "93FQ+HM8, near peteol pump, Old Tehri Road, Chamba",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.373918,
+      "lng": 80.089199
+    }
+  },
+  {
+    "place_id": "ChIJBWpX5O7foDkRFCLPPyx0WwQ",
+    "name": "Abbott mount huts",
+    "address": "C4H5+527, Lohaghat Range",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.4279141,
+      "lng": 80.10755379999999
+    }
+  },
+  {
+    "place_id": "ChIJESfK2h8foTkRgcIiOJsD4EM",
+    "name": "Goswami restaurant",
+    "address": "C488+XV, Sirtoli",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.4174357,
+      "lng": 80.11714669999999
+    }
+  },
+  {
+    "place_id": "ChIJERR-R-ohoTkRC1TNPk10Lqo",
+    "name": "TRH Abbott Mount (Goldcrest Eco Loghuts)",
+    "address": "C4H5+784, Abot Mount",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.4281586,
+      "lng": 80.1083323
+    }
+  },
+  {
+    "place_id": "ChIJyTAbEwAfoTkRY5bo4JeBE4A",
+    "name": "Lal Singh chottala",
+    "address": "C499+5CG, Chomel Road, Sirtoli",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.4179254,
+      "lng": 80.11857839999999
+    }
+  },
+  {
+    "place_id": "ChIJi27qJK_hoDkR16m-YhTceVY",
+    "name": "Hariindra Home Stay",
+    "address": "Jhalakudi chalthi",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.3728652,
+      "lng": 80.097202
+    }
+  },
+  {
+    "place_id": "ChIJQ4Y6qzMfoTkRPtgUFt4fuac",
+    "name": "The Himalaya Farms",
+    "address": "The Himalaya Organic Farm & Home Stay Vill: Idakot, PO: Bhumlai, Dist:, Lohaghat",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3862002,
+      "lng": 80.11678909999999
+    }
+  },
+  {
+    "place_id": "ChIJm5PLUADhoDkRmriryPWD4gg",
+    "name": "Shiv Dhwani Homestay Lohaghat",
+    "address": "92VR+CGJ, Bunga Phartiyal",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.3935956,
+      "lng": 80.04126959999999
+    }
+  },
+  {
+    "place_id": "ChIJeafflijfoDkRUrKnvJZEbYg",
+    "name": "The Deodar Adobe",
+    "address": "C3XQ+4W, Bayoli",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.447879,
+      "lng": 80.089776
+    }
+  },
+  {
+    "place_id": "ChIJcxCc4KffoDkRBXZqufik60U",
+    "name": "Buransh Villa",
+    "address": "C3XQ+7PW, National Highway 9, Bayoli",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.44824699999999,
+      "lng": 80.0893193
+    }
+  },
+  {
+    "place_id": "ChIJ-e45TUfhoDkRx-l7cEn3cpA",
+    "name": "Dharamgarh Paidal Marg",
+    "address": "9392+CJH, Champawat",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.3685653,
+      "lng": 80.051615
+    }
+  },
+  {
+    "place_id": "ChIJvZXN25_foDkRTh7ZzocaAVU",
+    "name": "Joshi Residency",
+    "address": "Near, National Highway 9, Bapru Talla",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.4473202,
+      "lng": 80.1011071
+    }
+  },
+  {
+    "place_id": "ChIJfc40FQAfoTkRoQ7GrgFFa5U",
+    "name": "Mount Crown Home stay",
+    "address": "C44V+9Q, Batoli",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.40537569999999,
+      "lng": 80.1443219
+    }
+  },
+  {
+    "place_id": "ChIJsdSKEwAfoTkRxtJ0Izoo0HI",
+    "name": "TPS agro khoya paneer plant and home stay",
+    "address": "C44V+9Q, Batoli",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.405907,
+      "lng": 80.1443772
+    }
+  },
+  {
+    "place_id": "ChIJqavdizweoTkRpdCMj9l1o1c",
+    "name": "Panthi Resort",
+    "address": "9446+FQP, Ghor Chaura",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.3562207,
+      "lng": 80.1119394
+    }
+  },
+  {
+    "place_id": "ChIJfekL3-UhoTkRv5Vg_mKC-c0",
+    "name": "Aarw maggi point",
+    "address": "F444+48Q, Malla Bapru",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.4553412,
+      "lng": 80.10586649999999
+    }
+  },
+  {
+    "place_id": "ChIJX8PaUOffoDkR8nwUkn5q3pY",
+    "name": "Jai maa ladidhura Hotel and Restaurant",
+    "address": "Almora-Champawat Road, Barakot",
+    "type": "lodging",
+    "rating": 2.5,
+    "location": {
+      "lat": 29.4615132,
+      "lng": 80.0704155
+    }
+  },
+  {
+    "place_id": "ChIJr9F1iQEeoTkRLO8h0ut7I1Y",
+    "name": "Champawat",
+    "address": "Champawat",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3360974,
+      "lng": 80.0910275
+    }
+  },
+  {
+    "place_id": "ChIJV6FrA1PgoDkRpTAj_FG68T8",
+    "name": "Advaita Ashrama, Mayavati",
+    "address": "93G7+736, P.O, Via, Mayawati",
+    "type": "guest_house",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.3732892,
+      "lng": 80.06093179999999
+    }
+  },
+  {
+    "place_id": "ChIJncGN7hngoDkRx6ujgqAsgFg",
+    "name": "Sub Post Office, Lohaghat",
+    "address": "Gandhi, Gandhi chauka, Chowki",
+    "type": "guest_house",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.4006115,
+      "lng": 80.0877259
+    }
+  },
+  {
+    "place_id": "ChIJX8lipBngoDkRugn2tpeAvS0",
+    "name": "Hospital Campus Lohaghat",
+    "address": "C32Q+3WW, Meena Bazar Road, Lohaghat Range, Lohaghat",
+    "type": "guest_house",
+    "rating": 3.2,
+    "location": {
+      "lat": 29.4002354,
+      "lng": 80.08983289999999
+    }
+  },
+  {
+    "place_id": "ChIJawAAABHgoDkRU5aBBA8Y0Fs",
+    "name": "Kartar Carriers ( P ) Ltd.",
+    "address": "Pithoragarh Road, Lohaght, Lohaghat",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.404178,
+      "lng": 80.084222
+    }
+  },
+  {
+    "place_id": "ChIJr5dtAhDgoDkROkbhZsGNd-U",
+    "name": "DIET Lohaghat Champawat",
+    "address": "Chandmari Road, Chandmari, Lohaghat",
+    "type": "guest_house",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.4071456,
+      "lng": 80.0865998
+    }
+  },
+  {
+    "place_id": "ChIJ34gAThfgoDkRRRlkeFP6RYM",
+    "name": "State Bank ATM",
+    "address": "C32P+CFH, Lohaghat Range, Lohaghat",
+    "type": "guest_house",
+    "rating": 3.3,
+    "location": {
+      "lat": 29.4010711,
+      "lng": 80.08622319999999
+    }
+  },
+  {
+    "place_id": "ChIJg4aBwRngoDkR5epOF1ey9Hw",
+    "name": "एक्सीलेंट शिक्षा सोसाइटी ऑफ एजुकेशन",
+    "address": "near Lohawati Printing Press, Khadi Bazar, Lohaghat",
+    "type": "guest_house",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.4000372,
+      "lng": 80.08780449999999
+    }
+  },
+  {
+    "place_id": "ChIJ1RTGeBngoDkRAckEh92OhCI",
+    "name": "SBI ATM",
+    "address": "C32Q+GXF, Lohaghat Range, Lohaghat",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.4013214,
+      "lng": 80.0899128
+    }
+  },
+  {
+    "place_id": "ChIJtTrz1BngoDkR4oJcPX8wPhA",
+    "name": "Chetram Oli and Sons",
+    "address": "Bus Station, National Highway 125, Lohaghat",
+    "type": "guest_house",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.3988711,
+      "lng": 80.0872375
+    }
+  },
+  {
+    "place_id": "ChIJvVLdlhvgoDkRioQJxFunwmg",
+    "name": "Rai Communication & Vedant Telecom",
+    "address": "Meena Bazar Road, Lohaghat Range, Lohaghat",
+    "type": "guest_house",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.40375359999999,
+      "lng": 80.0914109
+    }
+  },
+  {
+    "place_id": "ChIJJY7SoBngoDkRBhnR8Ee9qv8",
+    "name": "Real Adventure India",
+    "address": "93XQ+WVR, Tharadunga Road, Lohaghat Range, Lohaghat",
+    "type": "guest_house",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.3998723,
+      "lng": 80.0896478
+    }
+  },
+  {
+    "place_id": "ChIJUfl3JBjgoDkRtqgg0kkM4d0",
+    "name": "State Bank ATM",
+    "address": "93XP+2XF, Meena Bazar Road, Lohaghat Range, Forti",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.397562,
+      "lng": 80.0874192
+    }
+  },
+  {
+    "place_id": "ChIJUZ0OchzgoDkRFgRkqL31mLQ",
+    "name": "Mukta Memorial Holy Wisdom Academy",
+    "address": "C33V+F8C, Lohaghat Range, Lohaghat",
+    "type": "guest_house",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.403688,
+      "lng": 80.09327329999999
+    }
+  },
+  {
+    "place_id": "ChIJ--ChbhjgoDkR-2q4yeT-VB0",
+    "name": "LIC of India, Branch Office",
+    "address": "Dt, Dak Bangla Road, Lohaghat",
+    "type": "guest_house",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.397104,
+      "lng": 80.08844599999999
+    }
+  },
+  {
+    "place_id": "ChIJ_____z_goDkRU_3yRC3uKHw",
+    "name": "Bhagirathi Institute of Technology & Management",
+    "address": "C436+93H, Devidhar Road, Lohaghat",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.4034453,
+      "lng": 80.1102344
+    }
+  },
+  {
+    "place_id": "ChIJXyMAiPkCoTkRS7PjkBbd3DY",
+    "name": "Lohaghat Range",
+    "address": "Lohaghat Range",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.4003911,
+      "lng": 80.09120490000001
+    }
+  },
+  {
+    "place_id": "ChIJ654rp1PgoDkRnHD3ZmpQpKc",
+    "name": "Charitable Hospital, Mayavati Ashrama",
+    "address": "93F6+JCH, Advaita Ashrama Maywati, Lohaghat, Khat Khutam",
+    "type": "guest_house",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.3740533,
+      "lng": 80.06111229999999
+    }
+  },
+  {
+    "place_id": "ChIJxbEqy9XhoDkRjYxXbejUyy0",
+    "name": "Gurukulam Academy Champawat",
+    "address": "939W+H58, National Highway 125, Balai",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3689121,
+      "lng": 80.0954488
+    }
+  },
+  {
+    "place_id": "ChIJ3VPn8NLhoDkRcKUgeJJFhBQ",
+    "name": "Holy Wisdom School",
+    "address": "Maneshwar, Po, Khuna Bora",
+    "type": "guest_house",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.3629984,
+      "lng": 80.1063794
+    }
+  },
+  {
+    "place_id": "ChIJ-_AxW-_hoDkRJrpZf1V4rK0",
+    "name": "Treasury Office",
+    "address": "83VP+5MX, District Head Quarter Road, Champawat",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.3429843,
+      "lng": 80.0867298
+    }
+  },
+  {
+    "place_id": "ChIJf4VhdOXhoDkR4FDlT09ZdVY",
+    "name": "Champawat District Court",
+    "address": "83RQ+97X, District Head Quarter Road, Champawat",
+    "type": "guest_house",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.34097619999999,
+      "lng": 80.0882292
+    }
+  },
+  {
+    "place_id": "ChIJ6cQ5C_vhoDkRCknIbHl4WV4",
+    "name": "Union Bank of India",
+    "address": "Pandey Complex, near Bus Station, Main bazar, Dist, Champawat",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.335941,
+      "lng": 80.09115899999999
+    }
+  },
+  {
+    "place_id": "ChIJ-zyDcvvhoDkRFOyP2ApBozE",
+    "name": "Post office, Champawat",
+    "address": "83PR+HMG, Champawat",
+    "type": "guest_house",
+    "rating": 3.2,
+    "location": {
+      "lat": 29.3364421,
+      "lng": 80.0917181
+    }
+  },
+  {
+    "place_id": "ChIJrQVoaPvhoDkRcKwWed-7_PU",
+    "name": "Nirmal Taragi",
+    "address": "83PR+RPW, Laluwapani Road, Champawat",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3371237,
+      "lng": 80.0918338
+    }
+  },
+  {
+    "place_id": "ChIJ_xvYVPrhoDkR1j8vkBntqoU",
+    "name": "Punjab National Bank",
+    "address": "83PQ+5WM, Khari Market, Champawat",
+    "type": "guest_house",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.335468,
+      "lng": 80.0897866
+    }
+  },
+  {
+    "place_id": "ChIJOWLKdfvhoDkRspztWjrLcxQ",
+    "name": "Tiwari Electro World",
+    "address": "National Highway 125, Champawat",
+    "type": "guest_house",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.33592909999999,
+      "lng": 80.0914645
+    }
+  },
+  {
+    "place_id": "ChIJGwjUcf3hoDkRhvWkXqby7C8",
+    "name": "State Bank ATM",
+    "address": "83PW+QW9, GIC Road, Champawat",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3369024,
+      "lng": 80.09736819999999
+    }
+  },
+  {
+    "place_id": "ChIJwdJ_DPvhoDkR8JPQ0DiJpDE",
+    "name": "Dr Lal PathLabs – Patient Service Centre",
+    "address": "Lakshya Villa Complex, near Bus Station, Champawat",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.33612239999999,
+      "lng": 80.0910263
+    }
+  },
+  {
+    "place_id": "ChIJwdJ_DPvhoDkRzj5ZF73C_kY",
+    "name": "lal bahadur shastri training institute",
+    "address": "tamil road, near G.I.C. inter collage, champawat, u.k., Champawat",
+    "type": "guest_house",
+    "rating": 2.3,
+    "location": {
+      "lat": 29.336097,
+      "lng": 80.091028
+    }
+  },
+  {
+    "place_id": "ChIJhTTEC_vhoDkRIY9CCJI04uQ",
+    "name": "Union Bank Atm",
+    "address": "83PR+99M, Champawat",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.3359558,
+      "lng": 80.0909353
+    }
+  },
+  {
+    "place_id": "ChIJBTVrVvrhoDkRD2Wq7V-qheQ",
+    "name": "State Bank of India CHAMPAWAT",
+    "address": "KHARI BAZAR CHAMPAWAT DIST:CHAMPAWAT, Champawat",
+    "type": "guest_house",
+    "rating": 3.1,
+    "location": {
+      "lat": 29.33558099999999,
+      "lng": 80.08980799999999
+    }
+  },
+  {
+    "place_id": "ChIJISbpvfvhoDkRynRjeM7ONmM",
+    "name": "SBI ATM",
+    "address": "83MR+XC9, Goral Chaour Road Champawat, Golu Devta Mandir Marg, Champawat",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3349012,
+      "lng": 80.09109579999999
+    }
+  },
+  {
+    "place_id": "ChIJFUmtZjLnoDkRFfqgcXrDkHQ",
+    "name": "State Bank of India KHETIKHAN",
+    "address": "DIST:CHAMPAWAT, Champawat",
+    "type": "guest_house",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.381182,
+      "lng": 80.008253
+    }
+  },
+  {
+    "place_id": "ChIJGeOoffnhoDkRd2FKttrsZsE",
+    "name": "Lalit Enterprises",
+    "address": "near Gas Godam, Tanakpur Road, Khark Karki",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.3327924,
+      "lng": 80.0904789
+    }
+  }
+]

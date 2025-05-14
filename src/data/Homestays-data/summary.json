@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-05-14T18-07-34.257Z",
+  "total_locations": 12,
+  "results": [
+    {
+      "location": "Dunagiri Uttarakhand",
+      "count": 100,
+      "filename": "results_2025-05-14T18-07-34.257Z/dunagiri_uttarakhand.json"
+    },
+    {
+      "location": "Jageshwar Dham Uttarakhand",
+      "count": 83,
+      "filename": "results_2025-05-14T18-07-34.257Z/jageshwar_dham_uttarakhand.json"
+    },
+    {
+      "location": "Shitlakhet Uttarakhand",
+      "count": 93,
+      "filename": "results_2025-05-14T18-07-34.257Z/shitlakhet_uttarakhand.json"
+    },
+    {
+      "location": "Kausani Estate Uttarakhand",
+      "count": 80,
+      "filename": "results_2025-05-14T18-07-34.257Z/kausani_estate_uttarakhand.json"
+    },
+    {
+      "location": "Sunargaon Kanda Uttarakhand",
+      "count": 92,
+      "filename": "results_2025-05-14T18-07-34.257Z/sunargaon_kanda_uttarakhand.json"
+    },
+    {
+      "location": "Katarmal Uttarakhand",
+      "count": 98,
+      "filename": "results_2025-05-14T18-07-34.257Z/katarmal_uttarakhand.json"
+    },
+    {
+      "location": "Dhanachuli, Mukteshwar Uttarakhand",
+      "count": 66,
+      "filename": "results_2025-05-14T18-07-34.257Z/dhanachuli__mukteshwar_uttarakhand.json"
+    },
+    {
+      "location": "Pangot, Nainital Uttarakhand",
+      "count": 67,
+      "filename": "results_2025-05-14T18-07-34.257Z/pangot__nainital_uttarakhand.json"
+    },
+    {
+      "location": "Majhkali, Almora Uttarakhand",
+      "count": 82,
+      "filename": "results_2025-05-14T18-07-34.257Z/majhkali__almora_uttarakhand.json"
+    },
+    {
+      "location": "Kasar Devi, Almora Uttarakhand",
+      "count": 79,
+      "filename": "results_2025-05-14T18-07-34.257Z/kasar_devi__almora_uttarakhand.json"
+    },
+    {
+      "location": "Chaukori, Pithoragarh Uttarakhand",
+      "count": 94,
+      "filename": "results_2025-05-14T18-07-34.257Z/chaukori__pithoragarh_uttarakhand.json"
+    },
+    {
+      "location": "Lohaghat, Champawat Uttarakhand",
+      "count": 95,
+      "filename": "results_2025-05-14T18-07-34.257Z/lohaghat__champawat_uttarakhand.json"
+    }
+  ]
+}

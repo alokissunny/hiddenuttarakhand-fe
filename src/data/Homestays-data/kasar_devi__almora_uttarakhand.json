@@ -1,0 +1,871 @@
+[
+  {
+    "place_id": "ChIJr42FS7i2oDkRQ2_dojEO8Lc",
+    "name": "New Dolma",
+    "address": "JMR7+H73, Kasar Devi, Binsar Road",
+    "type": "lodging",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.6413984,
+      "lng": 79.6631634
+    }
+  },
+  {
+    "place_id": "ChIJaUFsvku3oDkRcom0ZHUx__E",
+    "name": "Ayush Cottage",
+    "address": "HMQ3+5QX, National Highway 309A, Dugalkhola, Almora",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.5879793,
+      "lng": 79.6544735
+    }
+  },
+  {
+    "place_id": "ChIJaUFsvku3oDkRt47hteUTHIM",
+    "name": "Nest",
+    "address": "Binsar Road SH37, Paparsali, Balta Badi, Almora",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.5879335,
+      "lng": 79.6541367
+    }
+  },
+  {
+    "place_id": "ChIJiUJqg8O2oDkRZ9oeH6qeXK4",
+    "name": "Lali's Organic Gift Shop & Stay & Restaurant",
+    "address": "Papersali kasar Devi road, Almora",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.6237477,
+      "lng": 79.67361199999999
+    }
+  },
+  {
+    "place_id": "ChIJB2uhTjW3oDkRaBpAMdR0MvI",
+    "name": "Hotel Heritage",
+    "address": "Near M.E.S, Main Road, Almora",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.5928975,
+      "lng": 79.6505899
+    }
+  },
+  {
+    "place_id": "ChIJE1zBDUmyoDkRDiTJTrXnccc",
+    "name": "The Kumaon",
+    "address": "Binsar, Road, gadholi",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.66069970000001,
+      "lng": 79.671945
+    }
+  },
+  {
+    "place_id": "ChIJvRDwoXS3oDkR3nuqh6fxwG8",
+    "name": "Freedom Guest House",
+    "address": "Binsar, Almora",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.58871850000001,
+      "lng": 79.64705219999999
+    }
+  },
+  {
+    "place_id": "ChIJwyGxKbu2oDkRXKeIZvRM4wQ",
+    "name": "Mohan's Binsar Retreat",
+    "address": "Mohan's Binsar Retreat, Kasar Devi, Road, Binsar",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6496923,
+      "lng": 79.66454689999999
+    }
+  },
+  {
+    "place_id": "ChIJX_mjSuG2oDkRQX1L1Iad2ng",
+    "name": "Ayush Guest House and home stay",
+    "address": "Balta Badi , Papersali, Almora",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.62355669999999,
+      "lng": 79.67604
+    }
+  },
+  {
+    "place_id": "ChIJJfvI_zm3oDkRKRD6dfEhVHM",
+    "name": "OYO Hotel Jay Continental",
+    "address": "near Bus Station, Dharanaula, Almora",
+    "type": "lodging",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.59973850000001,
+      "lng": 79.6639895
+    }
+  },
+  {
+    "place_id": "ChIJ_Zvg87m2oDkRos_Hq0Qp89U",
+    "name": "Dolma Restaurant & New Dolma Hotel",
+    "address": "Binsar Road Kasardevi, Almora",
+    "type": "lodging",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.6439057,
+      "lng": 79.6626388
+    }
+  },
+  {
+    "place_id": "ChIJmXRIQ7q2oDkRrVjCkBPPSqY",
+    "name": "Kasar Rainbow Yoga Retreat",
+    "address": "Binsar Road, Kasar Devi, Mat",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6461262,
+      "lng": 79.6639668
+    }
+  },
+  {
+    "place_id": "ChIJpSHNGce2oDkRfFNNAUrfeew",
+    "name": "Imperial Heights Binsar",
+    "address": "Kasar Devi, Almora-Bageshwar Road, Almora",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6367626,
+      "lng": 79.6653936
+    }
+  },
+  {
+    "place_id": "ChIJWRvR06S2oDkRazpAlXUoQNg",
+    "name": "Freedom Guest House & Restaurant",
+    "address": "MM27+7VW, Road, Kasar Devi, Binsar",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6507499,
+      "lng": 79.6647036
+    }
+  },
+  {
+    "place_id": "ChIJ2xP_Beq2oDkR6rXRh4DkqsI",
+    "name": "Tranquility Retreat",
+    "address": "Snobhyun",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.63456249999999,
+      "lng": 79.6730625
+    }
+  },
+  {
+    "place_id": "ChIJRQAAAJy2oDkR4yS9a8obCMI",
+    "name": "Kripal Guest House",
+    "address": "Cement road, Kasar devi, Bhaisori",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6552649,
+      "lng": 79.6717393
+    }
+  },
+  {
+    "place_id": "ChIJQUYwFee2oDkRL4siCHZhbbE",
+    "name": "Bisht Guest House",
+    "address": "Snow-view (East) (100 mtr from Road), Near Papersely,, Almora",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.6249967,
+      "lng": 79.67405529999999
+    }
+  },
+  {
+    "place_id": "ChIJ_eTI_zm3oDkR28p8JKKRaJ4",
+    "name": "Khims guest house",
+    "address": "Pappershli",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6241698,
+      "lng": 79.6736435
+    }
+  },
+  {
+    "place_id": "ChIJm-fjyJ62oDkR3Iy-B8hrkBw",
+    "name": "The Moksha Retreat",
+    "address": "Binsar Road , Kasardevi, National Highway 309A, Matena",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.65765180000001,
+      "lng": 79.6766329
+    }
+  },
+  {
+    "place_id": "ChIJk_Qw7B20oDkRJECWuuLAeFM",
+    "name": "Mir Bahay",
+    "address": "MM78+596, Almora – Bageshwar Road, Sundarpur, Gadauli, Binsar, Almora",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6629181,
+      "lng": 79.6658975
+    }
+  },
+  {
+    "place_id": "ChIJxfdW7R20oDkRQdTp_-2QOQA",
+    "name": "Suman Nature Resort, 4 Star Hotel in Binsar",
+    "address": "Binsar Road, ahead of Kalimat Chungi, Sunderpur",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.66347099999999,
+      "lng": 79.6684511
+    }
+  },
+  {
+    "place_id": "ChIJ3YAWlTC3oDkRTTk-GraeNWs",
+    "name": "Hotel jeewan palace and joshjus restaurant",
+    "address": "JM26+347, Hotel jeewan palace Mall road almora Infront sha bharav mandir Hdfc bank",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.60016469999999,
+      "lng": 79.66029069999999
+    }
+  },
+  {
+    "place_id": "ChIJB_IxxzC3oDkR9e7niBWbhHI",
+    "name": "Hotel HimPlaza",
+    "address": "Bansal Gali, Lala Bazar, Mall Road, Almora",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.5993965,
+      "lng": 79.6598932
+    }
+  },
+  {
+    "place_id": "ChIJi4fSKDG3oDkRkFWGOO_xceo",
+    "name": "Hotel Milam Inn",
+    "address": "near GGIC School, Upper link Road, near GGIC School, near Allahabad Bank, Tilakpur, Almora",
+    "type": "lodging",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.5990293,
+      "lng": 79.6582274
+    }
+  },
+  {
+    "place_id": "ChIJNd2iIrWwoDkRcNJY8l4zLkA",
+    "name": "Circuit House",
+    "address": "HJQX+RG9, Dugalkhola, Almora",
+    "type": "lodging",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.5895473,
+      "lng": 79.64884579999999
+    }
+  },
+  {
+    "place_id": "ChIJ3UtBZDW3oDkR-SaIL4LhMYg",
+    "name": "WelcomHeritage Kumaon Heritage, Almora",
+    "address": "India",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.59291999999999,
+      "lng": 79.65064199999999
+    }
+  },
+  {
+    "place_id": "ChIJ-dwtOzS3oDkRr9YlA8mVoHw",
+    "name": "Hotel Himadri",
+    "address": "Inter College, Udaldunga, near Almora, Mall Road, Almora",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.58982689999999,
+      "lng": 79.64579619999999
+    }
+  },
+  {
+    "place_id": "ChIJD-waZ-i1oDkR2BS7e9tntDs",
+    "name": "Mountain Resort, Khali Estate",
+    "address": "Ayarpani, Almora",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.67891,
+      "lng": 79.7198422
+    }
+  },
+  {
+    "place_id": "ChIJP4u7HKm1oDkRytcc8Ju8Xs0",
+    "name": "Hotel Mount Heaven",
+    "address": "PP43+R75, Almora-Bageshwar Road, Basoli pul market, inakote",
+    "type": "lodging",
+    "rating": 2.7,
+    "location": {
+      "lat": 29.70700189999999,
+      "lng": 79.7032358
+    }
+  },
+  {
+    "place_id": "ChIJJfvI_zm3oDkR9dkWeresh6I",
+    "name": "OYO Hotel Sunita And Restaurant",
+    "address": "Kausani Road, Near Base Hospital, Lower Mall, Almora",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.5920785,
+      "lng": 79.6407383
+    }
+  },
+  {
+    "place_id": "ChIJ87IxWN62oDkR7pYaEmfUgX0",
+    "name": "Hotel Shivalik River Retreat",
+    "address": "River Point, Kosi, NH-87, Matela",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.59089639999999,
+      "lng": 79.6084235
+    }
+  },
+  {
+    "place_id": "ChIJC6hcpBuzoDkR8NMIvLiK2gA",
+    "name": "Pugs Paw Eco Retreat",
+    "address": "PO Manan Manan",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.71911929999999,
+      "lng": 79.6133023
+    }
+  },
+  {
+    "place_id": "ChIJyxEgYjq3oDkRNLxrDYu2pCk",
+    "name": "Hotel Shivalik-Best Himalayan View Hotel In Almora",
+    "address": "near Vishal Mega Mart, L.R.Sah Road, near Vishal Mega Mart, Almora",
+    "type": "lodging",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.6014045,
+      "lng": 79.6625349
+    }
+  },
+  {
+    "place_id": "ChIJq3DVyTa3oDkR1hOStJcL5hE",
+    "name": "Hotel Shelesh",
+    "address": "HMX5+9CG, Link Road, Near Ggic, Mall Road, Khazanchi Mohalla, Paltan Bazar, Dharanaula, Almora",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.59903100000001,
+      "lng": 79.658656
+    }
+  },
+  {
+    "place_id": "ChIJtcW0agC3oDkRv3eVWcsBvb0",
+    "name": "Sunrise home stay",
+    "address": "Kasar devi, Almora",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6417963,
+      "lng": 79.6617814
+    }
+  },
+  {
+    "place_id": "ChIJSay5QwG3oDkRiX1aI00fpa0",
+    "name": "Namaste Homestay",
+    "address": "Kasar Devi, Mat",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6417963,
+      "lng": 79.6617814
+    }
+  },
+  {
+    "place_id": "ChIJoW9EmHW3oDkReLxqQ3PdwIU",
+    "name": "Rudra Himalayan Retreat",
+    "address": "Crank's Ridge Kasaar Devi Temple, Almora-Bageshwar Road, Almora",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.6428372,
+      "lng": 79.66301589999999
+    }
+  },
+  {
+    "place_id": "ChIJ_c6W8Fm3oDkRIlwx-4A3Hv0",
+    "name": "The Kasar Himalyan Heights (Satya’s)",
+    "address": "Road kasar devi, Binsar",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.641388,
+      "lng": 79.6635582
+    }
+  },
+  {
+    "place_id": "ChIJkV9WU-q3oDkRa3neMPPpSLg",
+    "name": "Chaitanya Family restaurant and Hotel",
+    "address": "Kasardevi, Almora",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6439016,
+      "lng": 79.66294049999999
+    }
+  },
+  {
+    "place_id": "ChIJVy9lD1O3oDkRvN31KyawdU8",
+    "name": "Stars & Pines",
+    "address": "Kasar Devi (Crank's Ridge, Almora-Bageshwar Road, Mat",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6402582,
+      "lng": 79.663885
+    }
+  },
+  {
+    "place_id": "ChIJ6VPo1Lm2oDkRQ17BBfVdonk",
+    "name": "Ganga homestay",
+    "address": "Kasar Devi Rd, Opp. New Dolma Restaurant, Post Office Deenapani, Almora District, Kasar Devi",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.64413799999999,
+      "lng": 79.6630613
+    }
+  },
+  {
+    "place_id": "ChIJmbC1-h23oDkR5vC1DtBPpRo",
+    "name": "The Ghughuti Homestay",
+    "address": "Kasar devi, Mat",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.644395,
+      "lng": 79.661812
+    }
+  },
+  {
+    "place_id": "ChIJMbFNfIW3oDkRUoM6wwEudIE",
+    "name": "EVERGREEN HOME STAY (KASARDEVI)",
+    "address": "Almora-Bageshwar Road H. No 75 vill mat kasardevi",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6445621,
+      "lng": 79.6628554
+    }
+  },
+  {
+    "place_id": "ChIJtaazw0e3oDkRmTojn-aDWeI",
+    "name": "Devendra Homestay ,kasardevi",
+    "address": "Near, kasardevi temple road, Mat",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.64470369999999,
+      "lng": 79.662858
+    }
+  },
+  {
+    "place_id": "ChIJoYFM3NC3oDkRn27guuZ7bV8",
+    "name": "Prince Homestay kasardevi प्रिन्स होम स्टे",
+    "address": "Road, Kasar Devi, Mat",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6448639,
+      "lng": 79.66287160000002
+    }
+  },
+  {
+    "place_id": "ChIJKWH3C763oDkRroKS4drM0a4",
+    "name": "Kasaar Jungle Resort ( Connected Kasaar Devi Temple)",
+    "address": "Kasaar Devi Almora, Binsar Road",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6449643,
+      "lng": 79.66098029999999
+    }
+  },
+  {
+    "place_id": "ChIJJ2_RUMa3oDkRhm1sTZFgg0U",
+    "name": "Sagar Homestay",
+    "address": "road, Binsar",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6449867,
+      "lng": 79.6629026
+    }
+  },
+  {
+    "place_id": "ChIJ-RUNxQK3oDkRkuT9UHvNpro",
+    "name": "The Norling Homestay",
+    "address": "Mat",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6452913,
+      "lng": 79.66140519999999
+    }
+  },
+  {
+    "place_id": "ChIJF2g5Iq63oDkRFirBYEr0BH4",
+    "name": "Kasar Home Stay Kasardevi",
+    "address": "Kasardevi, Almora",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6459421,
+      "lng": 79.6630957
+    }
+  },
+  {
+    "place_id": "ChIJq6qqquq2oDkRe3QHJeC6JKQ",
+    "name": "Kasar Serenity",
+    "address": "Kasar Serenity, kasar Devi Kasar Devi",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6461728,
+      "lng": 79.66265489999999
+    }
+  },
+  {
+    "place_id": "ChIJ5SZFU9G3oDkRhIpZrIfbaqs",
+    "name": "Himalayan Range Almora Kasar Devi",
+    "address": "JMQ8+93, Mat",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6384703,
+      "lng": 79.6652465
+    }
+  },
+  {
+    "place_id": "ChIJ_dc1vru2oDkRlaI6vDKaboo",
+    "name": "Flower House Homestay",
+    "address": "188 Maat, Kasar Devi, Almora",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.646213,
+      "lng": 79.6650885
+    }
+  },
+  {
+    "place_id": "ChIJY5dUt7u2oDkRemAlohGAAyw",
+    "name": "The Real Place Guesthouse",
+    "address": "JMW7+GXR, Mat",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.6463511,
+      "lng": 79.6649006
+    }
+  },
+  {
+    "place_id": "ChIJP4m_Bfy3oDkRMerj58RN6bk",
+    "name": "Manu Home Stay",
+    "address": "Kasar Devi, Binsar road Kasar Devi, Binsar road, Almora",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6467217,
+      "lng": 79.6645649
+    }
+  },
+  {
+    "place_id": "ChIJ98W6TDa3oDkRuG7LOwbQpkQ",
+    "name": "Clean Almora",
+    "address": "Kasardevi",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6466104,
+      "lng": 79.6651926
+    }
+  },
+  {
+    "place_id": "ChIJTz4EesG3oDkRccOOm4xoCQI",
+    "name": "Treebo Trend Kasar Inn With Mountain View",
+    "address": "Hotel kasar inn, kasar devi, Almora",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.6374543,
+      "lng": 79.6659966
+    }
+  },
+  {
+    "place_id": "ChIJRU22OMe2oDkRwjU7vP0MY58",
+    "name": "HOTEL LISA",
+    "address": "India",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6374653,
+      "lng": 79.6660308
+    }
+  },
+  {
+    "place_id": "ChIJnzcD7L63oDkRUJEMtfknMRM",
+    "name": "Manoj Home Stay",
+    "address": "JMW7+RQ8, Mat",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6470303,
+      "lng": 79.6644487
+    }
+  },
+  {
+    "place_id": "ChIJXx_T-Km3oDkRJp3YOUh2-60",
+    "name": "MangalMurti Himalyan Homestay",
+    "address": "Parvati Mehta Niwas, Vill.-Mat, Kasardevi, PO Binsar Road, Dinapani",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.64772899999999,
+      "lng": 79.6635398
+    }
+  },
+  {
+    "place_id": "ChIJ58NZ69a3oDkREVJkSlFmcXc",
+    "name": "The Hosteller Kasar Devi",
+    "address": "upper Binsar, Almora-Bageshwar Road, Balt Bari, Road, Kasar devi",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.63670579999999,
+      "lng": 79.66583729999999
+    }
+  },
+  {
+    "place_id": "ChIJH9gQiTK3oDkR1Y592F3SEZg",
+    "name": "Almora",
+    "address": "Almora",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.5892407,
+      "lng": 79.646666
+    }
+  },
+  {
+    "place_id": "ChIJ2zSZODK3oDkRoKKLFDwHeeg",
+    "name": "SOS Organics Natural Cosmetics And Organic Health Food",
+    "address": "below Golu Devta Temple, Manyoli Road, Chitai Pant",
+    "type": "guest_house",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6196626,
+      "lng": 79.70384609999999
+    }
+  },
+  {
+    "place_id": "ChIJMeNHgMqwoDkREDbcGbnHEo0",
+    "name": "Soban Singh Jeena University (State University)",
+    "address": "Mall Road, Almora",
+    "type": "guest_house",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.591936,
+      "lng": 79.6480448
+    }
+  },
+  {
+    "place_id": "ChIJARaX4jq3oDkRAfyHd1R7gkY",
+    "name": "Koormanchal Academy",
+    "address": "Pokhar Khali, Almora",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.603831,
+      "lng": 79.66429959999999
+    }
+  },
+  {
+    "place_id": "ChIJv0LtNDq3oDkRyO8wuS5ms8o",
+    "name": "Uttarakhand Gramin Bank",
+    "address": "SH 37, Near Bus Station, Dharanaula, Almora",
+    "type": "guest_house",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.6000992,
+      "lng": 79.66046279999999
+    }
+  },
+  {
+    "place_id": "ChIJ_UGbKyW3oDkRXzcQYWv5Bbk",
+    "name": "Nokia Care",
+    "address": "Jakhendevi, Mall Road, Dharanaula, Almora",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.6046378,
+      "lng": 79.66392619999999
+    }
+  },
+  {
+    "place_id": "ChIJD2mIom2xoDkRZq6lbbPVRS0",
+    "name": "Laxis Valley",
+    "address": "JJQ9+98J, Kosi, Way to Katarmal Temple",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.6384512,
+      "lng": 79.618276
+    }
+  },
+  {
+    "place_id": "ChIJHY706SC3oDkRcGxIy-9bZCc",
+    "name": "Victory Churches Of India",
+    "address": "JM79+QCF, Heeradungri, Almora",
+    "type": "guest_house",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.6144404,
+      "lng": 79.6685332
+    }
+  },
+  {
+    "place_id": "ChIJSW_clDC3oDkRBzvmmUQPEfA",
+    "name": "HDFC Bank",
+    "address": "Jeevan Palace, opposite Saibhairav Mandir, Mall Road, Almora",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.6000465,
+      "lng": 79.6601194
+    }
+  },
+  {
+    "place_id": "ChIJn40t-zO3oDkRMgfE-n3fdZk",
+    "name": "Yamaha Showroom",
+    "address": "HMX4+G44, Paltan Bazar, Khatyari, Almora",
+    "type": "guest_house",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.5987572,
+      "lng": 79.65531990000001
+    }
+  },
+  {
+    "place_id": "ChIJz5XRRTe3oDkR8aB-tseh634",
+    "name": "Dharanaula",
+    "address": "Dharanaula",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.601144,
+      "lng": 79.65863089999999
+    }
+  },
+  {
+    "place_id": "ChIJpaLwkTa3oDkRekLAtIKU8TA",
+    "name": "Court",
+    "address": "HMW5+M22, Khazanchi Mohalla, Paltan Bazar, Dharanaula, Almora",
+    "type": "guest_house",
+    "rating": 4.2,
+    "location": {
+      "lat": 29.5966265,
+      "lng": 79.6575227
+    }
+  },
+  {
+    "place_id": "ChIJnSNwQre2oDkR-vBLrDuz3Ss",
+    "name": "Sri Sarada Math, Almora",
+    "address": "ssm.kasardevi@gmail.com, Kasar Devi",
+    "type": "guest_house",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.6430437,
+      "lng": 79.6603026
+    }
+  },
+  {
+    "place_id": "ChIJicwRreG2oDkRgZdyGmdPU5Y",
+    "name": "OM COMPUTERS",
+    "address": "Papersali, Almora",
+    "type": "guest_house",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.6194648,
+      "lng": 79.6755385
+    }
+  },
+  {
+    "place_id": "ChIJ6_8_1h-3oDkRAfAKC35awh8",
+    "name": "Maharishi Vidya Mandir",
+    "address": "JM8G+Q6G, Papparsalli, near N.T.D, near Forest Office, Almora",
+    "type": "guest_house",
+    "rating": 3.5,
+    "location": {
+      "lat": 29.6169438,
+      "lng": 79.67558009999999
+    }
+  },
+  {
+    "place_id": "ChIJr5iybxWxoDkRnP_mWvvYcJs",
+    "name": "Central Bank of India",
+    "address": "Almora-Ranikhat-Kosi Road, Khari Bazar, Sunoli Malli",
+    "type": "guest_house",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6338332,
+      "lng": 79.6269325
+    }
+  },
+  {
+    "place_id": "ChIJccwmFyu3oDkRylz1c5eWNQI",
+    "name": "IndianOil",
+    "address": "Ground Floor Bypass Road, College Road, Almora",
+    "type": "guest_house",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.611613,
+      "lng": 79.65191700000001
+    }
+  },
+  {
+    "place_id": "ChIJHbEOaxWxoDkRxf5Y_LMZA8E",
+    "name": "Oriental Bank of Commerce ATM",
+    "address": "Almora NH-87E, Almora-Gopeshwar Road, Bageshwar",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.6341486,
+      "lng": 79.6265513
+    }
+  },
+  {
+    "place_id": "ChIJp6W1WR-3oDkRwwp6Qqqgmrc",
+    "name": "Army School",
+    "address": "JM6F+M49, Alexandra Lines, Almora",
+    "type": "guest_house",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.6116701,
+      "lng": 79.6728516
+    }
+  }
+]

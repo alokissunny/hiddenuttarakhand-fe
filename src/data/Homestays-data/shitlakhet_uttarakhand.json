@@ -1,0 +1,1025 @@
+[
+  {
+    "place_id": "ChIJ0yf8BkCsoDkR9cUuDOovczc",
+    "name": "Home Stay At Ranikhet",
+    "address": "Cottage no 11, Vimoksha Valley, Village Digoti, Majkhali, Ranikhet, Rānīkhet",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.6713548,
+      "lng": 79.4933903
+    }
+  },
+  {
+    "place_id": "ChIJT4vlCMWvoDkRJ-WjfDmchFc",
+    "name": "Himadri Home Stay ,Shitlakhet,Almora",
+    "address": "Post-Office, near S.B.I, Shitlakhet",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.5943031,
+      "lng": 79.5444188
+    }
+  },
+  {
+    "place_id": "ChIJ6QUNJ1iwoDkRvdl_qJglUF8",
+    "name": "Hotel Sheetalam",
+    "address": "Shitlakhet Road, Dhamuwa Kanala",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.5945435,
+      "lng": 79.5440764
+    }
+  },
+  {
+    "place_id": "ChIJ8QhcHc-voDkRDyLZV38VC9o",
+    "name": "Nayalap - Rural Himalayan Glamping",
+    "address": "Near Hedakhan Ashram, Village Salla Rautela, Post Shitlakhet",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.5975259,
+      "lng": 79.5473275
+    }
+  },
+  {
+    "place_id": "ChIJ87IxWN62oDkR7pYaEmfUgX0",
+    "name": "Hotel Shivalik River Retreat",
+    "address": "River Point, Kosi, NH-87, Matela",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.59089639999999,
+      "lng": 79.6084235
+    }
+  },
+  {
+    "place_id": "ChIJvRDwoXS3oDkR3nuqh6fxwG8",
+    "name": "Freedom Guest House",
+    "address": "Binsar, Almora",
+    "type": "lodging",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.58871850000001,
+      "lng": 79.64705219999999
+    }
+  },
+  {
+    "place_id": "ChIJ-dwtOzS3oDkRr9YlA8mVoHw",
+    "name": "Hotel Himadri",
+    "address": "Inter College, Udaldunga, near Almora, Mall Road, Almora",
+    "type": "lodging",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.58982689999999,
+      "lng": 79.64579619999999
+    }
+  },
+  {
+    "place_id": "ChIJJfvI_zm3oDkR9dkWeresh6I",
+    "name": "OYO Hotel Sunita And Restaurant",
+    "address": "Kausani Road, Near Base Hospital, Lower Mall, Almora",
+    "type": "lodging",
+    "rating": 3.4,
+    "location": {
+      "lat": 29.5920785,
+      "lng": 79.6407383
+    }
+  },
+  {
+    "place_id": "ChIJs5qiTU6soDkR7MpqcEGaGis",
+    "name": "POOL RETREAT",
+    "address": "Majhkhali,, Almora-Ranikhet Road, Majkhali",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6780802,
+      "lng": 79.5108508
+    }
+  },
+  {
+    "place_id": "ChIJRYpkONyvoDkR1xS47jfHaO4",
+    "name": "रौतेला काटेज",
+    "address": "HGVV+HR6, Shitlakhet",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.5939111,
+      "lng": 79.5445276
+    }
+  },
+  {
+    "place_id": "ChIJd2vEiGmvoDkRFkZcdMyWWI8",
+    "name": "OYO 41876 Hotel Pine And Dine",
+    "address": "1, Shitlakhet Road, Shitlakhet",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.5945482,
+      "lng": 79.5438346
+    }
+  },
+  {
+    "place_id": "ChIJ1SflW8WvoDkRc2TtQhGxkg4",
+    "name": "KMVN Shitalakhet",
+    "address": "HGVW+8PV, Shitalakhet",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.5933735,
+      "lng": 79.54680479999999
+    }
+  },
+  {
+    "place_id": "ChIJ2z2IZcWvoDkRkoK87nnxTgk",
+    "name": "Forest Rest House",
+    "address": "HGVW+8RJ, Shitlakhet Road, Almora Range",
+    "type": "lodging",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.5933274,
+      "lng": 79.5470091
+    }
+  },
+  {
+    "place_id": "ChIJ05t_M82voDkRxu6VwTOjVJ4",
+    "name": "Serendipity one",
+    "address": "Syahi Devi Gunth",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.5882583,
+      "lng": 79.552565
+    }
+  },
+  {
+    "place_id": "ChIJO7FO4OevoDkRU77qp7DQOGo",
+    "name": "The Wilderness Camp, Shitlakhet Almora",
+    "address": "The Wilderness Syahidevi Estate, PO, Shitlakhet",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.5862223,
+      "lng": 79.55110189999999
+    }
+  },
+  {
+    "place_id": "ChIJo9o0OQCvoDkRrxD696KJMMg",
+    "name": "BluSalzz Escapade Anant Rasa Shitlakhet UTTARAKHAND",
+    "address": "HGMX+JJ, Almora Range",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.5840057,
+      "lng": 79.5489661
+    }
+  },
+  {
+    "place_id": "ChIJI_2eHRSvoDkRyP0ACpR57LY",
+    "name": "RAUTELA COTTEGE",
+    "address": "Shitlakhet Road, Salla Rautela",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.595082,
+      "lng": 79.55750189999999
+    }
+  },
+  {
+    "place_id": "ChIJjxjOzJavoDkRZqmtQE8FanM",
+    "name": "LETS Camp Sitlakhet",
+    "address": "Estate, Syahi Devi, Shitlakhet",
+    "type": "lodging",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.5826006,
+      "lng": 79.54921449999999
+    }
+  },
+  {
+    "place_id": "ChIJZxl690GxoDkRtCRmYdRMZWs",
+    "name": "Nayalap - Solace in a Forest",
+    "address": "Post, Naula",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.59504450000001,
+      "lng": 79.5621761
+    }
+  },
+  {
+    "place_id": "ChIJXzW5T-KvoDkRYAiDgQS2Se4",
+    "name": "Rohit Homestay syahi devi",
+    "address": "Syahidevi Baghich, Shitlakhet",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.5795763,
+      "lng": 79.5531685
+    }
+  },
+  {
+    "place_id": "ChIJoZI52z-voDkRdnr1chIGZ9M",
+    "name": "Goswami General Store & Home stay Syahi Devi",
+    "address": "Almora",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.5766199,
+      "lng": 79.55720420000002
+    }
+  },
+  {
+    "place_id": "ChIJ54RuoUOxoDkRMJP985KjwAs",
+    "name": "VIDYUNS",
+    "address": "16 km Kosi, Shitlakhet Road, Dhamas",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.5927712,
+      "lng": 79.5683938
+    }
+  },
+  {
+    "place_id": "ChIJs-r_OvmvoDkRfTisAAk4lBA",
+    "name": "Tiger hill restaurant syahidevi mndir",
+    "address": "HHG4+GXG, Syahidevi mndir",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.5763031,
+      "lng": 79.5574451
+    }
+  },
+  {
+    "place_id": "ChIJbboqe3qxoDkRcNMPDZ6dP-o",
+    "name": "Singla house",
+    "address": "Shitlakhet Road, Salla Rautela",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.5940255,
+      "lng": 79.5740178
+    }
+  },
+  {
+    "place_id": "ChIJmRNDTwCxoDkRwIhCDYSylSI",
+    "name": "PARWATI HOUSE",
+    "address": "JH69+GG2, Dhamas",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6106556,
+      "lng": 79.5676524
+    }
+  },
+  {
+    "place_id": "ChIJQfAM9g2voDkRkkZMqGdZeFc",
+    "name": "Naveen Tiwari Bhopali Resort",
+    "address": "JGCR+W3P, Unnamed Road, Batgal Routela",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.622345,
+      "lng": 79.5401875
+    }
+  },
+  {
+    "place_id": "ChIJOSRO6rWxoDkRVK6ONY2UkUI",
+    "name": "Aghar Village",
+    "address": "JH4G+48P, Shitlakhet Road, Naugaon",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.605337,
+      "lng": 79.575839
+    }
+  },
+  {
+    "place_id": "ChIJ43pl_BSvoDkR4857WITSls8",
+    "name": "Hotel Nayantara",
+    "address": "House No 17, Street no 1",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.624354,
+      "lng": 79.53888119999999
+    }
+  },
+  {
+    "place_id": "ChIJkZr1e-6voDkR_5nI-fys75o",
+    "name": "Home stay Himalaya view",
+    "address": "JGFQ+QCC, Unnamed Road, Batgal Routela",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6244293,
+      "lng": 79.5385252
+    }
+  },
+  {
+    "place_id": "ChIJmcnEOLCvoDkRAHsEz05uFlw",
+    "name": "Harish Chandr Tiwari Resort",
+    "address": "Dilkot",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6260625,
+      "lng": 79.5395625
+    }
+  },
+  {
+    "place_id": "ChIJQYjkBiaxoDkREu5uQAXnYu4",
+    "name": "Nayalap - Himalayan Earth Homes",
+    "address": "Shitlakhet Road, Dhamas",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6014112,
+      "lng": 79.5844247
+    }
+  },
+  {
+    "place_id": "ChIJw6g3AkqvoDkRqla5swh5Jhw",
+    "name": "Holy Angel Sukoon Dhamas",
+    "address": "near Khunt, Village Dhamas, near Khunt, and, Shitlakhet",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6008124,
+      "lng": 79.5849231
+    }
+  },
+  {
+    "place_id": "ChIJ5TDGEwCxoDkR_g4XIAJ-CkM",
+    "name": "The Vintage Kumaon by Townsman Haven Homestay",
+    "address": "JH6R+P29, Walsa",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.612046,
+      "lng": 79.59086409999999
+    }
+  },
+  {
+    "place_id": "ChIJg03TRgCloDkRVsj3qbCVXgU",
+    "name": "Ekatma Stays",
+    "address": "HG3C+G9V, Digoli, Naugaon, Kakrighat, Shiroe",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.5538625,
+      "lng": 79.52092189999999
+    }
+  },
+  {
+    "place_id": "ChIJf8_yMYmloDkRkK0tnWYICx0",
+    "name": "Shivansh home stay",
+    "address": "GGXH+XCJ, Shiroe",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.549974,
+      "lng": 79.5285232
+    }
+  },
+  {
+    "place_id": "ChIJy_6s5yuxoDkR51wTHK-2IM0",
+    "name": "Tranquil Homestay",
+    "address": "near Golu Mandir, Majkhali",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6362274,
+      "lng": 79.565969
+    }
+  },
+  {
+    "place_id": "ChIJDUFpbWWloDkRtxbUrU3fGU4",
+    "name": "KMVN Tourist Rest House, Kakrighat",
+    "address": "GGXH+MFF, Shiroe",
+    "type": "lodging",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.5491947,
+      "lng": 79.52867479999999
+    }
+  },
+  {
+    "place_id": "ChIJCbUedgCloDkRkEUrUP-cv7s",
+    "name": "Rudraksh home stay",
+    "address": "GGXG+HWW, Shiroe",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.549067,
+      "lng": 79.527954
+    }
+  },
+  {
+    "place_id": "ChIJEeqBd0mvoDkRQ8jcAxQ0KHY",
+    "name": "Aaranyam - It's a Vibe",
+    "address": "Village Diholi, Chaubatia Gardens. Ranikhet, Diholi",
+    "type": "lodging",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6175233,
+      "lng": 79.4962432
+    }
+  },
+  {
+    "place_id": "ChIJLYUddgCloDkRClD9sqL7rSM",
+    "name": "Gyan vriksh guest house",
+    "address": "GGWP+627, Manrasa",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.5455443,
+      "lng": 79.53505299999999
+    }
+  },
+  {
+    "place_id": "ChIJ2XTYfgCxoDkRO1jNlC2CFPk",
+    "name": "Kafal Homes Gadhwali",
+    "address": "JHQG+GHR, Gadhwali",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6388648,
+      "lng": 79.57639929999999
+    }
+  },
+  {
+    "place_id": "ChIJN1is2o6xoDkRxL1QqG_NxGE",
+    "name": "The Village Walk -Kanelli",
+    "address": "Village Kaneli, Kosi",
+    "type": "lodging",
+    "rating": 4.1,
+    "location": {
+      "lat": 29.6396991,
+      "lng": 79.57509379999999
+    }
+  },
+  {
+    "place_id": "ChIJmS5ncwCvoDkR8DyidESAqrs",
+    "name": "Green Pigeon Cafe and Luxury Homestay",
+    "address": "HFMM+CHQ, Chaubatia Road, Jala",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.5839522,
+      "lng": 79.4846997
+    }
+  },
+  {
+    "place_id": "ChIJPereE1yvoDkRZa5-cazo1do",
+    "name": "Mahadeva Village Homestay",
+    "address": "Village Pakhora P.O. Uprari 9 kms from Jhula Devi Temple, 1 km from Govt Inter College, Kunelakhet, Ranikhet",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.58335559999999,
+      "lng": 79.4841933
+    }
+  },
+  {
+    "place_id": "ChIJfUQifYqxoDkRoYsRR8IEVXY",
+    "name": "Adaara Retreat - Pet Friendly Cottages",
+    "address": "Block and PO - Jyoli Jyoli, Road, Ranikhet",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6254897,
+      "lng": 79.594588
+    }
+  },
+  {
+    "place_id": "ChIJnYM4dwCloDkRkWRaeecmiCE",
+    "name": "Riverview homestay",
+    "address": "GHQ2+M9, Oliyagaon",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.5392518,
+      "lng": 79.5509069
+    }
+  },
+  {
+    "place_id": "ChIJo6mWNACxoDkRqUktx6K1T60",
+    "name": "Negi sweets",
+    "address": "JHW7+CX5, National Highway 109, Kharkuna",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6459525,
+      "lng": 79.5651055
+    }
+  },
+  {
+    "place_id": "ChIJaZP58xOloDkRPiMCCdkpswc",
+    "name": "The Dina valley homestay",
+    "address": "Suyalkhet, Suyalbari",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.539185,
+      "lng": 79.55110280000001
+    }
+  },
+  {
+    "place_id": "ChIJ7x-AxdCvoDkRGFjnYTANp-s",
+    "name": "Poshkuj Cottage",
+    "address": "Dwarson Foothills Road, Kurchoun",
+    "type": "lodging",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6489685,
+      "lng": 79.5404681
+    }
+  },
+  {
+    "place_id": "ChIJbQH03iqvoDkRaUuYdx9mpxY",
+    "name": "papnai puri",
+    "address": "HFQJ+JF6, Chaubatia Road",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.58904729999999,
+      "lng": 79.4811356
+    }
+  },
+  {
+    "place_id": "ChIJI_2uQgCvoDkRVJ1vrRUvCQI",
+    "name": "Nandini Cottage : A premium Boutique Homestay",
+    "address": "Ranikhet Almora Road, NH 109, village Baburkhola, P.O, Dwarson, Ranikhet",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6487572,
+      "lng": 79.5557461
+    }
+  },
+  {
+    "place_id": "ChIJoWNL6IivoDkRklVtzGFaILg",
+    "name": "Bird Song Cottage",
+    "address": "MG2R+544, Dwarson Foothills Road, Kurchoun",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6497647,
+      "lng": 79.5405566
+    }
+  },
+  {
+    "place_id": "ChIJzaIiYP2voDkR8djk3JQqe2w",
+    "name": "Pine Marten Cottage Dwarson",
+    "address": "Pine Marten Cottage, Dwarson, Foothill Colony, Dwarson",
+    "type": "lodging",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.6498733,
+      "lng": 79.542238
+    }
+  },
+  {
+    "place_id": "ChIJYVFX4DmvoDkRYWofVySgicg",
+    "name": "\"Rose Cottage\"",
+    "address": "Rose Cottage\", Foothill Colony, Village Babarkhola, P.O. Dwarson - 263652",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6503594,
+      "lng": 79.5419495
+    }
+  },
+  {
+    "place_id": "ChIJZ1SLguivoDkR_ILHv55HgGw",
+    "name": "The Himalayan Hamlet",
+    "address": "Foothills, Dwarson - 263652",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.650628,
+      "lng": 79.5411348
+    }
+  },
+  {
+    "place_id": "ChIJDXrkzDevoDkRRnRe-O-xkYg",
+    "name": "JollyRogers Homestay",
+    "address": "MH23+CJ9, National Highway 109, Kurchoun",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6503458,
+      "lng": 79.5531073
+    }
+  },
+  {
+    "place_id": "ChIJuw30hYOtoDkRipAC4bHPSug",
+    "name": "Aspen Villa",
+    "address": "The Terraces, Plot 6, Babur Khola",
+    "type": "lodging",
+    "rating": 5,
+    "location": {
+      "lat": 29.6510265,
+      "lng": 79.5525893
+    }
+  },
+  {
+    "place_id": "ChIJ7Yp7TnWvoDkRAzuhyppoh1s",
+    "name": "Earth Organic",
+    "address": "JGXC+37, Uroli",
+    "type": "lodging",
+    "rating": 4,
+    "location": {
+      "lat": 29.64768749999999,
+      "lng": 79.5206875
+    }
+  },
+  {
+    "place_id": "ChIJYf2NU3WvoDkRmW0622d0bZQ",
+    "name": "The Highlands Homestay - Book Hotel room & home stay in Ranikhet at lowest price",
+    "address": "Dwarson Foothills Road, Ranikhet",
+    "type": "lodging",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.6516496,
+      "lng": 79.54220649999999
+    }
+  },
+  {
+    "place_id": "ChIJxS8wBTmxoDkRRjEbcL2zgDg",
+    "name": "StayVista at The Village Walk - Almora | 4 BHK Premium Holiday Home",
+    "address": "Villa No 15, Village Kaneli Block & PO - Jyoli, Hawalbagh Village",
+    "type": "lodging",
+    "rating": 3,
+    "location": {
+      "lat": 29.627142,
+      "lng": 79.5989883
+    }
+  },
+  {
+    "place_id": "ChIJH9gQiTK3oDkR1Y592F3SEZg",
+    "name": "Almora",
+    "address": "Almora",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.5892407,
+      "lng": 79.646666
+    }
+  },
+  {
+    "place_id": "ChIJBQru-sWvoDkRJpps1tiomFI",
+    "name": "State Bank of India SHITLAKHET",
+    "address": "SHITLAKHET, Almora",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.593913,
+      "lng": 79.544521
+    }
+  },
+  {
+    "place_id": "ChIJw8nciE-loDkRenB-g88bz1M",
+    "name": "Jawahar Navodaya Vidyalaya",
+    "address": "GGXX+4P6, Bhowali-Almora Road, Gangarkote",
+    "type": "guest_house",
+    "rating": 4.7,
+    "location": {
+      "lat": 29.5477897,
+      "lng": 79.54927680000002
+    }
+  },
+  {
+    "place_id": "ChIJ2WT8FAeuoDkRrnleUsE7gCw",
+    "name": "The Terraces, Mohanco Estates",
+    "address": "Almora-Ranikhet Road, Gadhwali",
+    "type": "guest_house",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6513894,
+      "lng": 79.5531438
+    }
+  },
+  {
+    "place_id": "ChIJkaRB1aKwoDkR2l7wEOPBiNk",
+    "name": "M/s Raj Enterprises",
+    "address": "talla kholta, Almora",
+    "type": "guest_house",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.578791,
+      "lng": 79.630487
+    }
+  },
+  {
+    "place_id": "ChIJD2mIom2xoDkRZq6lbbPVRS0",
+    "name": "Laxis Valley",
+    "address": "JJQ9+98J, Kosi, Way to Katarmal Temple",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.6384512,
+      "lng": 79.618276
+    }
+  },
+  {
+    "place_id": "ChIJXztjahWxoDkRRYLxUwuLecs",
+    "name": "State Bank of India",
+    "address": "Kosi, Almora-Gopeshwar Road",
+    "type": "guest_house",
+    "rating": 4.4,
+    "location": {
+      "lat": 29.6294656,
+      "lng": 79.6268249
+    }
+  },
+  {
+    "place_id": "ChIJmVSPahWxoDkRh866R2afFfw",
+    "name": "State Bank ATM",
+    "address": "JJHG+QP5, Kosi, Almora Road",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.629398,
+      "lng": 79.6268717
+    }
+  },
+  {
+    "place_id": "ChIJ6UIFtMewoDkR7QSmnjRUY4A",
+    "name": "UPCL Coloney Khatyari Almora",
+    "address": "HJVP+9W6, UPCL Coloney Khatyari Almora, Almora",
+    "type": "guest_house",
+    "rating": 3.7,
+    "location": {
+      "lat": 29.5934156,
+      "lng": 79.6372555
+    }
+  },
+  {
+    "place_id": "ChIJGZVnTT-qoDkRuOg8Fq0UL3U",
+    "name": "Post Office, Chiliyanaula",
+    "address": "Khirket Chiliyanaula, NH-87E, Almora-Ranikhet Road, Almora",
+    "type": "guest_house",
+    "rating": 3.8,
+    "location": {
+      "lat": 29.5933176,
+      "lng": 79.6378357
+    }
+  },
+  {
+    "place_id": "ChIJHbEOaxWxoDkRxf5Y_LMZA8E",
+    "name": "Oriental Bank of Commerce ATM",
+    "address": "Almora NH-87E, Almora-Gopeshwar Road, Bageshwar",
+    "type": "guest_house",
+    "rating": 4,
+    "location": {
+      "lat": 29.6341486,
+      "lng": 79.6265513
+    }
+  },
+  {
+    "place_id": "ChIJqzBeWxGyoDkRo5b13P6gh5Y",
+    "name": "Central Bank of India",
+    "address": "Unnamed Road,, Ramana",
+    "type": "guest_house",
+    "rating": 4.8,
+    "location": {
+      "lat": 29.6712505,
+      "lng": 79.5758802
+    }
+  },
+  {
+    "place_id": "ChIJr5iybxWxoDkRnP_mWvvYcJs",
+    "name": "Central Bank of India",
+    "address": "Almora-Ranikhat-Kosi Road, Khari Bazar, Sunoli Malli",
+    "type": "guest_house",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.6338332,
+      "lng": 79.6269325
+    }
+  },
+  {
+    "place_id": "ChIJAQAAAMuwoDkRocLW1Um0xBo",
+    "name": "GIHM almora",
+    "address": "HJPQ+8GF, Khatyari, Almora",
+    "type": "guest_house",
+    "rating": 4.5,
+    "location": {
+      "lat": 29.5858149,
+      "lng": 79.63881099999999
+    }
+  },
+  {
+    "place_id": "ChIJeUtrGS-poDkRYOr4p5PdKug",
+    "name": "Chaubatia",
+    "address": "Chaubatia",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.6137821,
+      "lng": 79.45632499999999
+    }
+  },
+  {
+    "place_id": "ChIJ1zalkbewoDkRHtoytd_Med8",
+    "name": "Ramakrishna Kutir, Almora",
+    "address": "Vivekananda Corner Bright End Corner, Almora Road, Khatyari, Almora",
+    "type": "guest_house",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.58770719999999,
+      "lng": 79.6393358
+    }
+  },
+  {
+    "place_id": "ChIJa0TnuGuxoDkRrBeh-EsZr5g",
+    "name": "ENVIS Centre, GBPNIHESD",
+    "address": "JJQF+WHF, Budh Khola",
+    "type": "guest_house",
+    "rating": 3,
+    "location": {
+      "lat": 29.63981669999999,
+      "lng": 79.6239099
+    }
+  },
+  {
+    "place_id": "ChIJKRqhu7ewoDkRnQomcvK3T7c",
+    "name": "All India Radio",
+    "address": "HJQR+PC4, Almora Road, Khatyari, Almora",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.5892738,
+      "lng": 79.64106369999999
+    }
+  },
+  {
+    "place_id": "ChIJLSCq67CwoDkRwbmaH3Q2510",
+    "name": "QFC",
+    "address": "National Highway 309A, Satyadi Village, Almora",
+    "type": "guest_house",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.58374419999999,
+      "lng": 79.64061579999999
+    }
+  },
+  {
+    "place_id": "ChIJn4M1CBh3AjoRN4k5imwTy_Q",
+    "name": "Ashok Hall Girls' Residential School",
+    "address": "P.O. Majkhali, Almora",
+    "type": "guest_house",
+    "rating": 4.6,
+    "location": {
+      "lat": 29.6779603,
+      "lng": 79.5248366
+    }
+  },
+  {
+    "place_id": "ChIJB2Ksa7awoDkR7Vsllqtae3I",
+    "name": "Raghunath City Mall - RCM",
+    "address": "near Aakashvani, Almora Road, Khatyari, Almora",
+    "type": "guest_house",
+    "rating": 3.9,
+    "location": {
+      "lat": 29.5900733,
+      "lng": 79.6431478
+    }
+  },
+  {
+    "place_id": "ChIJNfgdmcmwoDkRS59HwJVkM4A",
+    "name": "Webgear Techno Services LLP",
+    "address": "House No, 444, Khatyari Almora, Almora",
+    "type": "guest_house",
+    "rating": 4.9,
+    "location": {
+      "lat": 29.593742,
+      "lng": 79.64336899999999
+    }
+  },
+  {
+    "place_id": "ChIJ1eqVeMmwoDkRKL70LAH82Mk",
+    "name": "Jai Shri College",
+    "address": "HJVX+XF4, near SBI Bank, Lower, Mall Road, Khatyari, Almora",
+    "type": "guest_house",
+    "rating": 3.6,
+    "location": {
+      "lat": 29.594349,
+      "lng": 79.644153
+    }
+  },
+  {
+    "place_id": "ChIJk3YE08uwoDkRqclZ5xfR3Cc",
+    "name": "SBI ATM",
+    "address": "Almora, SH-6, Almora Ranikhet Road, Bageshwar, Bageshwar",
+    "type": "guest_house",
+    "rating": 1,
+    "location": {
+      "lat": 29.5945136,
+      "lng": 79.64512839999999
+    }
+  },
+  {
+    "place_id": "ChIJayRrz7atoDkRF8nL9iNqJMs",
+    "name": "Exalter Himalaya View",
+    "address": "MGHF+R7X, Majkhali - Someshwar Road, Khori",
+    "type": "guest_house",
+    "rating": 4.3,
+    "location": {
+      "lat": 29.6796035,
+      "lng": 79.5232216
+    }
+  },
+  {
+    "place_id": "ChIJlbQIzsuwoDkRZMc5QjulnlE",
+    "name": "State Bank of India ALMORA",
+    "address": "Mall Road, Almora",
+    "type": "guest_house",
+    "rating": 2.5,
+    "location": {
+      "lat": 29.594668,
+      "lng": 79.645408
+    }
+  },
+  {
+    "place_id": "ChIJ1wCbsbWwoDkRigPrvQsgt8s",
+    "name": "Max Life Insurance Co. Ltd.",
+    "address": "Mall Road, Ground Floor, Lala bazaar , 52 Sidi Mall Road, Almora",
+    "type": "guest_house",
+    "rating": 2.2,
+    "location": {
+      "lat": 29.589146,
+      "lng": 79.646558
+    }
+  },
+  {
+    "place_id": "ChIJA1POsbWwoDkR1bQKgfLnvAQ",
+    "name": "Bank of Baroda ATM",
+    "address": "H No-36, Orkhola Rajpur Almora, Almora",
+    "type": "guest_house",
+    "rating": 5,
+    "location": {
+      "lat": 29.589244,
+      "lng": 79.646649
+    }
+  },
+  {
+    "place_id": "ChIJz0TQsbWwoDkRH7yXSnKmx6I",
+    "name": "The Amritsar Transport Company Pvt. Ltd.",
+    "address": "opp. Bharo Mandir, Almora",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.589241,
+      "lng": 79.646666
+    }
+  },
+  {
+    "place_id": "ChIJr0TQsbWwoDkR2xQDfG05A28",
+    "name": "District Collector Almora Residence",
+    "address": "Dugalkhola, Almora",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.5892407,
+      "lng": 79.646666
+    }
+  },
+  {
+    "place_id": "ChIJz0TQsbWwoDkRtb1VobOzUJ0",
+    "name": "Kartar Carriers ( P ) Ltd.",
+    "address": "Bus Stand, near Almora, Almora",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.589241,
+      "lng": 79.646666
+    }
+  },
+  {
+    "place_id": "ChIJPQNzV8iwoDkRhFB4s6utJEc",
+    "name": "New Modern Public School",
+    "address": "HJQW+MMV, near BASE HOSPITAL, TEHSIL, Almora",
+    "type": "guest_house",
+    "rating": 2.7,
+    "location": {
+      "lat": 29.5892407,
+      "lng": 79.646666
+    }
+  },
+  {
+    "place_id": "ChIJPyfUsbWwoDkRemnYSwhH2Jk",
+    "name": "Bank of Baroda ATM",
+    "address": "H No-20, Jakhan Devi Almora, Almora",
+    "type": "guest_house",
+    "rating": "No rating",
+    "location": {
+      "lat": 29.589258,
+      "lng": 79.646687
+    }
+  }
+]

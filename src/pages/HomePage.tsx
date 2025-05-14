@@ -14,19 +14,6 @@ const LOCATION_TABS = [
   'Travel Stories / Experiences',
 ];
 
-// List of Google Place IDs for homestays (order must match homestay order)
-const PLACE_IDS = [
-  'ChIJK3BsB2gypzkRW9LPmAVsKoU',
-  'ChIJL_5Czk9PpzkRaXJsPWb0jXM',
-  'ChIJERmaYbm_oDkR3sBfIzyatEw',
-  'ChIJiXU9DV6xoDkRnoUqoxxoA0E',
-  'ChIJMbyU97q7oDkRii8nmOaYTzY',
-  'ChIJmfRVDACZoDkRl7u-vqhzvS0',
-  'ChIJ3-_7ZTKXoDkRHTlE07A8NC4',
-  'ChIJQycWAQCZoDkRAvNB8PckEBI',
-  'ChIJD3V_LACtoDkRwEzutU5_OzY',
-];
-
 const HomePage: React.FC = () => {
   const [selectedLocTab, setSelectedLocTab] = useState('Overview');
   const { selectedLocationIdx, selectedCategory, setSelectedCategory } = useLocation();
@@ -40,12 +27,24 @@ const HomePage: React.FC = () => {
       ? LOCATION_TAB_CONTENT[location.name][selectedLocTab]
       : null;
 
-  // Flatten all homestays for mapping to place IDs
+  // Filter and sort homestays by rating and number of reviews
   const allHomestays = [
     ...location.homestays.Budgeted,
     ...location.homestays.Luxury,
     ...location.homestays.Treehouse,
-  ];
+  ]
+    .filter(homestay => homestay.rating && homestay.rating >= 4)
+    .sort((a, b) => {
+      const aRating = a.rating || 0;
+      const bRating = b.rating || 0;
+      if (aRating !== bRating) {
+        return bRating - aRating;
+      }
+      // Ensure user_ratings_total is a number
+      const aReviews = Number(a.user_ratings_total) || 0;
+      const bReviews = Number(b.user_ratings_total) || 0;
+      return bReviews - aReviews;
+    });
 
   return (
     <>
@@ -56,7 +55,68 @@ const HomePage: React.FC = () => {
           {location.name}
         </Typography>
       </Box>
-      {/* Location Info Tabs */}
+      {/* Homestay Categories */}
+      <Box sx={{ mt: 3, mb: 3 }}>
+        <Tabs
+          value={selectedCategory}
+          onChange={(_, v) => setSelectedCategory(v)}
+          textColor="primary"
+          indicatorColor="secondary"
+          variant="scrollable"
+          scrollButtons="auto"
+          sx={{ mb: 2, px: { xs: 0.5, sm: 0 }, display: 'flex', justifyContent: 'center' }}
+        >
+          {['Budgeted', 'Luxury', 'Treehouse'].map(cat => (
+            <Tab label={cat} value={cat} key={cat} sx={{ fontWeight: 600, fontSize: { xs: '0.98rem', sm: '1.08rem' }, minWidth: { xs: 100, sm: 120 } }} />
+          ))}
+        </Tabs>
+        {selectedCategory === 'Luxury' || selectedCategory === 'Treehouse' ? (
+          <Box sx={{ p: { xs: 2, sm: 4 }, textAlign: 'center', width: '100%' }}>
+            <Typography variant="h5" sx={{ fontWeight: 700, color: 'text.secondary', fontSize: { xs: '1.2rem', sm: '1.5rem' } }}>
+              {selectedCategory} stays coming soon!
+            </Typography>
+            <Typography sx={{ mt: 2, color: 'text.secondary', fontSize: { xs: '1rem', sm: '1.1rem' } }}>
+              We are curating the best {selectedCategory.toLowerCase()} experiences for you. Stay tuned!
+            </Typography>
+          </Box>
+        ) : (
+          <Box sx={{
+            display: 'flex',
+            flexDirection: { xs: 'column', sm: 'row' },
+            flexWrap: 'wrap',
+            gap: { xs: 2, sm: 3 },
+            justifyContent: 'center',
+            alignItems: { xs: 'center', sm: 'flex-start' },
+            px: { xs: 0.5, sm: 0 },
+          }}>
+            {allHomestays.length > 0 ? (
+              allHomestays.map((homestay: Homestay, index: number) => (
+                <HomestayCard
+                  key={homestay.placeId}
+                  stay={{...homestay, id: homestay.placeId}}
+                  location={location.name}
+                  category={selectedCategory}
+                  index={index}
+                  onViewDetails={() => {
+                    window.location.href = `/property/${location.name}/${selectedCategory}/${homestay.placeId}`;
+                  }}
+                />
+              ))
+            ) : (
+              <Box sx={{ p: { xs: 2, sm: 4 }, textAlign: 'center', width: '100%' }}>
+                <Typography variant="h5" sx={{ fontWeight: 700, color: 'text.secondary', fontSize: { xs: '1.2rem', sm: '1.5rem' } }}>
+                  No highly rated homestays available
+                </Typography>
+                <Typography sx={{ mt: 2, color: 'text.secondary', fontSize: { xs: '1rem', sm: '1.1rem' } }}>
+                  We are currently curating more options for this location.
+                </Typography>
+              </Box>
+            )}
+          </Box>
+        )}
+      </Box>
+
+      {/* Location Info Tabs - moved to bottom */}
       <Box
         sx={{
           bgcolor: '#fff',
@@ -135,58 +195,6 @@ const HomePage: React.FC = () => {
             <Typography>Information coming soon for this location.</Typography>
           )}
         </Box>
-      </Box>
-
-      {/* Homestay Categories */}
-      <Box sx={{ mt: 3, mb: 3 }}>
-        <Tabs
-          value={selectedCategory}
-          onChange={(_, v) => setSelectedCategory(v)}
-          textColor="primary"
-          indicatorColor="secondary"
-          variant="scrollable"
-          scrollButtons="auto"
-          sx={{ mb: 2, px: { xs: 0.5, sm: 0 } }}
-        >
-          {['Budgeted', 'Luxury', 'Treehouse'].map(cat => (
-            <Tab label={cat} value={cat} key={cat} sx={{ fontWeight: 600, fontSize: { xs: '0.98rem', sm: '1.08rem' }, minWidth: { xs: 100, sm: 120 } }} />
-          ))}
-        </Tabs>
-        {selectedCategory === 'Luxury' || selectedCategory === 'Treehouse' ? (
-          <Box sx={{ p: { xs: 2, sm: 4 }, textAlign: 'center', width: '100%' }}>
-            <Typography variant="h5" sx={{ fontWeight: 700, color: 'text.secondary', fontSize: { xs: '1.2rem', sm: '1.5rem' } }}>
-              {selectedCategory} stays coming soon!
-            </Typography>
-            <Typography sx={{ mt: 2, color: 'text.secondary', fontSize: { xs: '1rem', sm: '1.1rem' } }}>
-              We are curating the best {selectedCategory.toLowerCase()} experiences for you. Stay tuned!
-            </Typography>
-          </Box>
-        ) : (
-          <Box sx={{
-            display: 'flex',
-            flexDirection: { xs: 'column', sm: 'row' },
-            flexWrap: 'wrap',
-            gap: { xs: 2, sm: 3 },
-            justifyContent: { xs: 'center', sm: 'flex-start' },
-            alignItems: { xs: 'center', sm: 'flex-start' },
-            px: { xs: 0.5, sm: 0 },
-          }}>
-            {PLACE_IDS.map((placeId, i) => (
-              <HomestayCard
-                key={placeId}
-                stay={{ name: '', desc: '', img: '' }}
-                location={location.name}
-                category={selectedCategory}
-                index={i}
-                placeId={placeId}
-                onViewDetails={() => {
-                  // Navigate to property details with placeId as homestayIdx in URL
-                  window.location.href = `/property/${location.name}/${selectedCategory}/${placeId}`;
-                }}
-              />
-            ))}
-          </Box>
-        )}
       </Box>
     </>
   );

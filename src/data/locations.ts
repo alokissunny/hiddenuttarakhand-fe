@@ -1,4 +1,16 @@
 import type { Homestay } from '../components/HomestayCard';
+import dunagiriHomestays from './Homestays-data/dunagiri_uttarakhand.json';
+import jageshwarHomestays from './Homestays-data/jageshwar_dham_uttarakhand.json';
+import shitlakhetHomestays from './Homestays-data/shitlakhet_uttarakhand.json';
+import kausaniHomestays from './Homestays-data/kausani_estate_uttarakhand.json';
+import sunargaonHomestays from './Homestays-data/sunargaon_kanda_uttarakhand.json';
+import katarmalHomestays from './Homestays-data/katarmal_uttarakhand.json';
+import dhanachuliHomestays from './Homestays-data/dhanachuli__mukteshwar_uttarakhand.json';
+import pangotHomestays from './Homestays-data/pangot__nainital_uttarakhand.json';
+import majhkaliHomestays from './Homestays-data/majhkali__almora_uttarakhand.json';
+import kasarDeviHomestays from './Homestays-data/kasar_devi__almora_uttarakhand.json';
+import chaukoriHomestays from './Homestays-data/chaukori__pithoragarh_uttarakhand.json';
+import lohaghatHomestays from './Homestays-data/lohaghat__champawat_uttarakhand.json';
 
 export interface Location {
   name: string;
@@ -14,6 +26,15 @@ export interface Location {
   };
 }
 
+// Helper function to convert JSON homestay data to Homestay type
+const convertToHomestay = (data: any): Homestay => ({
+  name: data.name,
+  desc: data.address,
+  img: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80', // Default image
+  placeId: data.place_id, // Include the placeId from the JSON data
+  rating: data.rating === "No rating" ? undefined : data.rating // Convert "No rating" to undefined
+});
+
 export const LOCATIONS: Location[] = [
   {
     name: 'Dunagiri',
@@ -26,21 +47,9 @@ export const LOCATIONS: Location[] = [
       ],
     },
     homestays: {
-      Budgeted: [
-        { name: 'Dunagiri Budget Stay', desc: 'Affordable and peaceful.', img: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Forest View Homestay', desc: 'Simple rooms with forest views.', img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Village Guest House', desc: 'Experience local hospitality.', img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Luxury: [
-        { name: 'Dunagiri Retreat', desc: 'Luxury with a spiritual touch.', img: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Himalayan Bliss Villa', desc: 'Premium stay with mountain views.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Mountain Majesty Resort', desc: 'Elegant rooms and fine dining.', img: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Treehouse: [
-        { name: 'Forest Canopy Treehouse', desc: 'Stay amidst the deodars.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Pine Nest Treehouse', desc: 'Unique treehouse with valley views.', img: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Leafy Loft', desc: 'A cozy retreat high above the ground.', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80' },
-      ],
+      Budgeted: dunagiriHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
     },
   },
   {
@@ -54,21 +63,9 @@ export const LOCATIONS: Location[] = [
       ],
     },
     homestays: {
-      Budgeted: [
-        { name: 'Temple View Budget Stay', desc: 'Affordable stay near the temples.', img: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Forest Edge Homestay', desc: 'Simple rooms with forest views.', img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Pilgrim Guest House', desc: 'Experience local hospitality.', img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Luxury: [
-        { name: 'Jageshwar Retreat', desc: 'Luxury with a spiritual touch.', img: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Deodar Bliss Villa', desc: 'Premium stay with forest views.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Temple Majesty Resort', desc: 'Elegant rooms and fine dining.', img: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Treehouse: [
-        { name: 'Forest Canopy Treehouse', desc: 'Stay amidst the deodars.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Pine Nest Treehouse', desc: 'Unique treehouse with valley views.', img: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Leafy Loft', desc: 'A cozy retreat high above the ground.', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80' },
-      ],
+      Budgeted: jageshwarHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
     },
   },
   {
@@ -82,21 +79,9 @@ export const LOCATIONS: Location[] = [
       ],
     },
     homestays: {
-      Budgeted: [
-        { name: 'Apple Orchard Stay', desc: 'Affordable stay amidst apple orchards.', img: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Mountain View Homestay', desc: 'Simple rooms with mountain views.', img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Village Guest House', desc: 'Experience local Kumaoni hospitality.', img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Luxury: [
-        { name: 'Shitlakhet Retreat', desc: 'Luxury with panoramic views.', img: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Himalayan Bliss Villa', desc: 'Premium stay with valley views.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Mountain Majesty Resort', desc: 'Elegant rooms and fine dining.', img: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Treehouse: [
-        { name: 'Forest Canopy Treehouse', desc: 'Stay amidst the pines.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Pine Nest Treehouse', desc: 'Unique treehouse with valley views.', img: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Leafy Loft', desc: 'A cozy retreat high above the ground.', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80' },
-      ],
+      Budgeted: shitlakhetHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
     },
   },
   {
@@ -110,21 +95,9 @@ export const LOCATIONS: Location[] = [
       ],
     },
     homestays: {
-      Budgeted: [
-        { name: 'Tea Garden View Stay', desc: 'Affordable stay with garden views.', img: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Estate Guest House', desc: 'Simple rooms in heritage setting.', img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Mountain View Lodge', desc: 'Experience colonial charm.', img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Luxury: [
-        { name: 'Heritage Bungalow', desc: 'Luxury in colonial architecture.', img: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Tea Estate Villa', desc: 'Premium stay with mountain views.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Estate Majesty Resort', desc: 'Elegant rooms and fine dining.', img: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Treehouse: [
-        { name: 'Tea Garden Treehouse', desc: 'Stay amidst the tea gardens.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Mountain Nest Treehouse', desc: 'Unique treehouse with valley views.', img: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Leafy Loft', desc: 'A cozy retreat high above the ground.', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80' },
-      ],
+      Budgeted: kausaniHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
     },
   },
   {
@@ -138,21 +111,9 @@ export const LOCATIONS: Location[] = [
       ],
     },
     homestays: {
-      Budgeted: [
-        { name: 'Village Homestay', desc: 'Experience authentic Kumaoni life.', img: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Mountain View Lodge', desc: 'Simple rooms with valley views.', img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Forest Edge Stay', desc: 'Stay amidst pine forests.', img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Luxury: [
-        { name: 'Himalayan Retreat', desc: 'Luxury with panoramic views.', img: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Valley View Villa', desc: 'Premium stay with mountain vistas.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Mountain Majesty Resort', desc: 'Elegant rooms and fine dining.', img: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Treehouse: [
-        { name: 'Pine Forest Treehouse', desc: 'Stay amidst the deodars.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Valley Nest Treehouse', desc: 'Unique treehouse with mountain views.', img: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Leafy Loft', desc: 'A cozy retreat high above the ground.', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80' },
-      ],
+      Budgeted: sunargaonHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
     },
   },
   {
@@ -166,21 +127,9 @@ export const LOCATIONS: Location[] = [
       ],
     },
     homestays: {
-      Budgeted: [
-        { name: 'Temple View Stay', desc: 'Affordable stay near the ancient temple.', img: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Village Homestay', desc: 'Experience traditional Kumaoni life.', img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Forest Edge Lodge', desc: 'Simple rooms with forest views.', img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Luxury: [
-        { name: 'Heritage Villa', desc: 'Luxury stay with temple views.', img: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Mountain View Resort', desc: 'Premium stay with valley vistas.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Ancient Temple Resort', desc: 'Elegant rooms and fine dining.', img: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80' },
-      ],
-      Treehouse: [
-        { name: 'Deodar Treehouse', desc: 'Stay amidst ancient forests.', img: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Temple View Treehouse', desc: 'Unique treehouse with temple views.', img: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80' },
-        { name: 'Forest Canopy', desc: 'A cozy retreat high above the ground.', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80' },
-      ],
+      Budgeted: katarmalHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
     },
   },
   {
@@ -192,7 +141,11 @@ export const LOCATIONS: Location[] = [
         'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80'
       ],
     },
-    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+    homestays: {
+      Budgeted: dhanachuliHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
+    },
   },
   {
     name: 'Pangot, Nainital',
@@ -203,7 +156,11 @@ export const LOCATIONS: Location[] = [
         'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80'
       ],
     },
-    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+    homestays: {
+      Budgeted: pangotHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
+    },
   },
   {
     name: 'Majhkali, Almora',
@@ -214,7 +171,11 @@ export const LOCATIONS: Location[] = [
         'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80'
       ],
     },
-    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+    homestays: {
+      Budgeted: majhkaliHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
+    },
   },
   {
     name: 'Kasar Devi, Almora',
@@ -225,7 +186,11 @@ export const LOCATIONS: Location[] = [
         'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80'
       ],
     },
-    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+    homestays: {
+      Budgeted: kasarDeviHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
+    },
   },
   {
     name: 'Chaukori, Pithoragarh',
@@ -236,7 +201,11 @@ export const LOCATIONS: Location[] = [
         'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80'
       ],
     },
-    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
+    homestays: {
+      Budgeted: chaukoriHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
+    },
   },
   {
     name: 'Lohaghat, Champawat',
@@ -247,51 +216,11 @@ export const LOCATIONS: Location[] = [
         'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=600&q=80'
       ],
     },
-    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
-  },
-  {
-    name: 'Abbott Mount, Champawat',
-    story: {
-      title: 'Abbott Mount: The Colonial Hill Retreat',
-      text: 'Abbott Mount is a quiet hill station dotted with colonial bungalows, offering solitude and panoramic Himalayan views.',
-      images: [
-        'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80'
-      ],
+    homestays: {
+      Budgeted: lohaghatHomestays.map(convertToHomestay),
+      Luxury: [],
+      Treehouse: [],
     },
-    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
-  },
-  {
-    name: 'Binsar, Almora',
-    story: {
-      title: 'Binsar: The Wildlife Sanctuary',
-      text: 'Binsar is famous for its wildlife sanctuary, dense forests, and spectacular views of Himalayan peaks. A haven for trekkers and birdwatchers.',
-      images: [
-        'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80'
-      ],
-    },
-    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
-  },
-  {
-    name: 'Didihat, Pithoragarh',
-    story: {
-      title: 'Didihat: The Gateway to Eastern Kumaon',
-      text: 'Didihat is a small town in Pithoragarh, surrounded by lush hills and known for its temples and peaceful ambiance.',
-      images: [
-        'https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=600&q=80'
-      ],
-    },
-    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
-  },
-  {
-    name: 'Berinag, Pithoragarh',
-    story: {
-      title: 'Berinag: The Serpentine Hill Village',
-      text: 'Berinag is known for its ancient Nag temples, tea gardens, and panoramic views of the Himalayas.',
-      images: [
-        'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80'
-      ],
-    },
-    homestays: { Budgeted: [], Luxury: [], Treehouse: [] },
   },
 ];
 
