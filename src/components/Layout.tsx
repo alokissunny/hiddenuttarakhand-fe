@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Box, IconButton, Typography, useMediaQuery } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation as useRouterLocation } from 'react-router-dom';
 import { useLocation } from '../context/LocationContext';
 import './Header.css';
 import Header from './Header';
@@ -11,26 +11,148 @@ import LocationTabs from './LocationTabs';
 import SearchBar from './SearchBar';
 import { useTheme } from '@mui/material/styles';
 
+const HERO_IMAGES = [
+  '/hero.jpg',
+  '/hero2.jpg',
+  '/hero3.jpg',
+  '/hero4.jpg',
+];
+
 function Layout() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  const routerLocation = useRouterLocation();
+  const [currentHero, setCurrentHero] = useState(0);
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    intervalRef.current = setInterval(() => {
+      setCurrentHero((prev) => (prev + 1) % HERO_IMAGES.length);
+    }, 4000);
+    return () => {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+    };
+  }, []);
+
+  const goToHero = (idx: number) => {
+    setCurrentHero(idx);
+    if (intervalRef.current) clearInterval(intervalRef.current);
+    intervalRef.current = setInterval(() => {
+      setCurrentHero((prev) => (prev + 1) % HERO_IMAGES.length);
+    }, 4000);
+  };
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Header />
-      <Box className="hero-image-section">
-        {!isMobile && (
-          <Box className="hero-search-overlay">
-            <SearchBar />
+      {routerLocation.pathname !== '/search-results' && (
+        <Box
+          className="hero-image-section"
+          sx={{
+            minHeight: '100vh',
+            height: '100vh',
+            width: '100vw',
+            position: 'relative',
+            zIndex: 1,
+            overflow: 'hidden',
+          }}
+        >
+          {/* Overlay Text */}
+          <Box
+            sx={{
+              position: 'absolute',
+              left: 0,
+              right: 0,
+              bottom: { xs: '5vw', sm: '7vw' },
+              width: '100%',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              zIndex: 5,
+              pointerEvents: 'none',
+              px: { xs: 2, sm: 6 },
+            }}
+          >
+            <Box
+              sx={{
+                bgcolor: 'rgba(0,0,0,0.32)',
+                px: { xs: 2, sm: 6 },
+                py: { xs: 1.5, sm: 2 },
+                borderRadius: 4,
+                width: '100%',
+                maxWidth: 1200,
+                mx: 'auto',
+              }}
+            >
+              <Typography
+                variant="h2"
+                sx={{
+                  color: '#fff',
+                  fontWeight: 800,
+                  fontSize: { xs: '1.3rem', sm: '2.5rem', md: '3.2rem' },
+                  textAlign: 'center',
+                  textShadow: '0 4px 24px rgba(0,0,0,0.45)',
+                  letterSpacing: '-1px',
+                  lineHeight: 1.15,
+                }}
+              >
+                Unveil the Secrets of the Himalayas –<br />Explore Hidden Uttarakhand
+              </Typography>
+            </Box>
           </Box>
-        )}
-      </Box>
+          {HERO_IMAGES.map((img, idx) => (
+            <Box
+              key={img}
+              component="img"
+              src={img}
+              alt={`Hero ${idx + 1}`}
+              sx={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                opacity: idx === currentHero ? 1 : 0,
+                transition: 'opacity 1s',
+                zIndex: 1,
+              }}
+            />
+          ))}
+          {/* Carousel Dots */}
+          <Box sx={{ position: 'absolute', bottom: 32, left: 0, width: '100%', display: 'flex', justifyContent: 'center', zIndex: 3 }}>
+            {HERO_IMAGES.map((_, idx) => (
+              <Box
+                key={idx}
+                onClick={() => goToHero(idx)}
+                sx={{
+                  width: 14,
+                  height: 14,
+                  borderRadius: '50%',
+                  background: idx === currentHero ? '#fff' : 'rgba(255,255,255,0.5)',
+                  mx: 0.7,
+                  cursor: 'pointer',
+                  border: idx === currentHero ? '2px solid #1976d2' : '2px solid transparent',
+                  transition: 'background 0.3s, border 0.3s',
+                }}
+              />
+            ))}
+          </Box>
+          {/* Remove the desktop search bar overlay in hero section */}
+          {/* {!isMobile && (
+            <Box className="hero-search-overlay">
+              <SearchBar />
+            </Box>
+          )} */}
+        </Box>
+      )}
       {isMobile && (
         <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', mt: -3, mb: 2 }}>
           <SearchBar />
         </Box>
       )}
-      <LocationTabs />
+      {routerLocation.pathname !== '/search-results' && !routerLocation.pathname.startsWith('/property') && <LocationTabs />}
       <Box component="main" sx={{ flexGrow: 1, p: { xs: 1, sm: 3 }, bgcolor: 'background.default' }}>
         <Outlet />
       </Box>

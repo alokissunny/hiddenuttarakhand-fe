@@ -3,6 +3,7 @@ import { useLocation } from '../context/LocationContext';
 import './LocationTabs.css';
 import { MaterialIcon } from './MaterialIcon';
 import { useTheme, useMediaQuery } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const LOCATIONS = [
   {
@@ -77,6 +78,7 @@ const LocationTabs = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const VISIBLE_COUNT = isMobile ? 3 : 7;
   const [startIdx, setStartIdx] = React.useState(0);
+  const navigate = useNavigate();
 
   const handlePrev = () => {
     setStartIdx((prev) => Math.max(0, prev - VISIBLE_COUNT));
@@ -110,6 +112,7 @@ const LocationTabs = () => {
                 onClick={() => {
                   setSelectedLocationIdx(globalIdx);
                   setSelectedCategory('Budgeted');
+                  navigate(`/search-results?location=${encodeURIComponent(loc.name)}`);
                 }}
               >
                 <img src={loc.img} alt={loc.name} className="location-tab-img" />

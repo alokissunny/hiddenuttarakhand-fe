@@ -1,14 +1,28 @@
 /* Header.css */
 
 .uk-header {
-  background: #0a4a8a;
+  background: rgba(30, 41, 59, 0.45); /* more translucent dark */
   color: #fff;
+  backdrop-filter: blur(8px);
+  box-shadow: none;
+  transition: background 0.3s, color 0.3s, backdrop-filter 0.3s, box-shadow 0.3s;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 2rem;
   min-height: 80px;
   font-family: 'Montserrat', Arial, sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+  width: 100%;
+}
+
+.uk-header.solid {
+  background: rgba(30, 41, 59, 0.45) !important;
+  color: #fff !important;
+  backdrop-filter: blur(8px) !important;
+  box-shadow: none;
 }
 
 .uk-header-left {
@@ -69,10 +83,14 @@
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 500;
-  transition: color 0.2s;
+  transition: color 0.3s;
 }
 
-.uk-header-nav a:hover {
+.uk-header.solid .uk-header-nav a {
+  color: #fff;
+}
+
+.uk-header .uk-header-nav a:hover {
   color: #ffd700;
 }
 
@@ -82,7 +100,8 @@
     align-items: flex-start;
     padding: 0.5rem 0.7rem;
     min-height: 56px;
-    background: #0a4a8a;
+    background: rgba(10, 74, 138, 0.18); /* lighter transparency for mobile */
+    backdrop-filter: blur(6px);
     position: relative;
     z-index: 10;
   }

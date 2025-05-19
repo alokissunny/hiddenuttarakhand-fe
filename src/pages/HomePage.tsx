@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Box, Tabs, Tab, Typography, CircularProgress } from '@mui/material';
 import { useLocation } from '../context/LocationContext';
-import HomestayCard, { Homestay } from '../components/HomestayCard';
 import { LOCATIONS, LOCATION_TAB_CONTENT } from '../data/locations';
 import { useNavigate } from 'react-router-dom';
 
@@ -27,25 +26,6 @@ const HomePage: React.FC = () => {
       ? LOCATION_TAB_CONTENT[location.name][selectedLocTab]
       : null;
 
-  // Filter and sort homestays by rating and number of reviews
-  const allHomestays = [
-    ...location.homestays.Budgeted,
-    ...location.homestays.Luxury,
-    ...location.homestays.Treehouse,
-  ]
-    .filter(homestay => homestay.rating && homestay.rating >= 4)
-    .sort((a, b) => {
-      const aRating = a.rating || 0;
-      const bRating = b.rating || 0;
-      if (aRating !== bRating) {
-        return bRating - aRating;
-      }
-      // Ensure user_ratings_total is a number
-      const aReviews = Number(a.user_ratings_total) || 0;
-      const bReviews = Number(b.user_ratings_total) || 0;
-      return bReviews - aReviews;
-    });
-
   return (
     <>
       {/* Hero Image Section removed for relocation to Layout */}
@@ -56,66 +36,7 @@ const HomePage: React.FC = () => {
         </Typography>
       </Box>
       {/* Homestay Categories */}
-      <Box sx={{ mt: 3, mb: 3 }}>
-        <Tabs
-          value={selectedCategory}
-          onChange={(_, v) => setSelectedCategory(v)}
-          textColor="primary"
-          indicatorColor="secondary"
-          variant="scrollable"
-          scrollButtons="auto"
-          sx={{ mb: 2, px: { xs: 0.5, sm: 0 }, display: 'flex', justifyContent: 'center' }}
-        >
-          {['Budgeted', 'Luxury', 'Treehouse'].map(cat => (
-            <Tab label={cat} value={cat} key={cat} sx={{ fontWeight: 600, fontSize: { xs: '0.98rem', sm: '1.08rem' }, minWidth: { xs: 100, sm: 120 } }} />
-          ))}
-        </Tabs>
-        {selectedCategory === 'Luxury' || selectedCategory === 'Treehouse' ? (
-          <Box sx={{ p: { xs: 2, sm: 4 }, textAlign: 'center', width: '100%' }}>
-            <Typography variant="h5" sx={{ fontWeight: 700, color: 'text.secondary', fontSize: { xs: '1.2rem', sm: '1.5rem' } }}>
-              {selectedCategory} stays coming soon!
-            </Typography>
-            <Typography sx={{ mt: 2, color: 'text.secondary', fontSize: { xs: '1rem', sm: '1.1rem' } }}>
-              We are curating the best {selectedCategory.toLowerCase()} experiences for you. Stay tuned!
-            </Typography>
-          </Box>
-        ) : (
-          <Box sx={{
-            display: 'flex',
-            flexDirection: { xs: 'column', sm: 'row' },
-            flexWrap: 'wrap',
-            gap: { xs: 2, sm: 3 },
-            justifyContent: 'center',
-            alignItems: { xs: 'center', sm: 'flex-start' },
-            px: { xs: 0.5, sm: 0 },
-          }}>
-            {allHomestays.length > 0 ? (
-              allHomestays.map((homestay: Homestay, index: number) => (
-                <HomestayCard
-                  key={homestay.placeId}
-                  stay={{...homestay, id: homestay.placeId}}
-                  location={location.name}
-                  category={selectedCategory}
-                  index={index}
-                  onViewDetails={() => {
-                    window.location.href = `/property/${location.name}/${selectedCategory}/${homestay.placeId}`;
-                  }}
-                />
-              ))
-            ) : (
-              <Box sx={{ p: { xs: 2, sm: 4 }, textAlign: 'center', width: '100%' }}>
-                <Typography variant="h5" sx={{ fontWeight: 700, color: 'text.secondary', fontSize: { xs: '1.2rem', sm: '1.5rem' } }}>
-                  No highly rated homestays available
-                </Typography>
-                <Typography sx={{ mt: 2, color: 'text.secondary', fontSize: { xs: '1rem', sm: '1.1rem' } }}>
-                  We are currently curating more options for this location.
-                </Typography>
-              </Box>
-            )}
-          </Box>
-        )}
-      </Box>
-
+      {/* Removed homestay cards section */}
       {/* Location Info Tabs - moved to bottom */}
       <Box
         sx={{

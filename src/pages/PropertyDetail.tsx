@@ -5,11 +5,20 @@ import { MaterialIcon } from '../components/MaterialIcon';
 import BookingWidget from '../components/BookingWidget';
 import { useParams } from 'react-router-dom';
 
+// Simple in-memory cache for place details
+const placeDetailsCache: Record<string, GooglePlaceDetails> = {};
+
+const PLACEHOLDER_IMAGE = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80';
+
+const MAX_IMAGE_RETRIES = 3;
+
 const PropertyDetail: React.FC = () => {
   const { homestayIdx } = useParams<{ homestayIdx: string }>();
   const [placeDetails, setPlaceDetails] = useState<GooglePlaceDetails | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [imageRetries, setImageRetries] = useState<{ [key: number]: number }>({});
+  const [failedImages, setFailedImages] = useState<{ [key: number]: boolean }>({});
 
   useEffect(() => {
     if (!homestayIdx) {
@@ -18,11 +27,26 @@ const PropertyDetail: React.FC = () => {
       return;
     }
     const fetchPlaceDetails = async () => {
+      setLoading(true);
+      setError(null);
+      // Check cache first
+      if (placeDetailsCache[homestayIdx]) {
+        setPlaceDetails(placeDetailsCache[homestayIdx]);
+        setLoading(false);
+        return;
+      }
       try {
         const details = await getPlaceDetails(homestayIdx);
+        placeDetailsCache[homestayIdx] = details;
         setPlaceDetails(details);
-      } catch (err) {
-        setError('Failed to fetch property details. Please try again later.');
+      } catch (err: any) {
+        // 429 error handling
+        if (err.message && err.message.includes('OVER_QUERY_LIMIT')) {
+          setError('Too many requests to Google Places. Please try again later.');
+        } else {
+          setError('Failed to fetch property details. Please try again later.');
+        }
+        setPlaceDetails(null);
         console.error('Error fetching place details:', err);
       } finally {
         setLoading(false);
@@ -43,6 +67,12 @@ const PropertyDetail: React.FC = () => {
     return (
       <Box sx={{ p: 4, textAlign: 'center' }}>
         <Typography color="error">{error || 'Property not found.'}</Typography>
+        {/* Fallback image gallery */}
+        <Box sx={{ mt: 3, display: 'flex', justifyContent: 'center', gap: 2 }}>
+          {[1, 2, 3].map(idx => (
+            <Box key={idx} component="img" src={PLACEHOLDER_IMAGE} alt="Fallback" sx={{ width: 220, height: 160, objectFit: 'cover', borderRadius: 2 }} />
+          ))}
+        </Box>
       </Box>
     );
   }
@@ -52,21 +82,38 @@ const PropertyDetail: React.FC = () => {
       {/* Image Gallery */}
       <Paper sx={{ mb: 3, borderRadius: 3, overflow: 'hidden', width: '100%' }}>
         <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, flexWrap: 'wrap', gap: 1 }}>
-          {placeDetails.photos?.slice(0, 4).map((photo, idx) => (
-            <Box
-              key={idx}
-              component="img"
-              src={photo.getUrl({ maxWidth: 800 })}
-              alt={`${placeDetails.name} image ${idx + 1}`}
-              sx={{
-                width: { xs: '100%', sm: '49%' },
-                height: { xs: 220, sm: 260 },
-                objectFit: 'cover',
-                borderRadius: 2,
-                mb: { xs: 1, sm: 0 },
-              }}
-            />
-          ))}
+          {placeDetails.photos?.slice(0, 4).map((photo, idx) => {
+            const imageUrl = !failedImages[idx] ? photo.getUrl({ maxWidth: 800 }) : PLACEHOLDER_IMAGE;
+            return (
+              <Box
+                key={idx}
+                component="img"
+                src={imageUrl}
+                alt={`${placeDetails.name} image ${idx + 1}`}
+                sx={{
+                  width: { xs: '100%', sm: '49%' },
+                  height: { xs: 220, sm: 260 },
+                  objectFit: 'cover',
+                  borderRadius: 2,
+                  mb: { xs: 1, sm: 0 },
+                }}
+                onError={() => {
+                  setImageRetries(prev => {
+                    const retries = (prev[idx] || 0) + 1;
+                    if (retries < MAX_IMAGE_RETRIES) {
+                      // Force re-render with new src to retry
+                      setTimeout(() => {
+                        setImageRetries(r => ({ ...r, [idx]: retries }));
+                      }, 300);
+                    } else {
+                      setFailedImages(f => ({ ...f, [idx]: true }));
+                    }
+                    return { ...prev, [idx]: retries };
+                  });
+                }}
+              />
+            );
+          })}
         </Box>
       </Paper>
 

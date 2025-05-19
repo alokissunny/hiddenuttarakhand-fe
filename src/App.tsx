@@ -6,6 +6,7 @@ import { LocationProvider } from './context/LocationContext';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import PropertyDetail from './pages/PropertyDetail';
+import SearchResultsPage from './pages/SearchResultsPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Layout />}>
               <Route index element={<HomePage />} />
               <Route path="property/:locationName/:category/:homestayIdx" element={<PropertyDetail />} />
+              <Route path="search-results" element={<SearchResultsPage />} />
             </Route>
           </Routes>
         </BrowserRouter>
