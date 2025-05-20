@@ -6,6 +6,7 @@ import { useTheme, useMediaQuery } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { Drawer, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import LocationCard from './LocationCard';
 
 const LOCATIONS = [
   {
@@ -92,63 +93,19 @@ const LocationTabs = () => {
   };
 
   return (
-    <section className="location-section">
+    <section id="explore-destinations-section" className="location-section">
       <h2 className="location-section-title">Explore Destinations</h2>
       <div className="location-section-subtitle">Homestays in Top destinations of Uttarakhand</div>
-      {isMobile ? (
-        <>
-          <IconButton onClick={() => setDrawerOpen(true)} sx={{ mb: 2 }} aria-label="Open locations menu">
-            <MenuIcon fontSize="large" />
-          </IconButton>
-          <Drawer anchor="left" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
-            <div style={{ width: 240, padding: '1.2rem 0.5rem' }}>
-              <h3 style={{ textAlign: 'center', marginBottom: 16 }}>Destinations</h3>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                {LOCATIONS.map((loc, idx) => (
-                  <button
-                    key={loc.name}
-                    style={{
-                      background: selectedLocationIdx === idx ? '#1976d2' : '#fff',
-                      color: selectedLocationIdx === idx ? '#fff' : '#222',
-                      border: 'none',
-                      borderRadius: 8,
-                      padding: '0.9rem 1rem',
-                      fontSize: '1.08rem',
-                      fontWeight: 600,
-                      marginBottom: 6,
-                      cursor: 'pointer',
-                      boxShadow: selectedLocationIdx === idx ? '0 2px 8px rgba(25,118,210,0.10)' : '0 1px 4px rgba(44,62,80,0.06)',
-                      outline: 'none',
-                      transition: 'background 0.2s, color 0.2s',
-                    }}
-                    onClick={() => handleLocationClick(idx, loc.name)}
-                  >
-                    {loc.name}
-                  </button>
-                ))}
-              </div>
-            </div>
-          </Drawer>
-        </>
-      ) : (
-        <div className="location-tabs-grid">
-          {LOCATIONS.map((loc, idx) => {
-            return (
-              <div
-                key={loc.name}
-                className={`location-tab-card location-big-card${selectedLocationIdx === idx ? ' selected' : ''}`}
-                style={{ backgroundImage: `url(${loc.img})` }}
-                onClick={() => handleLocationClick(idx, loc.name)}
-              >
-                <div className="location-card-overlay">
-                  <div className="location-card-title">{loc.name}</div>
-                  <div className="location-card-desc">{loc.desc}</div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      )}
+      <div className="location-tabs-grid">
+        {LOCATIONS.map((loc, idx) => (
+          <LocationCard
+            key={loc.name}
+            name={loc.name}
+            img={loc.img}
+            onClick={() => handleLocationClick(idx, loc.name)}
+          />
+        ))}
+      </div>
     </section>
   );
 };

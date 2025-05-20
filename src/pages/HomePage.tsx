@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Box, Tabs, Tab, Typography, CircularProgress } from '@mui/material';
 import { useLocation } from '../context/LocationContext';
 import { LOCATIONS, LOCATION_TAB_CONTENT } from '../data/locations';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation as useRouterLocation } from 'react-router-dom';
 
 const LOCATION_TABS = [
   'Overview',
@@ -18,6 +18,21 @@ const HomePage: React.FC = () => {
   const { selectedLocationIdx, selectedCategory, setSelectedCategory } = useLocation();
   const location = LOCATIONS[selectedLocationIdx];
   const navigate = useNavigate();
+  const routerLocation = useRouterLocation();
+
+  React.useEffect(() => {
+    if (routerLocation.state && routerLocation.state.scrollToDestinations) {
+      const section = document.getElementById('explore-destinations-section');
+      if (section) {
+        setTimeout(() => {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }, 200);
+      }
+      // Clear the state after scrolling
+      window.history.replaceState({}, document.title);
+    }
+  }, [routerLocation]);
+
   if (!location) {
     return <Typography sx={{ p: 4 }}>No location data available.</Typography>;
   }

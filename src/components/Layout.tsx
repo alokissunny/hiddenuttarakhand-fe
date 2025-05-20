@@ -45,7 +45,7 @@ function Layout() {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Header />
-      {routerLocation.pathname !== '/search-results' && (
+      {routerLocation.pathname !== '/search-results' && !routerLocation.pathname.startsWith('/property') && (
         <Box
           className="hero-image-section"
           sx={{
