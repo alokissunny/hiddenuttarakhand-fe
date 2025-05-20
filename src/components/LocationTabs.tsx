@@ -1,22 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLocation } from '../context/LocationContext';
 import './LocationTabs.css';
 import { MaterialIcon } from './MaterialIcon';
 import { useTheme, useMediaQuery } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import { Drawer, IconButton } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const LOCATIONS = [
   {
     name: 'Dunagiri',
-    img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
+    img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
+    desc: "A spiritual haven in the Himalayas, where legends and serenity meet. Perfect for seekers and nature lovers.",
   },
   {
     name: 'Jageshwar Dham',
-    img: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80',
+    img: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80',
+    desc: "Ancient stone temples nestled in deodar forests—feel the divine energy and timeless peace.",
   },
   {
     name: 'Shitlakhet',
-    img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80',
+    img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80',
+    desc: "Offbeat, tranquil, and surrounded by apple orchards. Shitlakhet is your escape to slow living.",
   },
   {
     name: 'Kausani Estate',
@@ -76,60 +81,74 @@ const LocationTabs = () => {
   const { selectedLocationIdx, setSelectedLocationIdx, setSelectedCategory } = useLocation();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const VISIBLE_COUNT = isMobile ? 3 : 7;
-  const [startIdx, setStartIdx] = React.useState(0);
   const navigate = useNavigate();
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
-  const handlePrev = () => {
-    setStartIdx((prev) => Math.max(0, prev - VISIBLE_COUNT));
+  const handleLocationClick = (idx: number, name: string) => {
+    setSelectedLocationIdx(idx);
+    setSelectedCategory('Budgeted');
+    navigate(`/search-results?location=${encodeURIComponent(name)}`);
+    setDrawerOpen(false);
   };
-  const handleNext = () => {
-    setStartIdx((prev) => Math.min(LOCATIONS.length - VISIBLE_COUNT, prev + VISIBLE_COUNT));
-  };
-
-  const visibleLocations = LOCATIONS.slice(startIdx, startIdx + VISIBLE_COUNT);
 
   return (
     <section className="location-section">
       <h2 className="location-section-title">Explore Destinations</h2>
       <div className="location-section-subtitle">Homestays in Top destinations of Uttarakhand</div>
-      <div className="location-tabs-carousel">
-        <button
-          className="carousel-arrow left"
-          onClick={handlePrev}
-          disabled={startIdx === 0}
-          aria-label="Scroll left"
-        >
-          <MaterialIcon icon="chevron_left" />
-        </button>
-        <div className="location-tabs-bar">
-          {visibleLocations.map((loc, idx) => {
-            const globalIdx = startIdx + idx;
+      {isMobile ? (
+        <>
+          <IconButton onClick={() => setDrawerOpen(true)} sx={{ mb: 2 }} aria-label="Open locations menu">
+            <MenuIcon fontSize="large" />
+          </IconButton>
+          <Drawer anchor="left" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
+            <div style={{ width: 240, padding: '1.2rem 0.5rem' }}>
+              <h3 style={{ textAlign: 'center', marginBottom: 16 }}>Destinations</h3>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                {LOCATIONS.map((loc, idx) => (
+                  <button
+                    key={loc.name}
+                    style={{
+                      background: selectedLocationIdx === idx ? '#1976d2' : '#fff',
+                      color: selectedLocationIdx === idx ? '#fff' : '#222',
+                      border: 'none',
+                      borderRadius: 8,
+                      padding: '0.9rem 1rem',
+                      fontSize: '1.08rem',
+                      fontWeight: 600,
+                      marginBottom: 6,
+                      cursor: 'pointer',
+                      boxShadow: selectedLocationIdx === idx ? '0 2px 8px rgba(25,118,210,0.10)' : '0 1px 4px rgba(44,62,80,0.06)',
+                      outline: 'none',
+                      transition: 'background 0.2s, color 0.2s',
+                    }}
+                    onClick={() => handleLocationClick(idx, loc.name)}
+                  >
+                    {loc.name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </Drawer>
+        </>
+      ) : (
+        <div className="location-tabs-grid">
+          {LOCATIONS.map((loc, idx) => {
             return (
               <div
                 key={loc.name}
-                className={`location-tab-card${selectedLocationIdx === globalIdx ? ' selected' : ''}`}
-                onClick={() => {
-                  setSelectedLocationIdx(globalIdx);
-                  setSelectedCategory('Budgeted');
-                  navigate(`/search-results?location=${encodeURIComponent(loc.name)}`);
-                }}
+                className={`location-tab-card location-big-card${selectedLocationIdx === idx ? ' selected' : ''}`}
+                style={{ backgroundImage: `url(${loc.img})` }}
+                onClick={() => handleLocationClick(idx, loc.name)}
               >
-                <img src={loc.img} alt={loc.name} className="location-tab-img" />
-                <div className="location-tab-name">{loc.name}</div>
+                <div className="location-card-overlay">
+                  <div className="location-card-title">{loc.name}</div>
+                  <div className="location-card-desc">{loc.desc}</div>
+                </div>
               </div>
             );
           })}
         </div>
-        <button
-          className="carousel-arrow right"
-          onClick={handleNext}
-          disabled={startIdx + VISIBLE_COUNT >= LOCATIONS.length}
-          aria-label="Scroll right"
-        >
-          <MaterialIcon icon="chevron_right" />
-        </button>
-      </div>
+      )}
     </section>
   );
 };

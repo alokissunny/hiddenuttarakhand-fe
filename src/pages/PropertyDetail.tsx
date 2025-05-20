@@ -4,6 +4,7 @@ import { getPlaceDetails, getPhotoUrl, GooglePlaceDetails, GOOGLE_API_KEY } from
 import { MaterialIcon } from '../components/MaterialIcon';
 import BookingWidget from '../components/BookingWidget';
 import { useParams } from 'react-router-dom';
+import { OFFLINE_MODE } from '../config';
 
 // Simple in-memory cache for place details
 const placeDetailsCache: Record<string, GooglePlaceDetails> = {};
@@ -24,6 +25,37 @@ const PropertyDetail: React.FC = () => {
     if (!homestayIdx) {
       setError('No property ID provided.');
       setLoading(false);
+      return;
+    }
+    if (OFFLINE_MODE) {
+      // Use mock data for offline mode
+      setPlaceDetails({
+        name: 'Mock Homestay',
+        formatted_address: 'Mock Address, Uttarakhand',
+        geometry: {
+          location: {
+            lat: () => 29.0,
+            lng: () => 79.0,
+          },
+        },
+        photos: [],
+        rating: 4.5,
+        user_ratings_total: 42,
+        formatted_phone_number: '+91 99999 99999',
+        website: '',
+        opening_hours: { weekday_text: [] },
+        reviews: [
+          {
+            author_name: 'Offline User',
+            rating: 5,
+            text: 'This is a mock review for offline mode.',
+            time: Date.now(),
+            profile_photo_url: '',
+          },
+        ],
+      });
+      setLoading(false);
+      setError(null);
       return;
     }
     const fetchPlaceDetails = async () => {

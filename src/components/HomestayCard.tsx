@@ -3,6 +3,7 @@ import { Box, Typography, IconButton, CircularProgress, Rating, Button, Chip, Di
 import { useNavigate } from 'react-router-dom';
 import { getPlaceDetails, GooglePlaceDetails, getPhotoUrl } from '../utils/googlePlaces';
 import AmenitiesDialog, { Amenity } from './AmenitiesDialog';
+import { OFFLINE_MODE } from '../config';
 
 const PLACEHOLDER_IMAGE = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80';
 
@@ -64,6 +65,14 @@ const HomestayCard: React.FC<HomestayCardProps> = ({ stay, location, category, i
       setLoading(false);
       return;
     }
+    if (OFFLINE_MODE) {
+      setPlace(null);
+      setImageUrl(stay.img || PLACEHOLDER_IMAGE);
+      setGallery(stay.images || (stay.img ? [stay.img] : [PLACEHOLDER_IMAGE]));
+      setLoading(false);
+      setImgLoading(false);
+      return;
+    }
     let mounted = true;
     setImgLoading(true);
     setImgError(false);
@@ -73,7 +82,6 @@ const HomestayCard: React.FC<HomestayCardProps> = ({ stay, location, category, i
       .then((data) => {
         if (mounted) {
           setPlace(data);
-          // Set the image URL if photos are available
           if (data.photos && data.photos.length > 0) {
             const urls = data.photos.slice(0, 5).map(photo => getPhotoUrl(photo, 600));
             setGallery(urls);
