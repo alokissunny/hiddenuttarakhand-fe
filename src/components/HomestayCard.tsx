@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback, memo } from 'react';
 import { Box, Typography, IconButton, CircularProgress, Rating, Button, Chip, Dialog, DialogTitle, DialogContent, DialogActions, Tooltip } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { getPlaceDetails, GooglePlaceDetails, getPhotoUrl } from '../utils/googlePlaces';
@@ -40,7 +40,7 @@ const mockAmenities: Amenity[] = [
   { name: 'Pet Friendly', icon: 'pets' },
 ];
 
-const HomestayCard: React.FC<HomestayCardProps> = ({ stay, location, category, index, placeId, onViewDetails }) => {
+const HomestayCard: React.FC<HomestayCardProps> = memo(({ stay, location, category, index, placeId, onViewDetails }) => {
   const navigate = useNavigate();
   const [place, setPlace] = useState<GooglePlaceDetails | null>(null);
   const [loading, setLoading] = useState(true);
@@ -60,46 +60,51 @@ const HomestayCard: React.FC<HomestayCardProps> = ({ stay, location, category, i
   const discountPercent = stay.discount_percent || Math.round(100 - (price / originalPrice) * 100);
   const amenities = stay.amenities || mockAmenities;
 
-  useEffect(() => {
-    if (!stay.placeId) {
+  const loadPlaceDetails = useCallback(async () => {
+    if (!stay.placeId || OFFLINE_MODE) {
       setLoading(false);
       return;
     }
-    if (OFFLINE_MODE) {
-      setPlace(null);
-      setImageUrl(stay.img || PLACEHOLDER_IMAGE);
-      setGallery(stay.images || (stay.img ? [stay.img] : [PLACEHOLDER_IMAGE]));
+
+    try {
+      setImgLoading(true);
+      setImgError(false);
+      setThumbLoading({});
+      setThumbError({});
+
+      const data = await getPlaceDetails(stay.placeId);
+      setPlace(data);
+      
+      if (data.photos && data.photos.length > 0) {
+        const urls = data.photos.slice(0, 5).map(photo => getPhotoUrl(photo, 600));
+        setGallery(urls);
+        setImageUrl(urls[0]);
+      }
+    } catch (error) {
+      setError(true);
+      setImageUrl(PLACEHOLDER_IMAGE);
+      setGallery([PLACEHOLDER_IMAGE]);
+    } finally {
       setLoading(false);
       setImgLoading(false);
-      return;
     }
-    let mounted = true;
-    setImgLoading(true);
-    setImgError(false);
-    setThumbLoading({});
-    setThumbError({});
-    getPlaceDetails(stay.placeId)
-      .then((data) => {
-        if (mounted) {
-          setPlace(data);
-          if (data.photos && data.photos.length > 0) {
-            const urls = data.photos.slice(0, 5).map(photo => getPhotoUrl(photo, 600));
-            setGallery(urls);
-            setImageUrl(urls[0]);
-          }
-        }
-      })
-      .catch(() => {
-        setError(true);
-        setImageUrl(PLACEHOLDER_IMAGE);
-        setGallery([PLACEHOLDER_IMAGE]);
-      })
-      .finally(() => {
-        setLoading(false);
-        setImgLoading(false);
-      });
-    return () => { mounted = false; };
   }, [stay.placeId]);
+
+  useEffect(() => {
+    let mounted = true;
+    loadPlaceDetails();
+    return () => { mounted = false; };
+  }, [loadPlaceDetails]);
+
+  // Lazy load images
+  const handleImageLoad = useCallback((idx: number) => {
+    setThumbLoading(prev => ({ ...prev, [idx]: false }));
+  }, []);
+
+  const handleImageError = useCallback((idx: number) => {
+    setThumbError(prev => ({ ...prev, [idx]: true }));
+    setThumbLoading(prev => ({ ...prev, [idx]: false }));
+  }, []);
 
   return (
     <Box sx={{
@@ -160,9 +165,9 @@ const HomestayCard: React.FC<HomestayCardProps> = ({ stay, location, category, i
                   src={img}
                   alt={`thumb-${idx}`}
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: thumbError[idx] ? 'none' : 'block' }}
-                  onLoad={() => setThumbLoading(t => ({ ...t, [idx]: false }))}
-                  onError={() => setThumbError(t => ({ ...t, [idx]: true }))}
-                  onLoadStart={() => setThumbLoading(t => ({ ...t, [idx]: true }))}
+                  onLoad={() => handleImageLoad(idx)}
+                  onError={() => handleImageError(idx)}
+                  onLoadStart={() => handleImageLoad(idx)}
                 />
                 {thumbError[idx] && (
                   <img src={PLACEHOLDER_IMAGE} alt="placeholder" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 0, position: 'absolute', top: 0, left: 0, zIndex: 2 }} />
@@ -220,6 +225,6 @@ const HomestayCard: React.FC<HomestayCardProps> = ({ stay, location, category, i
       <AmenitiesDialog open={amenitiesOpen} onClose={() => setAmenitiesOpen(false)} available={amenities} unavailable={[]} />
     </Box>
   );
-};
+});
 
 export default HomestayCard; 

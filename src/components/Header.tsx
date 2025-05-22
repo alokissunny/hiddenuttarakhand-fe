@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './Header.css';
-import SearchBar from './SearchBar';
-import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
 import { IconButton, Box, useMediaQuery, Drawer, List, ListItem, ListItemText, Typography } from '@mui/material';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -64,6 +62,27 @@ const Header = () => {
     setMobileMenuOpen(false);
   };
 
+  // Scroll to Hero section
+  const handleHomeClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (routerLocation.pathname === '/') {
+      const section = document.getElementById('hero-section');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      navigate('/', { state: { scrollToHero: true } });
+    }
+    setMobileMenuOpen(false);
+  };
+
+  // Navigate to all homestays
+  const handleHomestaysClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    navigate('/search-results');
+    setMobileMenuOpen(false);
+  };
+
   return (
     <div className={`uk-header${isSolid ? ' solid' : ''}`} style={isMobile ? { height: 56, display: 'flex', alignItems: 'flex-start', padding: '0 12px', boxSizing: 'border-box', justifyContent: 'flex-start' } : {}}>
       {isMobile ? (
@@ -90,6 +109,24 @@ const Header = () => {
                   key={item.text}
                   href="/destinations"
                   onClick={handleDestinationsClick}
+                  style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+                >
+                  {item.text}
+                </a>
+              ) : item.text === 'Home' ? (
+                <a
+                  key={item.text}
+                  href="/"
+                  onClick={handleHomeClick}
+                  style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+                >
+                  {item.text}
+                </a>
+              ) : item.text === 'Homestays' ? (
+                <a
+                  key={item.text}
+                  href="/search-results"
+                  onClick={handleHomestaysClick}
                   style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
                 >
                   {item.text}
@@ -142,6 +179,22 @@ const Header = () => {
               <ListItem
                 key={item.text}
                 onClick={handleDestinationsClick}
+                sx={{ '&:hover': { bgcolor: 'rgba(0, 0, 0, 0.04)', cursor: 'pointer' } }}
+              >
+                <ListItemText primary={item.text} />
+              </ListItem>
+            ) : item.text === 'Home' ? (
+              <ListItem
+                key={item.text}
+                onClick={handleHomeClick}
+                sx={{ '&:hover': { bgcolor: 'rgba(0, 0, 0, 0.04)', cursor: 'pointer' } }}
+              >
+                <ListItemText primary={item.text} />
+              </ListItem>
+            ) : item.text === 'Homestays' ? (
+              <ListItem
+                key={item.text}
+                onClick={handleHomestaysClick}
                 sx={{ '&:hover': { bgcolor: 'rgba(0, 0, 0, 0.04)', cursor: 'pointer' } }}
               >
                 <ListItemText primary={item.text} />

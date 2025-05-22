@@ -8,7 +8,6 @@ import { useLocation } from '../context/LocationContext';
 import './Header.css';
 import Header from './Header';
 import LocationTabs from './LocationTabs';
-import SearchBar from './SearchBar';
 import { useTheme } from '@mui/material/styles';
 
 const HERO_IMAGES = [
@@ -45,8 +44,9 @@ function Layout() {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Header />
-      {routerLocation.pathname !== '/search-results' && !routerLocation.pathname.startsWith('/property') && (
+      {routerLocation.pathname !== '/search-results' && !routerLocation.pathname.startsWith('/property') && routerLocation.pathname !== '/about' && (
         <Box
+          id="hero-section"
           className="hero-image-section"
           sx={{
             minHeight: '100vh',
@@ -139,20 +139,14 @@ function Layout() {
               />
             ))}
           </Box>
-          {/* Remove the desktop search bar overlay in hero section */}
-          {/* {!isMobile && (
-            <Box className="hero-search-overlay">
-              <SearchBar />
-            </Box>
-          )} */}
         </Box>
       )}
-      {isMobile && (
+      {isMobile && routerLocation.pathname !== '/about' && (
         <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', mt: -3, mb: 2 }}>
-          <SearchBar />
+          {/* SearchBar */}
         </Box>
       )}
-      {routerLocation.pathname !== '/search-results' && !routerLocation.pathname.startsWith('/property') && <LocationTabs />}
+      {routerLocation.pathname !== '/search-results' && !routerLocation.pathname.startsWith('/property') && routerLocation.pathname !== '/about' && <LocationTabs />}
       <Box component="main" sx={{ flexGrow: 1, p: { xs: 1, sm: 3 }, bgcolor: 'background.default' }}>
         <Outlet />
       </Box>

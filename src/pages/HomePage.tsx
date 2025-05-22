@@ -31,6 +31,15 @@ const HomePage: React.FC = () => {
       // Clear the state after scrolling
       window.history.replaceState({}, document.title);
     }
+    if (routerLocation.state && routerLocation.state.scrollToHero) {
+      const hero = document.getElementById('hero-section');
+      if (hero) {
+        setTimeout(() => {
+          hero.scrollIntoView({ behavior: 'smooth' });
+        }, 200);
+      }
+      window.history.replaceState({}, document.title);
+    }
   }, [routerLocation]);
 
   if (!location) {

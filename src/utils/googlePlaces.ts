@@ -36,26 +36,31 @@ export interface GooglePlaceDetails {
   }>;
 }
 
-export function getPlaceDetails(placeId: string): Promise<GooglePlaceDetails> {
-  return new Promise((resolve, reject) => {
-    const service = new window.google.maps.places.PlacesService(document.createElement('div'));
-    
-    service.getDetails(
-      {
-        placeId: placeId,
-        fields: ['name', 'formatted_address', 'geometry', 'photos', 'rating', 'user_ratings_total', 
-                'formatted_phone_number', 'website', 'opening_hours', 'reviews']
-      },
-      (place: GooglePlaceDetails, status: string) => {
-        if (status === window.google.maps.places.PlacesServiceStatus.OK) {
-          resolve(place);
-        } else {
-          reject(new Error(`Place details request failed: ${status}`));
-        }
-      }
-    );
-  });
-}
+// Cache for place details
+const placeDetailsCache: Record<string, GooglePlaceDetails> = {};
+const CACHE_EXPIRY = 1000 * 60 * 60; // 1 hour
+const cacheTimestamps: Record<string, number> = {};
+
+export const getPlaceDetails = async (placeId: string): Promise<GooglePlaceDetails> => {
+  // Check cache first
+  const now = Date.now();
+  if (placeDetailsCache[placeId] && cacheTimestamps[placeId] && (now - cacheTimestamps[placeId] < CACHE_EXPIRY)) {
+    return placeDetailsCache[placeId];
+  }
+
+  const response = await fetch(
+    `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,formatted_address,rating,user_ratings_total,photos,reviews&key=${GOOGLE_API_KEY}`
+  );
+  const data = await response.json();
+  
+  if (data.status === 'OK') {
+    // Update cache
+    placeDetailsCache[placeId] = data.result;
+    cacheTimestamps[placeId] = now;
+    return data.result;
+  }
+  throw new Error('Failed to fetch place details');
+};
 
 export function getPhotoUrl(photo: any, maxWidth: number = 800): string {
   return photo.getUrl({ maxWidth });
