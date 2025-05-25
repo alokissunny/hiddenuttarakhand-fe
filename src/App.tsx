@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage';
 import PropertyDetail from './pages/PropertyDetail';
 import SearchResultsPage from './pages/SearchResultsPage';
 import AboutUs from './pages/AboutUs';
+import StatePage from './pages/StatePage';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <Route path="property/:locationName/:category/:homestayIdx" element={<PropertyDetail />} />
               <Route path="search-results" element={<SearchResultsPage />} />
               <Route path="about" element={<AboutUs />} />
+              <Route path="state/:stateName" element={<StatePage />} />
             </Route>
           </Routes>
         </BrowserRouter>

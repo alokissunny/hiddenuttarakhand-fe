@@ -1,9 +1,18 @@
-import React, { useState, useMemo } from 'react';
-import { Box, Typography, Paper, Checkbox, FormControlLabel, Divider, TextField, List as MuiList, ListItem, Chip, Button, Slider } from '@mui/material';
+import React, { useState, useMemo, useEffect } from 'react';
+import { Box, Typography, Paper, Checkbox, FormControlLabel, Divider, TextField, List as MuiList, ListItem, Chip, Button, Slider, Tabs, Tab } from '@mui/material';
 import { useLocation } from 'react-router-dom';
 import { FixedSizeList } from 'react-window';
 import HomestayCard from '../components/HomestayCard';
-import { LOCATIONS } from '../data/locations';
+import { LOCATIONS, LOCATION_TAB_CONTENT } from '../data/locations';
+
+const LOCATION_TABS = [
+  'Overview',
+  'How to Reach',
+  'Things to Do',
+  'Travel Tips',
+  'Connectivity & Internet',
+  'Travel Stories / Experiences',
+];
 
 const getAllHomestays = () => {
   return LOCATIONS.flatMap(loc => loc.homestays.Budgeted.map(h => ({ ...h, location: loc.name })));
@@ -15,6 +24,10 @@ const SearchResultsPage: React.FC = () => {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const locationName = searchParams.get('location');
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   // Aggregate all homestays
   const allHomestays = getAllHomestays();
@@ -80,6 +93,26 @@ const SearchResultsPage: React.FC = () => {
     );
   };
 
+  // Find overview content for the selected location (if only one is selected)
+  let infoTabData: any = null;
+  let infoLocationName: string | null = null;
+  const [selectedLocTab, setSelectedLocTab] = useState('Overview');
+  if (selectedLocations.length === 1) {
+    const locName = selectedLocations[0];
+    infoLocationName = locName;
+    if (
+      LOCATION_TAB_CONTENT[locName] &&
+      LOCATION_TAB_CONTENT[locName][selectedLocTab]
+    ) {
+      infoTabData = LOCATION_TAB_CONTENT[locName][selectedLocTab];
+    }
+  }
+
+  useEffect(() => {
+    // Reset tab to Overview when location changes
+    setSelectedLocTab('Overview');
+  }, [selectedLocations]);
+
   return (
     <Box sx={{ display: 'flex', bgcolor: '#f6f8fa', minHeight: '80vh', px: { xs: 0, md: 3 }, py: 3 }}>
       {/* Filter Sidebar */}
@@ -136,7 +169,6 @@ const SearchResultsPage: React.FC = () => {
             </Typography>
           </Typography>
         </Box>
-        
         {filteredHomestays.length > 0 ? (
           <FixedSizeList
             height={window.innerHeight - 200}
@@ -150,6 +182,87 @@ const SearchResultsPage: React.FC = () => {
           <Typography sx={{ mt: 4, color: 'text.secondary', textAlign: 'center' }}>
             No homestays found for the selected filters.
           </Typography>
+        )}
+        {/* Location Info Tabs Section at the bottom */}
+        {infoLocationName && (
+          <Box
+            sx={{
+              bgcolor: '#fff',
+              borderRadius: 2,
+              boxShadow: 2,
+              mt: 4,
+              p: { xs: 1, sm: 3 },
+              width: '100%',
+              maxWidth: '100%',
+              boxSizing: 'border-box',
+              overflowX: 'hidden',
+            }}
+          >
+            <Typography variant="h5" sx={{ fontWeight: 700, color: 'primary.main', mb: 2 }}>
+              {infoLocationName}
+            </Typography>
+            <Tabs
+              value={selectedLocTab}
+              onChange={(_, v) => setSelectedLocTab(v)}
+              variant="scrollable"
+              scrollButtons="auto"
+              textColor="primary"
+              indicatorColor="secondary"
+              sx={{ mb: 2, px: { xs: 0.5, sm: 0 }, position: { xs: 'sticky', sm: 'static' }, top: 0, bgcolor: '#fff', zIndex: 10 }}
+            >
+              {LOCATION_TABS.map(tab => (
+                <Tab label={tab} value={tab} key={tab} sx={{ fontWeight: 600, fontSize: { xs: '0.98rem', sm: '1.08rem' }, minWidth: { xs: 100, sm: 120 } }} />
+              ))}
+            </Tabs>
+            <Box className="loc-tab-content" sx={{ p: { xs: 1, sm: 2 }, width: '100%', boxSizing: 'border-box', overflowX: 'hidden' }}>
+              {infoTabData ? (
+                selectedLocTab === 'Travel Stories / Experiences' ? (
+                  <Box>
+                    {infoTabData.stories.map((story: any, index: number) => (
+                      <Box key={index} sx={{ mb: 3 }}>
+                        {story.user && (
+                          <Typography variant="subtitle1" sx={{ fontWeight: 600, mb: 1 }}>
+                            {story.user}
+                          </Typography>
+                        )}
+                        <Typography
+                          variant="body1"
+                          sx={{
+                            whiteSpace: 'pre-line',
+                            lineHeight: 1.8,
+                            color: 'text.secondary',
+                          }}
+                        >
+                          {story.text}
+                        </Typography>
+                      </Box>
+                    ))}
+                  </Box>
+                ) : (
+                  <Box>
+                    {infoTabData.content.map((paragraph: string, index: number) => (
+                      <Typography
+                        key={index}
+                        variant="body1"
+                        sx={{
+                          mb: 2,
+                          lineHeight: 1.8,
+                          color: 'text.secondary',
+                          '& b': {
+                            color: 'text.primary',
+                            fontWeight: 600,
+                          },
+                        }}
+                        dangerouslySetInnerHTML={{ __html: paragraph }}
+                      />
+                    ))}
+                  </Box>
+                )
+              ) : (
+                <Typography>Information coming soon for this location.</Typography>
+              )}
+            </Box>
+          </Box>
         )}
       </Box>
     </Box>

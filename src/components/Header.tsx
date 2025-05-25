@@ -83,6 +83,13 @@ const Header = () => {
     setMobileMenuOpen(false);
   };
 
+  // Navigate to About Us section
+  const handleAboutUsClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    navigate('/', { state: { scrollToAbout: true } });
+    setMobileMenuOpen(false);
+  };
+
   return (
     <div className={`uk-header${isSolid ? ' solid' : ''}`} style={isMobile ? { height: 56, display: 'flex', alignItems: 'flex-start', padding: '0 12px', boxSizing: 'border-box', justifyContent: 'flex-start' } : {}}>
       {isMobile ? (
@@ -127,6 +134,15 @@ const Header = () => {
                   key={item.text}
                   href="/search-results"
                   onClick={handleHomestaysClick}
+                  style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+                >
+                  {item.text}
+                </a>
+              ) : item.text === 'About Us' ? (
+                <a
+                  key={item.text}
+                  href="/"
+                  onClick={handleAboutUsClick}
                   style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
                 >
                   {item.text}
@@ -195,6 +211,14 @@ const Header = () => {
               <ListItem
                 key={item.text}
                 onClick={handleHomestaysClick}
+                sx={{ '&:hover': { bgcolor: 'rgba(0, 0, 0, 0.04)', cursor: 'pointer' } }}
+              >
+                <ListItemText primary={item.text} />
+              </ListItem>
+            ) : item.text === 'About Us' ? (
+              <ListItem
+                key={item.text}
+                onClick={handleAboutUsClick}
                 sx={{ '&:hover': { bgcolor: 'rgba(0, 0, 0, 0.04)', cursor: 'pointer' } }}
               >
                 <ListItemText primary={item.text} />
