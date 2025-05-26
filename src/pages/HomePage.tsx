@@ -3,7 +3,6 @@ import { Box, Tabs, Tab, Typography, CircularProgress } from '@mui/material';
 import { useLocation } from '../context/LocationContext';
 import { LOCATIONS, LOCATION_TAB_CONTENT } from '../data/locations';
 import { useNavigate, useLocation as useRouterLocation } from 'react-router-dom';
-import IndiaMap from '@react-map/india';
 
 const LOCATION_TABS = [
   'Overview',
@@ -135,35 +134,6 @@ const HomePage: React.FC = () => {
           <Typography variant="h4" sx={{ fontWeight: 700, mb: 2, color: 'primary.main' }}>
             Explore India
           </Typography>
-          <Box sx={{ width: 400, maxWidth: '98vw', mb: 2 }}>
-            <svg viewBox="0 0 400 400" width="100%" height="auto">
-              {/* Uttarakhand (UK) - dummy path */}
-              <path
-                id="uttarakhand"
-                d="M 200 100 L 220 120 L 210 140 L 190 130 Z"
-                fill={hoveredState === 'uttarakhand' ? '#1976d2' : '#b0bec5'}
-                stroke="#333"
-                strokeWidth={1.5}
-                style={{ cursor: 'pointer', transition: 'fill 0.2s' }}
-                onMouseEnter={() => setHoveredState('uttarakhand')}
-                onMouseLeave={() => setHoveredState(null)}
-                onClick={() => navigate('/state/uttarakhand')}
-              />
-              {/* Uttar Pradesh (UP) - dummy path */}
-              <path
-                id="uttar-pradesh"
-                d="M 220 120 L 260 120 L 250 160 L 210 140 Z"
-                fill={hoveredState === 'uttar-pradesh' ? '#1976d2' : '#b0bec5'}
-                stroke="#333"
-                strokeWidth={1.5}
-                style={{ cursor: 'pointer', transition: 'fill 0.2s' }}
-                onMouseEnter={() => setHoveredState('uttar-pradesh')}
-                onMouseLeave={() => setHoveredState(null)}
-                onClick={() => navigate('/state/uttar-pradesh')}
-              />
-              {/* Add more states here as needed */}
-            </svg>
-          </Box>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
             Hover over a state to highlight. Click to explore that state.
           </Typography>

@@ -44,7 +44,8 @@ function Layout() {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Header />
-      {routerLocation.pathname !== '/search-results' && !routerLocation.pathname.startsWith('/property') && routerLocation.pathname !== '/about' && (
+      {/* Only render hero and location sections if not on landing page */}
+      {routerLocation.pathname !== '/' && routerLocation.pathname !== '/search-results' && !routerLocation.pathname.startsWith('/property') && routerLocation.pathname !== '/about' && (
         <Box
           id="hero-section"
           className="hero-image-section"
@@ -146,7 +147,7 @@ function Layout() {
           {/* SearchBar */}
         </Box>
       )}
-      {routerLocation.pathname !== '/search-results' && !routerLocation.pathname.startsWith('/property') && routerLocation.pathname !== '/about' && <LocationTabs />}
+      {routerLocation.pathname !== '/' && routerLocation.pathname !== '/search-results' && !routerLocation.pathname.startsWith('/property') && routerLocation.pathname !== '/about' && <LocationTabs />}
       <Box component="main" sx={{ flexGrow: 1, p: { xs: 1, sm: 3 }, bgcolor: 'background.default' }}>
         <Outlet />
       </Box>
